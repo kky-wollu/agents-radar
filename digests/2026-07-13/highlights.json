@@ -1,102 +1,102 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code Cowork功能全面失效，社区反馈集中",
-      "OpenAI Codex GPT-5.5速率限制导致成本飙升",
-      "Gemini CLI子Agent虚假报告成功，安全漏洞修复",
-      "GitHub Copilot CLI WSL2死锁、语音模式失败",
-      "OpenCode V2架构重构，工具注册与草稿扁平化",
-      "Qwen Code多工作区守护进程RFC，Web Shell升级"
+      "Claude Code 遭遇 Windows 兼容性与 Agent 行为不可预测问题",
+      "OpenAI Codex 面临成本激增与模型适配 GPT-5.6 挑战",
+      "Gemini CLI 修复 Agent 假成功与安全漏洞",
+      "Copilot CLI 出现 TUI 渲染卡死与会话数据损坏",
+      "Qwen Code 推进守护进程与跨会话持久化架构",
+      "OpenCode 发布测试资源并规划 V2 架构演进"
     ],
     "ai-agents": [
-      "OpenClaw稳定性危机，内存泄漏与数据库损坏严重",
-      "多个P0/P1 Bug悬而未决，用户信任受威胁",
-      "会话状态持久性与数据安全成社区焦点",
-      "维护团队响应滞后，大量PR待审查",
-      "成本刷新锁泄漏Bug已修复，提升CLI可靠性",
-      "会话转录重用优化，减少I/O与解析开销"
+      "OpenClaw 社区聚焦会话状态管理、消息丢失与安全权限",
+      "高风险修复解决 Subagent 孤儿恢复并发双重执行",
+      "配置迁移 PR 提议重构最后六个通道的扁平配置",
+      "Beta 3 核心功能‘wake replay’基础层待合并",
+      "MCP 授权管理强化确保配置删除时撤销相关授权",
+      "会话清理命令修复未能准确报告存档文件的问题"
     ],
     "ai-trending": [
-      "AI Agent进入工作站时代，安全屏障工具涌现",
-      "反AI-Slop设计运动兴起，hallmark获大量关注",
-      "金融交易AI热度飙升，Vibe-Trading登榜",
-      "RAG生态持续深化，记忆层成竞争焦点",
-      "Claude Code辅助工具模板与插件百花齐放",
-      "Ollama支持Kimi-K2.6，持续降低本地AI门槛"
+      "Firecrawl 专为 AI Agent 设计的网络抓取 API 今日极热",
+      "Claude Code 生态管理工具 claude-code-templates 今日获 274 星",
+      "个人交易 Agent 项目 Vibe-Trading 单日暴涨 776 星",
+      "Vllm 持续作为高吞吐 LLM 推理引擎的标配项目",
+      "AI Hedge Fund 开源量化交易框架获广泛关注",
+      "Hallmark 教 AI 设计美观 UI 的反‘AI 味’技能项目"
     ],
     "ai-hn": [
-      "Claude Code发送33k Token后才处理用户提示",
-      "Confessor工具可审计Claude Code访问数据",
-      "Anthropic发现Claude内部概念推理隐藏空间",
-      "AI研究一步到位陷阱文章被重新挖掘热议",
-      "OpenAI安全负责人离职引发行业担忧",
-      "Apple起诉OpenAI窃取商业机密，社区哗然"
+      "Claude Code 相比 OpenCode 隐形 Token 消耗高出数倍引热议",
+      "Confessor 工具可回放 Claude Code 访问过的私密信息",
+      "Apple 与 OpenAI 的商业机密诉讼引发社区关注",
+      "微软与 Google 联手押注 Go 语言开发 AI Agent",
+      "社区讨论 AI‘只看一步’陷阱警示长期研究方向",
+      "Skillscript 声明式沙箱语言用于编排 AI Agent 工具"
     ],
     "ai-hf": [
-      "腾讯Hy3 MoE对话模型登顶当日热度",
-      "智谱GLM-5.2采用MoE-DSA架构获3.8k点赞",
-      "NVIDIA LocateAnything-3B视觉模型下载超150万",
-      "百度Unlimited-OCR通用模型下载超143万",
-      "NVIDIA Nemotron-75B引入NVFP4量化精度",
-      "Qwen系列成社区微调与量化首选基座"
+      "多模态 MoE 模型成主流 Qwen 3.5/3.6 变体霸榜",
+      "腾讯发布第三代 Hunyuan 模型 Hy3 开放权重",
+      "智谱 AI 开源 GLM-5.2 获社区极高关注度与下载量",
+      "百度 Unlimited-OCR 专用 OCR 模型表现亮眼",
+      "GGUF 量化生态爆发多数模型提供量化版本",
+      "NVIDIA LocateAnything-3B 目标定位模型深度绑定框架"
     ],
     "ai-community": [
-      "开发者分享将Claude Code Token账单削减77%经验",
-      "7条实战守则防止LLM API账单偷偷爆炸",
-      "Ollama在Jetson Nano上的性能基准评测发布",
-      "多代理pipeline中检查点从未执行的故障模式",
-      "通过复用KV Cache在Android上降低TTFT近10倍",
-      "后端工程师实测2026年低成本AI API实用笔记"
+      "开发者分享将 Claude Code Token 账单削减 77% 的实战经验",
+      "文章剖析 LLM Agent‘不撒谎的谎言’虚假引用问题",
+      "MCP 实践案例教 Claude Desktop 读取网页分析数据",
+      "Egregor 提出本地多 AI 模型协作代码审计架构",
+      "Jetson Nano 运行 Ollama 的基准测试为边缘计算提供参考",
+      "七条经验分享如何阻止 LLM API 费用无声暴涨"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code leads with 10 hot issues",
-      "OpenAI Codex and Gemini CLI active",
-      "Qwen Code pushes daemon-based design",
-      "OpenCode offers multi-workspace architecture",
-      "Windows support remains universal pain point",
-      "Shift from novelty to reliability focus"
+      "Windows instability hits all major tools",
+      "Claude Code battles session drift issues",
+      "OpenAI Codex faces 10-20x cost inflation",
+      "Gemini CLI suffers false success reports",
+      "9 tools tracked in cross-tool comparison",
+      "Agent alignment concerns dominate discussions"
     ],
     "ai-agents": [
-      "OpenClaw: 500 issues, 500 PRs in 24h",
-      "298 open issues, 202 closed today",
-      "350 open PRs, 150 merged or closed",
-      "No new releases cut today",
-      "Memory leaks and database corruption unresolved",
-      "High velocity on bug fixes and features"
+      "500 issues and 500 PRs updated today",
+      "OpenClaw closes 146 PRs in 24 hours",
+      "300 issues remain open, 200 closed",
+      "P0/P1 critical bugs include memory leaks",
+      "No new releases published this period",
+      "Maintainer bandwidth strained under high load"
     ],
     "ai-trending": [
-      "Prefect gains 55 stars today (160k total)",
-      "Destructive command guard project trending",
-      "Vibe-Trading personal agent framework rises",
-      "Claude-centric tooling projects surge",
-      "PostgreSQL rewritten in Rust passes tests",
-      "Agent memory and RAG infrastructure dominate"
+      "HKUDS/Vibe-Trading gains +776 stars today",
+      "destructive_command_guard soars +444 stars",
+      "claude-cookbooks trends with +464 stars",
+      "AI hedge funds move to production focus",
+      "mem0ai hits 60.6K stars for memory layer",
+      "Firecrawl leads at 149,850 stars"
     ],
     "ai-hn": [
-      "Token waste comparison: Claude vs OpenCode",
-      "George Hotz rant against LLM hype resonates",
-      "Anthropic finds hidden cognitive space",
-      "Debate on non-competes and AI policy",
-      "Data center energy use sparks discussion",
-      "OpenAI leadership instability criticized"
+      "Claude Code's 33k token overhead debated",
+      "OpenCode slashes overhead to 7k tokens",
+      "George Hotz essay 'I love LLMs, I hate hype'",
+      "Apple sues OpenAI, sparks industry talk",
+      "Another OpenAI safety leader departs",
+      "Hidden space where Claude puzzles explored"
     ],
     "ai-hf": [
-      "Qwen3.6 and GLM-5.2 lead trending",
-      "GGUF quantization ecosystem explodes",
-      "NVIDIA pushes vision grounding model",
-      "Baidu Unlimited-OCR gains traction",
-      "Cohere Arabic ASR model trending",
-      "Gemma-4 agentic fine-tune popular"
+      "GLM-5.2 tops week with 3.9K likes",
+      "Qwen 3.5/3.6 derivatives dominate trends",
+      "Nvidia's LocateAnything-3B hits 2.7K likes",
+      "GGUF quantizations see high demand",
+      "Uncensored Qwen3.6 fine-tune goes viral",
+      "Tess-4-27B emerges as multimodal assistant"
     ],
     "ai-community": [
-      "Cost containment top concern for developers",
-      "Agent reliability and silent failures debated",
-      "Google AI digital bloat criticized (140 points)",
-      "Local GPU setup benchmarks shared",
-      "KV-cache reuse for mobile inference discussed",
-      "AI dashboard silently operates on dead channels"
+      "Engineer cuts Claude Code token bill 77%",
+      "Rofi assistant helps mom skip Linux calls",
+      "From API to GPU guide for local inference",
+      "Google's AI energy bloat sparks debate",
+      "Multi-agent pipeline failures shared",
+      "AI burnout linked to prompt loop neurobiology"
     ]
   }
 }
