@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Cowork功能全面失效，社区反馈集中",
+      "OpenAI Codex GPT-5.5速率限制导致成本飙升",
+      "Gemini CLI子Agent虚假报告成功，安全漏洞修复",
+      "GitHub Copilot CLI WSL2死锁、语音模式失败",
+      "OpenCode V2架构重构，工具注册与草稿扁平化",
+      "Qwen Code多工作区守护进程RFC，Web Shell升级"
+    ],
+    "ai-agents": [
+      "OpenClaw稳定性危机，内存泄漏与数据库损坏严重",
+      "多个P0/P1 Bug悬而未决，用户信任受威胁",
+      "会话状态持久性与数据安全成社区焦点",
+      "维护团队响应滞后，大量PR待审查",
+      "成本刷新锁泄漏Bug已修复，提升CLI可靠性",
+      "会话转录重用优化，减少I/O与解析开销"
+    ],
+    "ai-trending": [
+      "AI Agent进入工作站时代，安全屏障工具涌现",
+      "反AI-Slop设计运动兴起，hallmark获大量关注",
+      "金融交易AI热度飙升，Vibe-Trading登榜",
+      "RAG生态持续深化，记忆层成竞争焦点",
+      "Claude Code辅助工具模板与插件百花齐放",
+      "Ollama支持Kimi-K2.6，持续降低本地AI门槛"
+    ],
+    "ai-hn": [
+      "Claude Code发送33k Token后才处理用户提示",
+      "Confessor工具可审计Claude Code访问数据",
+      "Anthropic发现Claude内部概念推理隐藏空间",
+      "AI研究一步到位陷阱文章被重新挖掘热议",
+      "OpenAI安全负责人离职引发行业担忧",
+      "Apple起诉OpenAI窃取商业机密，社区哗然"
+    ],
+    "ai-hf": [
+      "腾讯Hy3 MoE对话模型登顶当日热度",
+      "智谱GLM-5.2采用MoE-DSA架构获3.8k点赞",
+      "NVIDIA LocateAnything-3B视觉模型下载超150万",
+      "百度Unlimited-OCR通用模型下载超143万",
+      "NVIDIA Nemotron-75B引入NVFP4量化精度",
+      "Qwen系列成社区微调与量化首选基座"
+    ],
+    "ai-community": [
+      "开发者分享将Claude Code Token账单削减77%经验",
+      "7条实战守则防止LLM API账单偷偷爆炸",
+      "Ollama在Jetson Nano上的性能基准评测发布",
+      "多代理pipeline中检查点从未执行的故障模式",
+      "通过复用KV Cache在Android上降低TTFT近10倍",
+      "后端工程师实测2026年低成本AI API实用笔记"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 10 hot issues",
+      "OpenAI Codex and Gemini CLI active",
+      "Qwen Code pushes daemon-based design",
+      "OpenCode offers multi-workspace architecture",
+      "Windows support remains universal pain point",
+      "Shift from novelty to reliability focus"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "298 open issues, 202 closed today",
+      "350 open PRs, 150 merged or closed",
+      "No new releases cut today",
+      "Memory leaks and database corruption unresolved",
+      "High velocity on bug fixes and features"
+    ],
+    "ai-trending": [
+      "Prefect gains 55 stars today (160k total)",
+      "Destructive command guard project trending",
+      "Vibe-Trading personal agent framework rises",
+      "Claude-centric tooling projects surge",
+      "PostgreSQL rewritten in Rust passes tests",
+      "Agent memory and RAG infrastructure dominate"
+    ],
+    "ai-hn": [
+      "Token waste comparison: Claude vs OpenCode",
+      "George Hotz rant against LLM hype resonates",
+      "Anthropic finds hidden cognitive space",
+      "Debate on non-competes and AI policy",
+      "Data center energy use sparks discussion",
+      "OpenAI leadership instability criticized"
+    ],
+    "ai-hf": [
+      "Qwen3.6 and GLM-5.2 lead trending",
+      "GGUF quantization ecosystem explodes",
+      "NVIDIA pushes vision grounding model",
+      "Baidu Unlimited-OCR gains traction",
+      "Cohere Arabic ASR model trending",
+      "Gemma-4 agentic fine-tune popular"
+    ],
+    "ai-community": [
+      "Cost containment top concern for developers",
+      "Agent reliability and silent failures debated",
+      "Google AI digital bloat criticized (140 points)",
+      "Local GPU setup benchmarks shared",
+      "KV-cache reuse for mobile inference discussed",
+      "AI dashboard silently operates on dead channels"
+    ]
+  }
+}
