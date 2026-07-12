@@ -1,6 +1,2183 @@
 {
-  "generated": "2026-07-12T22:03:42.320Z",
+  "generated": "2026-07-12T22:08:05.929Z",
   "date": "2026-07-13",
   "methodology": "health-v1/potential-v1",
-  "projects": []
+  "projects": [
+    {
+      "name": "Vibe-Trading",
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 776,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "stars": 20476,
+      "dailyGrowth": 776,
+      "acceleration": 0,
+      "ageDays": 103,
+      "language": "Python",
+      "homepage": "https://vibetrading.wiki/",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "forks": 3588,
+      "openIssues": 15,
+      "commits30d": 269,
+      "contributors": 71,
+      "closedIssues30d": 28,
+      "releases90d": 7,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 92,
+        "contributorStrength": 58,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 83,
+        "externalHeat": 25
+      },
+      "healthScore": 90,
+      "potentialScore": 69,
+      "score": 78,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "HKUDS/Vibe-Trading",
+        "purpose": "A personal trading agent that provides comprehensive trading capabilities via a single command. It supports algorithmic trading, backtesting, multi-agent collaboration, and integrates with various data sources and LLMs for strategy development and execution.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Requires Python 3.11+",
+          "Requires API keys for LLM providers (e.g., OpenAI) and financial data sources",
+          "Optional: Docker for containerized deployment"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20 minutes",
+        "suitableFor": "Individual traders and developers interested in AI-powered trading strategies, backtesting, and multi-agent collaboration.",
+        "deploymentSteps": [
+          "Install via pip: pip install vibe-trading-ai",
+          "Set up API keys in environment variables or .env file",
+          "Run CLI commands for trading or backtesting",
+          "Optional: Start the web UI with FastAPI backend"
+        ],
+        "risks": [
+          "Not intended for real trading; educational purposes only",
+          "Requires reliable API keys and internet connection",
+          "Potential financial loss if used for live trading without proper testing"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "career-ops",
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "category": "其他",
+      "reportedStars": 59743,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
+      "stars": 59744,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 99,
+      "language": "JavaScript",
+      "homepage": "https://career-ops.org",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "ats",
+        "automation",
+        "beginner-friendly",
+        "career",
+        "careerops",
+        "claude",
+        "claude-code",
+        "cli",
+        "first-timers-only",
+        "golang",
+        "good-first-issue",
+        "interview-prep",
+        "job-application",
+        "job-hunting",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "forks": 11867,
+      "openIssues": 149,
+      "commits30d": 382,
+      "contributors": 170,
+      "closedIssues30d": 31,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 98,
+        "contributorStrength": 69,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 89,
+        "externalHeat": 25
+      },
+      "healthScore": 93,
+      "potentialScore": 56,
+      "score": 72,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "santifer/career-ops",
+        "purpose": "An AI-powered job search command center that runs in AI coding CLIs (Claude Code, Codex, etc.). It scans job portals, scores listings A-F, generates tailored CVs, and tracks applications—all locally.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Node.js installed (v18+)",
+          "An AI coding CLI (e.g., Claude Code, Codex) with agent-skill support",
+          "Playwright for browser automation (installed via npm)"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30 minutes",
+        "suitableFor": "Job seekers comfortable with CLI tools who want an AI-assisted pipeline to filter and apply to jobs efficiently.",
+        "deploymentSteps": [
+          "Install Node.js and npm",
+          "Install the package: npm install -g @santifer/career-ops",
+          "Configure your AI CLI (e.g., Claude Code) to use career-ops as a skill",
+          "Run career-ops init to set up your profile and preferences"
+        ],
+        "risks": [
+          "Requires API access to an AI coding CLI (may incur costs).",
+          "Automated job applications may violate some platforms' terms; use responsibly.",
+          "First evaluations may be inaccurate until the system learns your preferences."
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "vllm",
+      "repo": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "其他",
+      "reportedStars": 86069,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "stars": 86071,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1249,
+      "language": "Python",
+      "homepage": "https://vllm.ai",
+      "topics": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "gpt",
+        "gpt-oss",
+        "inference",
+        "kimi",
+        "llama",
+        "llm",
+        "llm-serving",
+        "model-serving",
+        "moe",
+        "openai",
+        "pytorch",
+        "qwen",
+        "qwen3",
+        "tpu",
+        "transformer"
+      ],
+      "forks": 19320,
+      "openIssues": 5738,
+      "commits30d": 1083,
+      "contributors": 2998,
+      "closedIssues30d": 7,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 4,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 100,
+        "issueResponse": 18,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 73,
+        "externalHeat": 97
+      },
+      "healthScore": 84,
+      "potentialScore": 62,
+      "score": 71,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "vllm-project/vllm",
+        "purpose": "A high-throughput and memory-efficient inference and serving engine for large language models (LLMs), supporting 200+ model architectures with PagedAttention, continuous batching, quantization, and distributed inference.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "NVIDIA GPU with CUDA 12.0+ (or AMD GPU, CPU, TPU, etc.)",
+          "Python 3.8+ and pip/uv",
+          "Sufficient GPU memory for model size",
+          "Optional: Docker for containerized deployment"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Developers and researchers needing fast LLM inference/serving with production-grade throughput, supporting many model architectures and hardware backends.",
+        "deploymentSteps": [
+          "Install vLLM via pip: `pip install vllm`",
+          "Download a Hugging Face model (e.g., `meta-llama/Llama-2-7b-hf`)",
+          "Run the OpenAI-compatible API server: `python -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-2-7b-hf`",
+          "Send requests to the server at `http://localhost:8000/v1/completions`"
+        ],
+        "risks": [
+          "GPU memory may be insufficient for large models; use quantization or smaller models.",
+          "CUDA version compatibility issues; ensure CUDA 12.0+.",
+          "Model download may fail due to network or authentication."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "transformers",
+      "repo": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "category": "其他",
+      "reportedStars": 162546,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stars": 162546,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 2813,
+      "language": "Python",
+      "homepage": "https://huggingface.co/transformers",
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models",
+        "python",
+        "pytorch",
+        "pytorch-transformers",
+        "qwen",
+        "speech-recognition",
+        "transformer",
+        "vlm"
+      ],
+      "forks": 33876,
+      "openIssues": 2488,
+      "commits30d": 249,
+      "contributors": 4020,
+      "closedIssues30d": 13,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 3,
+      "health": {
+        "commitFrequency": 91,
+        "contributorStrength": 100,
+        "issueResponse": 46,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 79,
+        "externalHeat": 79
+      },
+      "healthScore": 87,
+      "potentialScore": 59,
+      "score": 71,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "huggingface/transformers",
+        "purpose": "The model-definition framework for state-of-the-art ML models in text, vision, audio, and multimodal domains. Provides pretrained models for inference and training, compatible with PyTorch, and integrates with the Hugging Face Hub.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+ and PyTorch 2.4+",
+          "pip or uv package manager",
+          "Optional: GPU for faster inference/training"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10 minutes",
+        "suitableFor": "ML engineers and researchers who need a unified API to load and use thousands of pretrained models for NLP, CV, audio, and more.",
+        "deploymentSteps": [
+          "Create a virtual environment: python -m venv .my-env && source .my-env/bin/activate",
+          "Install transformers with PyTorch: pip install \"transformers[torch]\"",
+          "Verify installation: python -c \"from transformers import pipeline; print(pipeline('sentiment-analysis')('I love transformers!'))\""
+        ],
+        "risks": [
+          "Large model downloads may consume significant disk space and bandwidth.",
+          "GPU recommended for large models; CPU inference may be slow."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "category": "其他",
+      "reportedStars": 86963,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "stars": 86966,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 315,
+      "language": "JavaScript",
+      "homepage": "https://claude-mem.ai",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "forks": 7513,
+      "openIssues": 267,
+      "commits30d": 136,
+      "contributors": 122,
+      "closedIssues30d": 30,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 81,
+        "contributorStrength": 65,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 82,
+        "externalHeat": 25
+      },
+      "healthScore": 89,
+      "potentialScore": 55,
+      "score": 69,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "thedotmack/claude-mem",
+        "purpose": "为Claude Code等AI代理提供跨会话的持久记忆。自动捕获会话中的工具使用观察，用AI压缩并注入相关上下文到未来会话，支持多种代理和IDE。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "Node.js >=20.0.0",
+          "需要Claude Code或其他支持的AI代理",
+          "需要网络连接以安装npm包"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望为Claude Code等AI代理添加持久记忆功能的开发者，无需复杂配置。",
+        "deploymentSteps": [
+          "运行 npx claude-mem install 安装插件",
+          "重启Claude Code",
+          "上下文将自动在会话间持久化"
+        ],
+        "risks": [
+          "需查阅README了解与特定代理的兼容性",
+          "可能影响代理性能，需监控"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "cognee",
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "category": "其他",
+      "reportedStars": 27640,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "stars": 27643,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1061,
+      "language": "Python",
+      "homepage": "https://www.cognee.ai",
+      "topics": [
+        "agent-memory",
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "cognitive-architecture",
+        "cognitive-memory",
+        "context-engineering",
+        "contributions-welcome",
+        "good-first-issue",
+        "good-first-pr",
+        "graph-database",
+        "graph-rag",
+        "help-wanted",
+        "knowledge",
+        "knowledge-graph",
+        "memory-management",
+        "open-source",
+        "vector-database"
+      ],
+      "forks": 2743,
+      "openIssues": 625,
+      "commits30d": 525,
+      "contributors": 205,
+      "closedIssues30d": 21,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 72,
+        "issueResponse": 85,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 86,
+        "externalHeat": 25
+      },
+      "healthScore": 91,
+      "potentialScore": 53,
+      "score": 69,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "topoteretes/cognee",
+        "purpose": "为AI代理提供持久长期记忆的开源平台。通过自托管知识图谱引擎，支持多格式数据摄入、向量搜索和图形推理，实现跨会话上下文保持。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "Python 3.10-3.14",
+          "需要LLM API密钥（如OpenAI）",
+          "可选：向量数据库或图数据库"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要为AI代理构建持久记忆和知识图谱的开发者，适合复杂知识管理场景。",
+        "deploymentSteps": [
+          "安装：uv pip install cognee",
+          "配置LLM API密钥（环境变量或.env文件）",
+          "运行Python代码：await cognee.remember() 和 cognee.recall()"
+        ],
+        "risks": [
+          "需查阅README了解数据库配置细节",
+          "依赖外部LLM服务，可能产生费用"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "rig",
+      "repo": "0xPlaygrounds/rig",
+      "url": "https://github.com/0xPlaygrounds/rig",
+      "category": "其他",
+      "reportedStars": 7905,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
+      "stars": 7905,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 767,
+      "language": "Rust",
+      "homepage": "https://rig.rs",
+      "topics": [
+        "agent",
+        "ai",
+        "artificial-intelligence",
+        "automation",
+        "generative-ai",
+        "large-language-model",
+        "llm",
+        "llmops",
+        "rust",
+        "scalable-ai"
+      ],
+      "forks": 880,
+      "openIssues": 80,
+      "commits30d": 116,
+      "contributors": 226,
+      "closedIssues30d": 25,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 79,
+        "contributorStrength": 73,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 84,
+        "externalHeat": 25
+      },
+      "healthScore": 90,
+      "potentialScore": 52,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "0xPlaygrounds/rig",
+        "purpose": "A Rust library for building modular and scalable LLM applications, supporting 20+ model providers and 10+ vector stores under a unified interface. Features agentic workflows, streaming, and WASM compatibility.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Rust toolchain (rustc 1.70+)",
+          "Cargo package manager",
+          "API keys for desired LLM providers (e.g., OpenAI, Anthropic)"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "Rust developers building LLM-powered applications (agents, chatbots, RAG) who need a unified API across multiple providers and vector stores.",
+        "deploymentSteps": [
+          "Add rig to Cargo.toml: `cargo add rig`",
+          "Set environment variables for provider API keys (e.g., `OPENAI_API_KEY`)",
+          "Write code using the provider client and agent builder",
+          "Run with `cargo run`"
+        ],
+        "risks": [
+          "Breaking changes expected as project evolves.",
+          "Some provider integrations may have incomplete features."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ppt-master",
+      "repo": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "category": "其他",
+      "reportedStars": 38542,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, editable charts & tables you can change the data on, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "stars": 38544,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 215,
+      "language": "Python",
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "topics": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint",
+        "powerpoint-generation",
+        "ppt",
+        "pptx",
+        "presentation",
+        "slide",
+        "slides"
+      ],
+      "forks": 3207,
+      "openIssues": 2,
+      "commits30d": 371,
+      "contributors": 16,
+      "closedIssues30d": 17,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 98,
+        "contributorStrength": 38,
+        "issueResponse": 97,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 78,
+        "externalHeat": 25
+      },
+      "healthScore": 87,
+      "potentialScore": 54,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "hugohe3/ppt-master",
+        "purpose": "An AI workflow that runs inside AI IDEs (Claude Code, Cursor, VS Code) to generate fully editable PowerPoint presentations from documents (PDF, DOCX, web pages). Produces native .pptx with shapes, charts, animations, and speaker notes.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "An AI IDE or CLI (e.g., Claude Code, Cursor, VS Code with Copilot)",
+          "Python 3.10+ installed",
+          "API key for an LLM (e.g., OpenAI, Anthropic) to power generation"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30 minutes",
+        "suitableFor": "Professionals who need to create polished PowerPoint decks from source material using AI; requires comfort with AI coding tools.",
+        "deploymentSteps": [
+          "Clone the repository: git clone https://github.com/hugohe3/ppt-master.git",
+          "Install Python dependencies: pip install -r requirements.txt",
+          "Set up your LLM API key in environment variables (e.g., OPENAI_API_KEY)",
+          "Run the workflow inside your AI IDE: provide a document and let the AI generate the PPTX"
+        ],
+        "risks": [
+          "Requires an LLM API key; generation costs may apply.",
+          "Output quality depends on the LLM and input document clarity.",
+          "May not perfectly replicate complex templates; review and edit output."
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "mem0",
+      "repo": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "其他",
+      "reportedStars": 60668,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Universal memory layer for AI Agents",
+      "stars": 60670,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1119,
+      "language": "TypeScript",
+      "homepage": "https://mem0.ai",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "application",
+        "chatbots",
+        "chatgpt",
+        "genai",
+        "llm",
+        "long-term-memory",
+        "memory",
+        "memory-management",
+        "python",
+        "rag",
+        "state-management"
+      ],
+      "forks": 7063,
+      "openIssues": 565,
+      "commits30d": 205,
+      "contributors": 378,
+      "closedIssues30d": 25,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 88,
+        "contributorStrength": 80,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 89,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 50,
+      "score": 68,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "mem0ai/mem0",
+        "purpose": "Universal memory layer for AI agents, enabling personalized interactions by remembering user preferences and session context. Supports multi-level memory (user, session, agent) with hybrid search and temporal reasoning.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.8+ or Node.js environment",
+          "API key for cloud platform or Docker for self-hosted server",
+          "Optional: spaCy model for NLP features"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "Developers building AI assistants or agents that need persistent memory; quick integration via pip/npm or Docker.",
+        "deploymentSteps": [
+          "Install library: pip install mem0ai or npm install mem0ai",
+          "For self-hosted: cd server && docker compose up -d",
+          "Initialize with API key or use library directly in code"
+        ],
+        "risks": [
+          "Cloud platform requires sign-up and may have usage limits",
+          "Self-hosted setup requires Docker and configuration"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ai-hedge-fund",
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 109,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "An AI Hedge Fund Team",
+      "stars": 61363,
+      "dailyGrowth": 109,
+      "acceleration": 0,
+      "ageDays": 590,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 10855,
+      "openIssues": 150,
+      "commits30d": 23,
+      "contributors": 47,
+      "closedIssues30d": 20,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 52,
+        "contributorStrength": 52,
+        "issueResponse": 89,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 83,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 64,
+        "externalHeat": 25
+      },
+      "healthScore": 79,
+      "potentialScore": 59,
+      "score": 67,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "virattt/ai-hedge-fund",
+        "purpose": "A proof-of-concept AI-powered hedge fund that uses multiple AI agents (e.g., Warren Buffett, Cathie Wood) to analyze stocks and make trading decisions. It includes a backtester and web application for educational exploration of AI in finance.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Requires Python 3.10+ and Poetry for dependency management",
+          "Requires at least one LLM API key (OpenAI, Groq, Anthropic, or DeepSeek)",
+          "Requires Financial Datasets API key for financial data"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30 minutes",
+        "suitableFor": "Developers and finance enthusiasts interested in exploring AI-driven trading strategies and multi-agent systems for educational purposes.",
+        "deploymentSteps": [
+          "Clone the repository and install dependencies with Poetry",
+          "Create .env file with API keys",
+          "Run CLI: poetry run python src/main.py --ticker AAPL,MSFT,NVDA",
+          "Optional: Run the web application (see app/ directory)"
+        ],
+        "risks": [
+          "For educational purposes only; not for real trading",
+          "Requires paid API keys for LLM and financial data",
+          "No guarantee of trading performance"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "prefect",
+      "repo": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 55,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "stars": 23116,
+      "dailyGrowth": 55,
+      "acceleration": 0,
+      "ageDays": 2935,
+      "language": "Python",
+      "homepage": "https://prefect.io",
+      "topics": [
+        "automation",
+        "data",
+        "data-engineering",
+        "data-ops",
+        "data-science",
+        "infrastructure",
+        "ml-ops",
+        "observability",
+        "orchestration",
+        "pipeline",
+        "prefect",
+        "python",
+        "workflow",
+        "workflow-engine"
+      ],
+      "forks": 2387,
+      "openIssues": 803,
+      "commits30d": 139,
+      "contributors": 450,
+      "closedIssues30d": 13,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 82,
+        "contributorStrength": 82,
+        "issueResponse": 52,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 75,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 72,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 56,
+      "score": 67,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "PrefectHQ/prefect",
+        "purpose": "A workflow orchestration framework for building resilient data pipelines in Python. It simplifies scheduling, caching, retries, and event-based automations, with a self-hosted server or managed cloud dashboard for monitoring.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Requires Python 3.10+",
+          "Optional: Docker for self-hosted Prefect server",
+          "Requires database (SQLite by default, PostgreSQL for production)"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20 minutes",
+        "suitableFor": "Data engineers and scientists who need to orchestrate Python workflows with retries, scheduling, and monitoring.",
+        "deploymentSteps": [
+          "Install Prefect: pip install -U prefect",
+          "Write flows and tasks using decorators",
+          "Start Prefect server: prefect server start",
+          "Deploy flows with scheduling: flow.serve(cron='* * * * *')"
+        ],
+        "risks": [
+          "Requires understanding of workflow concepts",
+          "Self-hosted server needs maintenance for production use"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "headroom",
+      "repo": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "其他",
+      "reportedStars": 58723,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "stars": 58732,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 186,
+      "language": "Python",
+      "homepage": "https://headroom-docs.vercel.app/docs",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "forks": 4341,
+      "openIssues": 520,
+      "commits30d": 497,
+      "contributors": 179,
+      "closedIssues30d": 11,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 70,
+        "issueResponse": 46,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 72,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 53,
+      "score": 66,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "headroomlabs-ai/headroom",
+        "purpose": "压缩AI代理读取的工具输出、日志、文件等，减少60-95%的token消耗，同时保持答案质量。提供库、代理和MCP服务器三种使用模式。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+ 或 Node.js",
+          "需要安装 headroom-ai 包",
+          "代理模式需要支持的AI代理（如Claude Code）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望减少AI代理token消耗、降低成本的开发者，支持多种集成方式。",
+        "deploymentSteps": [
+          "安装：uv tool install \"headroom-ai[all]\" 或 pip install \"headroom-ai[all]\"",
+          "选择模式：headroom wrap claude 或 headroom proxy --port 8787",
+          "验证：headroom doctor"
+        ],
+        "risks": [
+          "压缩可能影响某些场景的答案质量，需测试",
+          "代理模式需确保与代理版本兼容"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "其他",
+      "reportedStars": 228914,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 228925,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 176,
+      "language": "JavaScript",
+      "homepage": "https://ecc.tools",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "forks": 35093,
+      "openIssues": 98,
+      "commits30d": 139,
+      "contributors": 289,
+      "closedIssues30d": 15,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 82,
+        "contributorStrength": 76,
+        "issueResponse": 71,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 76,
+        "externalHeat": 25
+      },
+      "healthScore": 78,
+      "potentialScore": 54,
+      "score": 64,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "affaan-m/ECC",
+        "purpose": "A harness-native operator system for agentic work, providing skills, instincts, memory optimization, security scanning, and research-first development for AI coding agents like Claude Code, Codex, Cursor, and more.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Requires Node.js and npm for CLI installation",
+          "Optional: GitHub App for private repo support",
+          "Works across multiple AI agent harnesses (Claude Code, Codex, etc.)"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20 minutes",
+        "suitableFor": "Developers using AI coding agents who want to enhance their workflows with skills, memory, and security features.",
+        "deploymentSteps": [
+          "Install via npm: npm install -g ecc-universal",
+          "Configure for your agent harness (e.g., Claude Code)",
+          "Run ECC commands to set up skills and instincts",
+          "Optional: Install GitHub App for PR audits"
+        ],
+        "risks": [
+          "Requires familiarity with AI coding agents",
+          "Some features may require paid subscription (ECC Pro)"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "destructive_command_guard",
+      "repo": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 444,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "stars": 2771,
+      "dailyGrowth": 444,
+      "acceleration": 0,
+      "ageDays": 186,
+      "language": "Rust",
+      "homepage": null,
+      "topics": [
+        "ai-agents",
+        "cli",
+        "developer-tools",
+        "git",
+        "rust",
+        "safety"
+      ],
+      "forks": 105,
+      "openIssues": 7,
+      "commits30d": 40,
+      "contributors": 3,
+      "closedIssues30d": 30,
+      "releases90d": 10,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 61,
+        "contributorStrength": 19,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 99,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 60,
+        "externalHeat": 25
+      },
+      "healthScore": 61,
+      "potentialScore": 64,
+      "score": 63,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Dicklesworthstone/destructive_command_guard",
+        "purpose": "A high-performance hook for AI coding agents that blocks destructive commands (e.g., git reset --hard, rm -rf) before execution, protecting work from accidental deletion. Supports multiple agents like Claude Code, Codex CLI, Gemini CLI, and more.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Linux, macOS, or Windows via WSL (native Windows via PowerShell)",
+          "curl or PowerShell available for installer",
+          "No external dependencies required"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "1–5 minutes",
+        "suitableFor": "Developers using AI coding agents who want to prevent accidental destructive commands; easy install via one-liner.",
+        "deploymentSteps": [
+          "Run the curl install command: curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/destructive_command_guard/main/install.sh?$(date +%s)\" | bash -s -- --easy-mode",
+          "Or for Windows PowerShell: run the provided PowerShell installer with -EasyMode -Verify",
+          "Verify installation by running dcg --help"
+        ],
+        "risks": [
+          "May block legitimate commands if not configured properly; review allowlist settings.",
+          "Fail-open design ensures no workflow blocking due to errors."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "cherry-studio",
+      "repo": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "category": "其他",
+      "reportedStars": 48478,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stars": 48477,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 780,
+      "language": "TypeScript",
+      "homepage": "https://cherryai.com",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "awesome-skills",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "hermes-agent",
+        "openclaw",
+        "skills",
+        "vibe-coding"
+      ],
+      "forks": 4606,
+      "openIssues": 1235,
+      "commits30d": 488,
+      "contributors": 406,
+      "closedIssues30d": 5,
+      "releases90d": 10,
+      "license": "AGPL-3.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 81,
+        "issueResponse": 18,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 66,
+        "externalHeat": 25
+      },
+      "healthScore": 80,
+      "potentialScore": 49,
+      "score": 62,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "CherryHQ/cherry-studio",
+        "purpose": "A desktop client supporting multiple LLM providers (OpenAI, Gemini, Anthropic, Ollama, etc.) with 300+ pre-configured AI assistants, document processing, MCP server, and cross-platform support (Windows, Mac, Linux).",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "Windows, macOS, or Linux desktop",
+          "Download installer from releases page",
+          "No environment setup required"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "2–5 minutes",
+        "suitableFor": "Users who want a unified desktop interface for multiple LLMs with built-in assistants and document handling; no technical setup needed.",
+        "deploymentSteps": [
+          "Download the latest release for your OS from GitHub Releases",
+          "Install the application (e.g., .dmg for macOS, .exe for Windows, .AppImage for Linux)",
+          "Launch Cherry Studio and configure your LLM API keys in settings"
+        ],
+        "risks": [
+          "Requires API keys for cloud LLMs; local models need Ollama/LM Studio setup.",
+          "Third-party API usage may incur costs."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ragflow",
+      "repo": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "category": "其他",
+      "reportedStars": 84878,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stars": 84878,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 944,
+      "language": "Go",
+      "homepage": "https://ragflow.io",
+      "topics": [
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents",
+        "context-engine",
+        "context-management",
+        "llm-apps",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "forks": 9906,
+      "openIssues": 2309,
+      "commits30d": 569,
+      "contributors": 670,
+      "closedIssues30d": 5,
+      "releases90d": 9,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 88,
+        "issueResponse": 15,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 68,
+        "externalHeat": 25
+      },
+      "healthScore": 81,
+      "potentialScore": 49,
+      "score": 62,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "infiniflow/ragflow",
+        "purpose": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities. Provides deep document understanding, template-based chunking, grounded citations, and supports heterogeneous data sources for enterprise AI applications.",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Docker and Docker Compose installed",
+          "At least 4 CPU cores and 8GB RAM recommended",
+          "LLM API key (e.g., OpenAI) or local model"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Enterprises and developers needing a production-ready RAG system with advanced document parsing and agentic workflows.",
+        "deploymentSteps": [
+          "Clone repo: git clone https://github.com/infiniflow/ragflow.git",
+          "Run: cd ragflow && docker compose up -d",
+          "Access web UI at http://localhost:9380 and configure LLM settings"
+        ],
+        "risks": [
+          "Requires significant system resources for document parsing",
+          "Docker images may be large (~10GB)"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "opencompass",
+      "repo": "open-compass/opencompass",
+      "url": "https://github.com/open-compass/opencompass",
+      "category": "其他",
+      "reportedStars": 7183,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+      "stars": 7183,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1123,
+      "language": "Python",
+      "homepage": "https://opencompass.org.cn/",
+      "topics": [
+        "benchmark",
+        "chatgpt",
+        "evaluation",
+        "large-language-model",
+        "llama2",
+        "llama3",
+        "llm",
+        "openai"
+      ],
+      "forks": 804,
+      "openIssues": 426,
+      "commits30d": 36,
+      "contributors": 175,
+      "closedIssues30d": 42,
+      "releases90d": 1,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 60,
+        "contributorStrength": 70,
+        "issueResponse": 100,
+        "releaseCadence": 40,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 77,
+        "externalHeat": 25
+      },
+      "healthScore": 74,
+      "potentialScore": 48,
+      "score": 59,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "open-compass/opencompass",
+        "purpose": "OpenCompass is an LLM evaluation platform supporting 100+ datasets and models (Llama, GPT-4, Qwen, etc.). It provides a unified interface for benchmarking, with configurable evaluation pipelines and result summarization.",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Python 3.8+ environment",
+          "GPU recommended for large model evaluation",
+          "Access to model weights (e.g., Hugging Face) or API keys"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Researchers and engineers needing to evaluate LLMs across multiple benchmarks; requires familiarity with Python and model APIs.",
+        "deploymentSteps": [
+          "Clone repo: git clone https://github.com/open-compass/opencompass.git",
+          "Install: pip install -e .",
+          "Configure evaluation by editing config files (e.g., datasets, models)",
+          "Run evaluation: python run.py --config configs/eval_demo.py"
+        ],
+        "risks": [
+          "Large disk space for datasets and model weights",
+          "Evaluation may take hours depending on model size and dataset count"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "dify",
+      "repo": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "category": "其他",
+      "reportedStars": 148606,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Production-ready platform for agentic workflow development.",
+      "stars": 148606,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1188,
+      "language": "TypeScript",
+      "homepage": "https://dify.ai",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "gemini",
+        "genai",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "workflow"
+      ],
+      "forks": 23425,
+      "openIssues": 953,
+      "commits30d": 526,
+      "contributors": 1380,
+      "closedIssues30d": 10,
+      "releases90d": 5,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 97,
+        "issueResponse": 39,
+        "releaseCadence": 100,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 79,
+        "externalHeat": 25
+      },
+      "healthScore": 72,
+      "potentialScore": 48,
+      "score": 58,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "langgenius/dify",
+        "purpose": "An open-source LLM app development platform with an intuitive interface for building AI workflows, RAG pipelines, agent capabilities, and model management. Supports rapid prototyping to production with observability features.",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Requires Docker and Docker Compose",
+          "Minimum system requirements: CPU >= 2 Core, RAM >= 4 GiB",
+          "Requires configuration of .env file for secrets"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60 minutes",
+        "suitableFor": "Developers and teams building LLM-powered applications with visual workflow design, RAG, and agent capabilities.",
+        "deploymentSteps": [
+          "Clone the repository and navigate to docker/",
+          "Copy .env.example to .env and configure",
+          "Run docker compose up -d",
+          "Access dashboard at http://localhost/install"
+        ],
+        "risks": [
+          "Requires Docker knowledge",
+          "Production deployment may need additional configuration (e.g., HTTPS, scaling)"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "claude-code-templates",
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 274,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stars": 29214,
+      "dailyGrowth": 274,
+      "acceleration": 0,
+      "ageDays": 374,
+      "language": "Python",
+      "homepage": "https://aitmpl.com",
+      "topics": [
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code"
+      ],
+      "forks": 3202,
+      "openIssues": 201,
+      "commits30d": 109,
+      "contributors": 96,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 78,
+        "contributorStrength": 62,
+        "issueResponse": 15,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 93,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 52,
+        "externalHeat": 25
+      },
+      "healthScore": 55,
+      "potentialScore": 58,
+      "score": 57,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "davila7/claude-code-templates",
+        "purpose": "A CLI tool and template catalog for configuring Claude Code with AI agents, custom commands, settings, hooks, and MCP integrations. Includes analytics, conversation monitoring, and health checks.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Node.js 18+ and npm",
+          "Claude Code CLI installed (Anthropic account)",
+          "Internet access for template downloads"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "Developers using Claude Code who want to quickly add pre-built agents, commands, and integrations to enhance their AI-assisted development workflow.",
+        "deploymentSteps": [
+          "Run `npx claude-code-templates@latest` to launch interactive installer",
+          "Select desired components (agents, commands, MCPs, etc.)",
+          "Follow prompts to install into Claude Code configuration",
+          "Optionally use flags for non-interactive installation"
+        ],
+        "risks": [
+          "Breaking changes in future updates; check changelog.",
+          "Some templates may require specific Claude Code version."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "firecrawl",
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "category": "其他",
+      "reportedStars": 149850,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "stars": 149856,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 818,
+      "language": "TypeScript",
+      "homepage": "https://firecrawl.dev",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "forks": 8572,
+      "openIssues": 402,
+      "commits30d": 234,
+      "contributors": 162,
+      "closedIssues30d": 5,
+      "releases90d": 2,
+      "license": "AGPL-3.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 90,
+        "contributorStrength": 69,
+        "issueResponse": 24,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 61,
+        "externalHeat": 25
+      },
+      "healthScore": 69,
+      "potentialScore": 48,
+      "score": 57,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "firecrawl/firecrawl",
+        "purpose": "An API for web scraping, searching, and data extraction at scale, converting web content into clean Markdown or structured JSON for LLM applications. Supports crawling, batch scraping, and interactive page actions.",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Node.js 18+ or Python 3.8+",
+          "API key from firecrawl.dev (hosted) or self-hosted deployment",
+          "For self-hosted: Docker and Redis (optional)"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–15分钟",
+        "suitableFor": "Developers needing reliable web scraping and data extraction for AI agents, LLM context, or data pipelines, with minimal setup.",
+        "deploymentSteps": [
+          "Sign up at firecrawl.dev to get an API key",
+          "Install the SDK: `npm install firecrawl` or `pip install firecrawl-py`",
+          "Initialize client with API key and call `scrape()` or `search()`",
+          "For self-hosted, follow Docker instructions in README"
+        ],
+        "risks": [
+          "API rate limits on hosted plan; self-hosting requires infrastructure.",
+          "Some websites may block scraping; use proxy settings if needed."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "background-agents",
+      "repo": "ColeMurray/background-agents",
+      "url": "https://github.com/ColeMurray/background-agents",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 9,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "An open-source background agents coding system",
+      "stars": 2235,
+      "dailyGrowth": 9,
+      "acceleration": 0,
+      "ageDays": 168,
+      "language": "TypeScript",
+      "homepage": "https://backgroundagents.dev",
+      "topics": [],
+      "forks": 341,
+      "openIssues": 54,
+      "commits30d": 190,
+      "contributors": 42,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 87,
+        "contributorStrength": 51,
+        "issueResponse": 22,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 56,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 53,
+        "externalHeat": 25
+      },
+      "healthScore": 52,
+      "potentialScore": 54,
+      "score": 53,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "ColeMurray/background-agents",
+        "purpose": "An open-source background agents coding system inspired by Ramp's Inspect, enabling hosted background coding agents that can work on tasks, access full dev environments, connect via web UI/Slack/GitHub PRs/Linear/webhooks, support multiplayer sessions, create PRs with proper attribution, run on schedules, and spawn parallel sub-tasks.",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Requires Cloudflare Workers and Durable Objects for control plane",
+          "Requires sandbox infrastructure (Modal, Daytona, or OpenComputer)",
+          "Requires GitHub App installation on organization repositories",
+          "Must be deployed behind SSO/VPN for single-tenant security"
+        ],
+        "difficulty": 5,
+        "estimatedTime": "2–4 hours",
+        "suitableFor": "Organizations needing a secure, single-tenant background coding agent system with multi-channel access and sandboxed execution.",
+        "deploymentSteps": [
+          "Set up Cloudflare Workers with Durable Objects and D1 database",
+          "Configure sandbox infrastructure (Modal, Daytona, or OpenComputer)",
+          "Install GitHub App on organization repositories and configure OAuth",
+          "Deploy web client (Next.js) and Slack bot",
+          "Configure environment variables and authentication"
+        ],
+        "risks": [
+          "Single-tenant only; not suitable for multi-tenant deployments without significant modifications",
+          "All users share GitHub App credentials, requiring trust within the organization",
+          "Complex infrastructure with multiple components (Cloudflare, sandbox providers)"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "stable-pretraining",
+      "repo": "galilai-group/stable-pretraining",
+      "url": "https://github.com/galilai-group/stable-pretraining",
+      "category": "其他",
+      "reportedStars": 285,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Reliable, minimal and scalable library for pretraining foundation and world models",
+      "stars": 285,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 719,
+      "language": "Python",
+      "homepage": "https://galilai-group.github.io/stable-pretraining/",
+      "topics": [
+        "computer-vision",
+        "computer-vision-algorithms",
+        "contrastive-learning",
+        "deep-learning",
+        "distributed",
+        "foundation-models",
+        "joint-embedding",
+        "joint-embedding-predictive-architecture",
+        "large-language-model",
+        "multimodal-learning",
+        "pytorch",
+        "self-supervised-learning",
+        "stable-pretraining",
+        "transformers"
+      ],
+      "forks": 53,
+      "openIssues": 20,
+      "commits30d": 16,
+      "contributors": 20,
+      "closedIssues30d": 10,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 47,
+        "contributorStrength": 41,
+        "issueResponse": 59,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 49,
+        "externalHeat": 25
+      },
+      "healthScore": 62,
+      "potentialScore": 45,
+      "score": 52,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "galilai-group/stable-pretraining",
+        "purpose": "A PyTorch Lightning-based library for pretraining foundation and world models. Provides modular components (data, module, callbacks) and 30+ built-in methods (SimCLR, DINO, MAE, CLIP) with SLURM support and run registry.",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.8+ environment",
+          "PyTorch and Lightning installed",
+          "GPU recommended for training"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Researchers and engineers working on self-supervised learning or multimodal pretraining; requires familiarity with PyTorch Lightning.",
+        "deploymentSteps": [
+          "Clone repo: git clone https://github.com/galilai-group/stable-pretraining.git",
+          "Install: pip install -e .",
+          "Run a built-in recipe: python scripts/run.py --config configs/simclr_cifar10.yaml"
+        ],
+        "risks": [
+          "Training large models requires significant GPU resources",
+          "JAX backend is experimental and may have limited support"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "home-llm",
+      "repo": "acon96/home-llm",
+      "url": "https://github.com/acon96/home-llm",
+      "category": "其他",
+      "reportedStars": 1377,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A Home Assistant integration & Model to control your smart home using a Local LLM",
+      "stars": 1377,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 933,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "homeassistant-custom-component",
+        "large-language-model"
+      ],
+      "forks": 140,
+      "openIssues": 35,
+      "commits30d": 11,
+      "contributors": 31,
+      "closedIssues30d": 5,
+      "releases90d": 3,
+      "license": null,
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 41,
+        "contributorStrength": 47,
+        "issueResponse": 36,
+        "releaseCadence": 84,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 41,
+        "externalHeat": 25
+      },
+      "healthScore": 47,
+      "potentialScore": 44,
+      "score": 45,
+      "risks": [
+        "未检测到明确许可证"
+      ],
+      "deploymentBrief": {
+        "repo": "acon96/home-llm",
+        "purpose": "A Home Assistant custom component that connects local LLMs to control smart home devices via voice or chat. Supports multiple backends (Llama.cpp, Ollama, OpenAI API) and runs on low-power devices like Raspberry Pi.",
+        "productType": "其他",
+        "deploymentConditions": [
+          "Home Assistant 2026.5.0 or newer installed",
+          "HACS (Home Assistant Community Store) installed",
+          "Local LLM backend (e.g., Ollama, Llama.cpp) or external API key"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40 minutes",
+        "suitableFor": "Home Assistant users who want privacy-focused AI control of their smart home using local LLMs; requires some technical setup.",
+        "deploymentSteps": [
+          "Install HACS in Home Assistant if not already present",
+          "Add the Home LLM repository via HACS: click the badge in README or add custom repository URL",
+          "Install the integration and restart Home Assistant",
+          "Configure the integration: choose a backend (e.g., Ollama) and set up the model",
+          "Add the conversation agent to your voice pipeline or chat interface"
+        ],
+        "risks": [
+          "Local LLM inference may require significant CPU/GPU resources; check hardware compatibility.",
+          "External API backends send data over the internet; review privacy implications.",
+          "Requires Home Assistant version 2026.5.0+ which may not be stable yet."
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "hallmark",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 210,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "stars": 4206,
+      "dailyGrowth": 210,
+      "acceleration": 0,
+      "ageDays": 76,
+      "language": "CSS",
+      "homepage": "https://www.usehallmark.com/",
+      "topics": [],
+      "forks": 251,
+      "openIssues": 5,
+      "commits30d": 0,
+      "contributors": 4,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 0,
+        "contributorStrength": 22,
+        "issueResponse": 26,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 90,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 16,
+        "externalHeat": 25
+      },
+      "healthScore": 30,
+      "potentialScore": 54,
+      "score": 44,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Nutlope/hallmark",
+        "purpose": "A design skill for Claude Code, Cursor, and Codex that generates UI with anti-AI-slop principles: 20 themes, 57 slop-test gates, and pre-emit self-critique to avoid generic AI-generated designs.",
+        "productType": "其他",
+        "deploymentConditions": [
+          "Claude Code, Cursor, or Codex installed",
+          "Node.js and npx for installation",
+          "Internet access to fetch skill files"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "2–5分钟",
+        "suitableFor": "Developers using AI coding assistants who want to generate unique, non-generic UI designs with a focus on avoiding AI-slop aesthetics.",
+        "deploymentSteps": [
+          "Run `npx skills add nutlope/hallmark` in terminal",
+          "Or manually copy SKILL.md and references/ to the appropriate skill directory",
+          "Use the skill by invoking `hallmark` verb in Claude Code/Cursor/Codex"
+        ],
+        "risks": [
+          "Requires specific AI coding tool (Claude Code, Cursor, or Codex).",
+          "Skill may need updates to stay compatible with tool versions."
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "croqtile",
+      "repo": "LancerLab/croqtile",
+      "url": "https://github.com/LancerLab/croqtile",
+      "category": "其他",
+      "reportedStars": 34,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A Next-Gen AI-native Kernel programming DSL for Maximizing Productivity",
+      "stars": 34,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 167,
+      "language": "C++",
+      "homepage": "https://lancerlab.github.io/croqtile-website/en/",
+      "topics": [
+        "gpu-programming",
+        "high-performance-computing",
+        "large-language-model"
+      ],
+      "forks": 5,
+      "openIssues": 3,
+      "commits30d": 227,
+      "contributors": 7,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 90,
+        "contributorStrength": 28,
+        "issueResponse": 28,
+        "releaseCadence": 0,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 49,
+        "externalHeat": 25
+      },
+      "healthScore": 34,
+      "potentialScore": 48,
+      "score": 42,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "LancerLab/croqtile",
+        "purpose": "An AI-native GPU kernel programming language designed for maximum productivity, with compact syntax (~500 tokens per kernel), compile-time safety (353 checks), and high agent accuracy (85.7% pass@1).",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "C++17 compiler (GCC 9+ or Clang 5+)",
+          "CMake 3.18+ and Ninja",
+          "Flex and Bison (parser generation)",
+          "CUDA Toolkit 12.0+ and NVIDIA GPU with SM 9.0+ (Hopper) for full features"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "GPU kernel developers and AI researchers who want to write high-performance CUDA kernels with fewer tokens and compile-time safety, especially for LLM inference.",
+        "deploymentSteps": [
+          "Clone the repository and run `make` to build the compiler",
+          "Verify build with `make test`",
+          "Write a kernel in Croqtile syntax (e.g., GEMM example in README)",
+          "Compile with `./choreo` and run on supported GPU"
+        ],
+        "risks": [
+          "Requires Hopper GPU (SM 9.0+) for full feature set; older GPUs limited.",
+          "Build dependencies (Flex, Bison) may not be pre-installed.",
+          "Early-stage project; API may change."
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "DATAGEN",
+      "repo": "starpig1129/DATAGEN",
+      "url": "https://github.com/starpig1129/DATAGEN",
+      "category": "其他",
+      "reportedStars": 1769,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
+      "stars": 1769,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 720,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-data-analysis",
+        "artificial-intelligence",
+        "code-generation",
+        "data-analysis",
+        "data-analytics",
+        "data-science",
+        "langchain",
+        "langgraph",
+        "large-language-model",
+        "large-language-models",
+        "llm",
+        "multiagent-systems",
+        "python"
+      ],
+      "forks": 238,
+      "openIssues": 0,
+      "commits30d": 5,
+      "contributors": 4,
+      "closedIssues30d": 4,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 30,
+        "contributorStrength": 22,
+        "issueResponse": 51,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 34,
+        "externalHeat": 25
+      },
+      "healthScore": 41,
+      "potentialScore": 42,
+      "score": 42,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "starpig1129/DATAGEN",
+        "purpose": "AI-driven multi-agent research assistant for automated data analysis, hypothesis generation, and report writing. Uses LangGraph and multiple specialized agents (hypothesis, code, visualization) to process data and produce graphical reports.",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Python 3.10+ environment",
+          "API keys for LLM providers (OpenAI, Anthropic, etc.)",
+          "ChromeDriver for web scraping (optional)"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Data scientists and analysts who want an automated pipeline for data analysis and report generation; requires API keys and basic Python setup.",
+        "deploymentSteps": [
+          "Clone repo: git clone https://github.com/starpig1129/DATAGEN.git",
+          "Create conda env: conda create -n datagen python=3.10 && conda activate datagen",
+          "Install: pip install -r requirements.txt",
+          "Configure .env file with API keys and paths",
+          "Run: python main.py with user_input specifying data file"
+        ],
+        "risks": [
+          "Requires paid API keys for LLM providers",
+          "ChromeDriver setup may be needed for web search features"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "LLMs-from-scratch",
+      "repo": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "category": "其他",
+      "reportedStars": 98977,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "stars": 98979,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1085,
+      "language": "Jupyter Notebook",
+      "homepage": "https://amzn.to/4fqvn0D",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning",
+        "finetuning",
+        "from-scratch",
+        "generative-ai",
+        "gpt",
+        "instruction-tuning",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "pretraining",
+        "python",
+        "pytorch",
+        "tokenizer",
+        "transformers"
+      ],
+      "forks": 15196,
+      "openIssues": 3,
+      "commits30d": 2,
+      "contributors": 67,
+      "closedIssues30d": 1,
+      "releases90d": 0,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 18,
+        "contributorStrength": 57,
+        "issueResponse": 32,
+        "releaseCadence": 0,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 36,
+        "externalHeat": 25
+      },
+      "healthScore": 26,
+      "potentialScore": 43,
+      "score": 36,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "rasbt/LLMs-from-scratch",
+        "purpose": "Educational code repository for the book 'Build a Large Language Model (From Scratch)'. Provides step-by-step Jupyter notebooks to implement a GPT-like LLM in PyTorch, covering pretraining, finetuning, and attention mechanisms.",
+        "productType": "其他",
+        "deploymentConditions": [
+          "Python 3.x environment",
+          "PyTorch installed",
+          "Jupyter Notebook or compatible IDE"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "Developers and researchers learning LLM internals by coding from scratch; requires basic Python and PyTorch knowledge.",
+        "deploymentSteps": [
+          "Clone the repository: git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git",
+          "Install dependencies: pip install -r requirements.txt (if provided) or follow setup instructions in setup/README.md",
+          "Open Jupyter notebooks (e.g., ch02.ipynb) and run cells sequentially"
+        ],
+        "risks": [
+          "Requires understanding of PyTorch and transformer architectures",
+          "Training from scratch may be time-consuming without GPU"
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
 }

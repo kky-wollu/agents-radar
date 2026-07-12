@@ -1,1 +1,191 @@
-{}
+{
+  "Nutlope/hallmark": [
+    {
+      "date": "2026-07-13",
+      "stars": 4206,
+      "growth": 210
+    }
+  ],
+  "LancerLab/croqtile": [
+    {
+      "date": "2026-07-13",
+      "stars": 34,
+      "growth": 0
+    }
+  ],
+  "davila7/claude-code-templates": [
+    {
+      "date": "2026-07-13",
+      "stars": 29214,
+      "growth": 274
+    }
+  ],
+  "vllm-project/vllm": [
+    {
+      "date": "2026-07-13",
+      "stars": 86071,
+      "growth": 0
+    }
+  ],
+  "firecrawl/firecrawl": [
+    {
+      "date": "2026-07-13",
+      "stars": 149856,
+      "growth": 0
+    }
+  ],
+  "0xPlaygrounds/rig": [
+    {
+      "date": "2026-07-13",
+      "stars": 7905,
+      "growth": 0
+    }
+  ],
+  "virattt/ai-hedge-fund": [
+    {
+      "date": "2026-07-13",
+      "stars": 61363,
+      "growth": 109
+    }
+  ],
+  "langgenius/dify": [
+    {
+      "date": "2026-07-13",
+      "stars": 148606,
+      "growth": 0
+    }
+  ],
+  "ColeMurray/background-agents": [
+    {
+      "date": "2026-07-13",
+      "stars": 2235,
+      "growth": 9
+    }
+  ],
+  "HKUDS/Vibe-Trading": [
+    {
+      "date": "2026-07-13",
+      "stars": 20476,
+      "growth": 776
+    }
+  ],
+  "PrefectHQ/prefect": [
+    {
+      "date": "2026-07-13",
+      "stars": 23116,
+      "growth": 55
+    }
+  ],
+  "affaan-m/ECC": [
+    {
+      "date": "2026-07-13",
+      "stars": 228925,
+      "growth": 0
+    }
+  ],
+  "acon96/home-llm": [
+    {
+      "date": "2026-07-13",
+      "stars": 1377,
+      "growth": 0
+    }
+  ],
+  "Dicklesworthstone/destructive_command_guard": [
+    {
+      "date": "2026-07-13",
+      "stars": 2771,
+      "growth": 444
+    }
+  ],
+  "huggingface/transformers": [
+    {
+      "date": "2026-07-13",
+      "stars": 162546,
+      "growth": 0
+    }
+  ],
+  "hugohe3/ppt-master": [
+    {
+      "date": "2026-07-13",
+      "stars": 38544,
+      "growth": 0
+    }
+  ],
+  "CherryHQ/cherry-studio": [
+    {
+      "date": "2026-07-13",
+      "stars": 48477,
+      "growth": 0
+    }
+  ],
+  "santifer/career-ops": [
+    {
+      "date": "2026-07-13",
+      "stars": 59744,
+      "growth": 0
+    }
+  ],
+  "starpig1129/DATAGEN": [
+    {
+      "date": "2026-07-13",
+      "stars": 1769,
+      "growth": 0
+    }
+  ],
+  "rasbt/LLMs-from-scratch": [
+    {
+      "date": "2026-07-13",
+      "stars": 98979,
+      "growth": 0
+    }
+  ],
+  "galilai-group/stable-pretraining": [
+    {
+      "date": "2026-07-13",
+      "stars": 285,
+      "growth": 0
+    }
+  ],
+  "infiniflow/ragflow": [
+    {
+      "date": "2026-07-13",
+      "stars": 84878,
+      "growth": 0
+    }
+  ],
+  "open-compass/opencompass": [
+    {
+      "date": "2026-07-13",
+      "stars": 7183,
+      "growth": 0
+    }
+  ],
+  "mem0ai/mem0": [
+    {
+      "date": "2026-07-13",
+      "stars": 60670,
+      "growth": 0
+    }
+  ],
+  "headroomlabs-ai/headroom": [
+    {
+      "date": "2026-07-13",
+      "stars": 58732,
+      "growth": 0
+    }
+  ],
+  "topoteretes/cognee": [
+    {
+      "date": "2026-07-13",
+      "stars": 27643,
+      "growth": 0
+    }
+  ],
+  "thedotmack/claude-mem": [
+    {
+      "date": "2026-07-13",
+      "stars": 86966,
+      "growth": 0
+    }
+  ]
+}
