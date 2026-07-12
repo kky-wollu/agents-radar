@@ -46,6 +46,7 @@ jobs:
       - name: Build project health and potential dataset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: pnpm dashboard
 
       - name: Commit digest files
