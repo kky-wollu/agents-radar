@@ -21,11 +21,15 @@ function parseReport(md) {
   const projects = [];
   for (const line of md.split("\n")) {
     if (/^#####/.test(line)) category = categoryMap.find(([label]) => line.includes(label))?.[1] ?? "其他";
-    const match = line.match(/^- (?:\*\*)?\[([^\]]+)\]\((https:\/\/github\.com\/([^\s)]+))\)(?:\*\*)?\s+⭐([\d,]+)(?:\s+\(\+([\d,]+) today\))?\s+-\s+(.+)$/);
-    if (!match) continue;
-    const repo = match[3];
+    if (!line.trimStart().startsWith("-")) continue;
+    const link = line.match(/\[([^\]]+)\]\((https:\/\/github\.com\/([^\s)]+))\)/);
+    const stars = line.match(/⭐\s*([\d,]+)/);
+    if (!link || !stars) continue;
+    const repo = link[3];
     if (projects.some((p) => p.repo.toLowerCase() === repo.toLowerCase())) continue;
-    projects.push({ name: match[1].split("/").at(-1), repo, url: match[2], category, reportedStars: Number(match[4].replaceAll(",", "")), reportedDaily: Number((match[5] ?? "0").replaceAll(",", "")), analysis: match[6].trim() });
+    const daily = line.match(/\(\+([\d,]+)\s+today\)/i);
+    const analysis = line.split(/\s+-\s+/).slice(1).join(" - ").trim() || "今日趋势项目，详细信息请查阅 README。";
+    projects.push({ name: link[1].split("/").at(-1), repo, url: link[2], category, reportedStars: Number(stars[1].replaceAll(",", "")), reportedDaily: Number((daily?.[1] ?? "0").replaceAll(",", "")), analysis });
   }
   return projects;
 }
