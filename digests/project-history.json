@@ -194,6 +194,11 @@
       "date": "2026-07-13",
       "stars": 38544,
       "growth": 0
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 40556,
+      "growth": 2012
     }
   ],
   "CherryHQ/cherry-studio": [
@@ -233,6 +238,11 @@
       "date": "2026-07-14",
       "stars": 59877,
       "growth": 133
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 61088,
+      "growth": 1211
     }
   ],
   "starpig1129/DATAGEN": [
@@ -357,6 +367,11 @@
       "date": "2026-07-14",
       "stars": 58959,
       "growth": 224
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 61239,
+      "growth": 2280
     }
   ],
   "topoteretes/cognee": [
@@ -425,6 +440,11 @@
       "date": "2026-07-21",
       "stars": 217767,
       "growth": 2327
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 218954,
+      "growth": 1187
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -599,6 +619,11 @@
       "date": "2026-07-16",
       "stars": 87699,
       "growth": 1405
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 93886,
+      "growth": 6187
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -774,6 +799,11 @@
       "date": "2026-07-21",
       "stars": 23052,
       "growth": 1946
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 25286,
+      "growth": 2234
     }
   ],
   "jamiepine/voicebox": [
@@ -781,6 +811,11 @@
       "date": "2026-07-20",
       "stars": 43298,
       "growth": 629
+    },
+    {
+      "date": "2026-07-23",
+      "stars": 45723,
+      "growth": 2425
     }
   ],
   "AstrBotDevs/AstrBot": [
@@ -864,6 +899,83 @@
     {
       "date": "2026-07-21",
       "stars": 12740,
+      "growth": 0
+    }
+  ],
+  "ComposioHQ/awesome-claude-skills": [
+    {
+      "date": "2026-07-23",
+      "stars": 68742,
+      "growth": 0
+    }
+  ],
+  "rohitg00/ai-engineering-from-scratch": [
+    {
+      "date": "2026-07-23",
+      "stars": 42222,
+      "growth": 0
+    }
+  ],
+  "dottxt-ai/outlines": [
+    {
+      "date": "2026-07-23",
+      "stars": 15094,
+      "growth": 0
+    }
+  ],
+  "diegosouzapw/OmniRoute": [
+    {
+      "date": "2026-07-23",
+      "stars": 25175,
+      "growth": 0
+    }
+  ],
+  "shiyu-coder/Kronos": [
+    {
+      "date": "2026-07-23",
+      "stars": 32580,
+      "growth": 0
+    }
+  ],
+  "ayghri/i-have-adhd": [
+    {
+      "date": "2026-07-23",
+      "stars": 8218,
+      "growth": 0
+    }
+  ],
+  "TauricResearch/TradingAgents": [
+    {
+      "date": "2026-07-23",
+      "stars": 94108,
+      "growth": 0
+    }
+  ],
+  "koala73/worldmonitor": [
+    {
+      "date": "2026-07-23",
+      "stars": 68828,
+      "growth": 0
+    }
+  ],
+  "Hai-chao-Zhang/ThinkJEPA": [
+    {
+      "date": "2026-07-23",
+      "stars": 46,
+      "growth": 0
+    }
+  ],
+  "StarTrail-org/LEANN": [
+    {
+      "date": "2026-07-23",
+      "stars": 12717,
+      "growth": 0
+    }
+  ],
+  "dreamhunter2333/cloudflare_temp_email": [
+    {
+      "date": "2026-07-23",
+      "stars": 10792,
       "growth": 0
     }
   ]

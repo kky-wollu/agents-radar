@@ -1,0 +1,1474 @@
+{
+  "generated": "2026-07-22T23:17:25.916Z",
+  "date": "2026-07-23",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "headroom",
+      "repo": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "基础工具",
+      "reportedStars": 61239,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "stars": 61239,
+      "dailyGrowth": 2280,
+      "acceleration": 2056,
+      "ageDays": 196,
+      "language": "Python",
+      "homepage": "https://headroom-docs.vercel.app/docs",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "forks": 4607,
+      "openIssues": 497,
+      "commits30d": 665,
+      "contributors": 229,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 73,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 81,
+      "score": 87,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "headroomlabs-ai/headroom",
+        "purpose": "AI代理上下文压缩层，在工具输出、日志、RAG块到达LLM前进行压缩。对JSON数据可减少60-95%令牌，对编码代理减少15-20%。提供库、代理、MCP服务器三种使用方式，支持本地运行。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.10+或Node.js环境",
+          "可选安装uv工具简化部署",
+          "需要兼容的AI代理（如Claude Code、Cursor）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "使用AI编码代理且希望降低令牌消耗、节省成本的开发者，尤其是处理大量JSON数据或长上下文场景的团队。",
+        "deploymentSteps": [
+          "使用pip或npm安装headroom-ai",
+          "选择模式：代理包装、代理或内联库",
+          "运行健康检查命令验证安装",
+          "启动代理会话并观察令牌节省"
+        ],
+        "risks": [
+          "压缩可能影响某些任务的输出质量",
+          "代理模式需要修改代理配置"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "知识库",
+      "reportedStars": 93884,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 93886,
+      "dailyGrowth": 6187,
+      "acceleration": 4782,
+      "ageDays": 110,
+      "language": "Python",
+      "homepage": "https://www.graphify.com",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "forks": 9095,
+      "openIssues": 602,
+      "commits30d": 440,
+      "contributors": 168,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 69,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 90,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 81,
+      "score": 86,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Graphify-Labs/graphify",
+        "purpose": "将代码库、文档、SQL 模式、PDF 等转换为可查询的知识图谱，支持 Claude Code、Cursor 等 AI 编程助手，使用本地 AST 解析，无需向量数据库。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Python 3.9+ 和 uv 或 pipx",
+          "支持 Linux、macOS、Windows",
+          "需要 AI 编程助手（如 Claude Code、Cursor）以使用 skill"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "1–2分钟",
+        "suitableFor": "使用 AI 编程助手的开发者，希望快速理解大型代码库结构，通过知识图谱而非 grep 进行语义查询。",
+        "deploymentSteps": [
+          "运行 uv tool install graphifyy 或 pipx install graphifyy",
+          "运行 graphify install 注册 skill",
+          "在 AI 助手中输入 /graphify . 生成图谱"
+        ],
+        "risks": [
+          "大型项目图谱生成可能较慢",
+          "需要 AI 助手支持 skill 功能"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "career-ops",
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "category": "智能体",
+      "reportedStars": 61087,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "stars": 61088,
+      "dailyGrowth": 1211,
+      "acceleration": 1078,
+      "ageDays": 109,
+      "language": "JavaScript",
+      "homepage": "https://career-ops.org",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "ats",
+        "automation",
+        "beginner-friendly",
+        "career",
+        "careerops",
+        "claude",
+        "claude-code",
+        "cli",
+        "first-timers-only",
+        "golang",
+        "good-first-issue",
+        "interview-prep",
+        "job-application",
+        "job-hunting",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "forks": 12028,
+      "openIssues": 228,
+      "commits30d": 509,
+      "contributors": 188,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 71,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 90,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 81,
+      "score": 86,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "santifer/career-ops",
+        "purpose": "将AI编程CLI变为求职指挥中心：自动扫描招聘门户、用A-F评分评估职位、生成定制简历、跟踪申请进度。本地运行，保护隐私。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需Node.js和Go环境",
+          "需Playwright用于网页自动化",
+          "需AI编程CLI（如Claude Code、Codex等）",
+          "可选：配置LLM API密钥以增强评估"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "正在求职的开发者，希望用AI自动化筛选职位、定制简历并跟踪申请，减少手动操作。",
+        "deploymentSteps": [
+          "安装Node.js和Go，克隆仓库",
+          "安装依赖并运行初始化命令",
+          "在AI编程CLI中加载技能并开始使用"
+        ],
+        "risks": [
+          "首次评估可能不准确，需提供更多个人背景信息",
+          "需查阅README了解支持的CLI和配置细节"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "code-review-graph",
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "stars": 25286,
+      "dailyGrowth": 2234,
+      "acceleration": 288,
+      "ageDays": 146,
+      "language": "Python",
+      "homepage": "https://code-review-graph.com",
+      "topics": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review",
+        "graphrag",
+        "incremental",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "python",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "forks": 2389,
+      "openIssues": 125,
+      "commits30d": 159,
+      "contributors": 98,
+      "closedIssues30d": 18,
+      "releases90d": 5,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 84,
+        "contributorStrength": 62,
+        "issueResponse": 82,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 76,
+        "externalHeat": 25
+      },
+      "healthScore": 86,
+      "potentialScore": 78,
+      "score": 81,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "tirth8205/code-review-graph",
+        "purpose": "本地优先的代码知识图谱工具，通过Tree-sitter解析代码结构，为AI编码代理提供精准上下文。在代码审查时仅读取受影响文件，可减少38-528倍令牌消耗，支持Claude Code、Cursor等主流代理。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Python 3.10+环境",
+          "推荐安装uv工具",
+          "需要Git或SVN管理的项目"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "使用AI编码代理进行代码审查的开发者，尤其是大型代码库团队，希望减少令牌消耗并提高审查效率。",
+        "deploymentSteps": [
+          "使用pip或pipx安装code-review-graph",
+          "在项目目录运行安装命令",
+          "构建代码知识图谱",
+          "在AI代理中请求代码审查"
+        ],
+        "risks": [
+          "初始构建时间随文件数增加",
+          "部分语言可能不支持完整解析"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ppt-master",
+      "repo": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "category": "应用",
+      "reportedStars": 40556,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "stars": 40556,
+      "dailyGrowth": 2012,
+      "acceleration": 2012,
+      "ageDays": 225,
+      "language": "Python",
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "topics": [
+        "ai-agent",
+        "aippt",
+        "office",
+        "powerpoint",
+        "powerpoint-generation",
+        "ppt",
+        "pptx",
+        "presentation",
+        "slide",
+        "slides"
+      ],
+      "forks": 3368,
+      "openIssues": 4,
+      "commits30d": 540,
+      "contributors": 16,
+      "closedIssues30d": 12,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 38,
+        "issueResponse": 75,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 71,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 77,
+      "score": 80,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "hugohe3/ppt-master",
+        "purpose": "AI 根据文档或主题生成原生 PowerPoint 文件，支持原生形状、动画、图表、表格、音频旁白，可使用自己的 .pptx 模板，数据本地处理，无平台锁定。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Python 3.11+ 和 pip 或 uv",
+          "需要 OpenAI 兼容的 API 密钥（如 Kimi、OpenAI）",
+          "建议在 Linux/macOS 或 WSL2 上运行"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "需要快速从文档或主题生成专业 PPT 的用户，如学生、教师、商务人士，希望保持数据本地化。",
+        "deploymentSteps": [
+          "安装 Python 3.11+ 和 pip/uv",
+          "运行 pip install ppt-master 或 uv tool install ppt-master",
+          "设置 API 密钥环境变量（如 KIMI_API_KEY）",
+          "运行 ppt-master \"主题\" 或 ppt-master --file 文档.pdf"
+        ],
+        "risks": [
+          "需要有效的 API 密钥，免费额度有限",
+          "生成的 PPT 质量依赖所选模型"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "hermes-agent",
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "模型",
+      "reportedStars": 218951,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The agent that grows with you",
+      "stars": 218954,
+      "dailyGrowth": 1187,
+      "acceleration": -1140,
+      "ageDays": 365,
+      "language": "Python",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "forks": 41481,
+      "openIssues": 24750,
+      "commits30d": 4400,
+      "contributors": 2156,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 100,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 72,
+        "communityActivity": 100,
+        "externalHeat": 25
+      },
+      "healthScore": 100,
+      "potentialScore": 59,
+      "score": 76,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "NousResearch/hermes-agent",
+        "purpose": "自改进 AI 代理，具备内置学习循环，可创建技能、记忆用户偏好、跨会话回忆，支持 Telegram/Discord 等多平台，可在低配 VPS 或 GPU 集群上运行。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "支持 Linux、macOS、WSL2、Windows（PowerShell）",
+          "需要 Python 3.11+ 和 Node.js（安装脚本自动处理）",
+          "需要至少一个 LLM API 密钥（如 OpenAI、OpenRouter）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望拥有一个能持续学习、跨平台使用的 AI 助手的开发者和高级用户，适合个人知识管理和自动化任务。",
+        "deploymentSteps": [
+          "在终端运行 curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash",
+          "安装后执行 source ~/.bashrc",
+          "运行 hermes 开始对话，首次使用需配置 API 密钥"
+        ],
+        "risks": [
+          "Windows 下可能被防病毒软件误报 uv.exe",
+          "需要稳定的网络连接下载依赖"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "voicebox",
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "stars": 45723,
+      "dailyGrowth": 2425,
+      "acceleration": 1796,
+      "ageDays": 178,
+      "language": "TypeScript",
+      "homepage": "https://voicebox.sh",
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ],
+      "forks": 5583,
+      "openIssues": 579,
+      "commits30d": 36,
+      "contributors": 66,
+      "closedIssues30d": 21,
+      "releases90d": 1,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 60,
+        "contributorStrength": 57,
+        "issueResponse": 86,
+        "releaseCadence": 40,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 68,
+        "externalHeat": 25
+      },
+      "healthScore": 69,
+      "potentialScore": 76,
+      "score": 73,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "jamiepine/voicebox",
+        "purpose": "开源AI语音工作室：本地运行，支持语音克隆、多引擎TTS（7种）、全局听写、MCP智能体语音输出。替代ElevenLabs和WisprFlow。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "macOS（Apple Silicon/Intel）、Windows或Linux",
+          "GPU推荐（CUDA/MLX/Metal），CPU也可运行部分模型",
+          "Docker方式需Docker环境"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "需要本地语音克隆、文本转语音或听写功能的用户，注重隐私，希望替代云服务的创作者和开发者。",
+        "deploymentSteps": [
+          "从官网或GitHub Releases下载对应平台安装包",
+          "安装后启动应用，首次运行会自动下载模型",
+          "或使用Docker：运行 `docker compose up`"
+        ],
+        "risks": [
+          "Linux需从源码构建，暂无预编译二进制",
+          "GPU要求较高，部分模型需查阅README确认硬件兼容性"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "OmniRoute",
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "stars": 25175,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 159,
+      "language": "TypeScript",
+      "homepage": "https://omniroute.online",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "kimi",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "forks": 3347,
+      "openIssues": 233,
+      "commits30d": 1032,
+      "contributors": 309,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 77,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 92,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 57,
+      "score": 73,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "diegosouzapw/OmniRoute",
+        "purpose": "统一AI网关，通过单一端点接入268+家AI服务商（含50+免费），支持Kimi、Claude、GPT等500+模型。提供配额感知自动回退、令牌压缩（节省15-95%）、MCP/A2A协议，兼容Claude Code、Cursor等主流编码代理。",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "需要Node.js运行环境",
+          "可选Docker容器部署",
+          "需要API密钥（免费获取）",
+          "建议至少2GB内存"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "希望统一管理多个AI服务商、降低API调用成本的开发者，尤其是使用Claude Code、Cursor等AI编码工具的团队。",
+        "deploymentSteps": [
+          "使用npm或Docker安装OmniRoute",
+          "配置环境变量（API密钥、提供商列表）",
+          "启动服务并访问仪表盘验证",
+          "将AI工具端点指向OmniRoute地址"
+        ],
+        "risks": [
+          "免费提供商可能随时变更策略，需关注更新",
+          "令牌压缩可能影响某些模型的输出质量"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "outlines",
+      "repo": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Structured Outputs",
+      "stars": 15094,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1223,
+      "language": "Python",
+      "homepage": "https://dottxt-ai.github.io/outlines/",
+      "topics": [
+        "cfg",
+        "generative-ai",
+        "json",
+        "llms",
+        "prompt-engineering",
+        "regex",
+        "structured-generation",
+        "symbolic-ai"
+      ],
+      "forks": 802,
+      "openIssues": 114,
+      "commits30d": 57,
+      "contributors": 185,
+      "closedIssues30d": 16,
+      "releases90d": 3,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 67,
+        "contributorStrength": 70,
+        "issueResponse": 74,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 70,
+        "externalHeat": 25
+      },
+      "healthScore": 79,
+      "potentialScore": 47,
+      "score": 60,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "dottxt-ai/outlines",
+        "purpose": "为LLM提供结构化输出保证，支持JSON、正则表达式、Pydantic模型等输出格式。兼容OpenAI、Ollama、vLLM等多种模型，确保生成结果符合预定义结构，减少解析错误。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.8+环境",
+          "需要安装PyTorch或Transformers等深度学习库",
+          "可选GPU加速（非必需）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "需要LLM输出严格结构化数据（如JSON、分类标签）的开发者，适用于数据提取、表单填充、API响应生成等场景。",
+        "deploymentSteps": [
+          "使用pip安装outlines库",
+          "加载模型（支持本地或云端）",
+          "定义输出类型（如Pydantic模型）",
+          "调用模型并传入输出类型参数"
+        ],
+        "risks": [
+          "部分模型可能不支持所有结构化格式",
+          "复杂结构可能增加生成时间"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "worldmonitor",
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "stars": 68828,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 195,
+      "language": "TypeScript",
+      "homepage": "https://worldmonitor.app",
+      "topics": [
+        "agent",
+        "ai",
+        "dashboard",
+        "geopolitics",
+        "mcp",
+        "mcp-server",
+        "monitoring",
+        "news",
+        "opensource",
+        "osint",
+        "palantir",
+        "situation"
+      ],
+      "forks": 10523,
+      "openIssues": 252,
+      "commits30d": 614,
+      "contributors": 105,
+      "closedIssues30d": 100,
+      "releases90d": 0,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 63,
+        "issueResponse": 100,
+        "releaseCadence": 18,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 88,
+        "externalHeat": 25
+      },
+      "healthScore": 61,
+      "potentialScore": 56,
+      "score": 58,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "koala73/worldmonitor",
+        "purpose": "实时全球情报仪表盘：AI聚合新闻、监控地缘政治和基础设施。提供3D地球、地图图层、国家不稳定指数等，支持本地AI运行。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "可直接访问在线版本（worldmonitor.app等）",
+          "自部署需Node.js和TypeScript环境",
+          "可选：Ollama本地AI无需API密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟（在线版即用）",
+        "suitableFor": "需要实时全球情报、新闻聚合和地缘政治监控的用户，如分析师、记者或关注国际动态的爱好者。",
+        "deploymentSteps": [
+          "直接访问 worldmonitor.app 使用在线版",
+          "或克隆仓库，安装依赖并运行本地服务器",
+          "可选：配置Ollama实现本地AI处理"
+        ],
+        "risks": [
+          "自部署需查阅README了解完整配置步骤"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "stars": 8218,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 70,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "forks": 376,
+      "openIssues": 5,
+      "commits30d": 84,
+      "contributors": 17,
+      "closedIssues30d": 24,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 73,
+        "contributorStrength": 39,
+        "issueResponse": 100,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 71,
+        "externalHeat": 25
+      },
+      "healthScore": 62,
+      "potentialScore": 53,
+      "score": 57,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "ayghri/i-have-adhd",
+        "purpose": "为编程助手（如Claude Code、Codex）添加技能，使其输出更简洁直接：先给答案、步骤编号、无废话。适合ADHD用户或任何希望减少信息干扰的开发者。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需安装Claude Code或Codex等AI编程CLI",
+          "通过插件市场安装，无需克隆仓库"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "使用AI编程助手并希望获得更简洁、直接输出的开发者，尤其适合注意力易分散或偏好高效沟通的用户。",
+        "deploymentSteps": [
+          "在Claude Code中运行 `claude plugin marketplace add ayghri/i-have-adhd`",
+          "运行 `claude plugin install i-have-adhd@i-have-adhd`",
+          "在对话中输入 `/i-have-adhd` 激活技能"
+        ],
+        "risks": [
+          "需查阅README确认其他CLI的安装步骤"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "category": "智能体",
+      "reportedStars": 94106,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 94108,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 572,
+      "language": "Python",
+      "homepage": "https://arxiv.org/pdf/2412.20138",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "forks": 18180,
+      "openIssues": 300,
+      "commits30d": 14,
+      "contributors": 20,
+      "closedIssues30d": 16,
+      "releases90d": 4,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 45,
+        "contributorStrength": 41,
+        "issueResponse": 69,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 52,
+        "externalHeat": 25
+      },
+      "healthScore": 71,
+      "potentialScore": 46,
+      "score": 57,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "TauricResearch/TradingAgents",
+        "purpose": "多智能体金融交易框架，模拟真实交易公司分工：分析师、研究员、交易员、风控等角色协作评估市场并做出交易决策。用于研究和实验。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需Python 3.10+",
+          "需配置LLM API密钥（如OpenAI、Anthropic等）",
+          "需安装依赖（见requirements.txt）",
+          "可选：Docker环境"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "对金融交易和LLM多智能体系统感兴趣的研究者或开发者，用于实验和学术研究，非实际投资建议。",
+        "deploymentSteps": [
+          "克隆仓库并安装Python依赖",
+          "配置LLM API密钥（如设置环境变量）",
+          "运行示例脚本或CLI命令启动交易模拟"
+        ],
+        "risks": [
+          "交易性能受模型、数据质量等因素影响，不构成投资建议",
+          "需查阅README了解完整配置和API密钥要求"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "cloudflare_temp_email",
+      "repo": "dreamhunter2333/cloudflare_temp_email",
+      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+      "stars": 10792,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1072,
+      "language": "TypeScript",
+      "homepage": "https://mail.awsl.uk",
+      "topics": [
+        "cloudflare-email",
+        "cloudflare-pages",
+        "cloudflare-workers",
+        "email",
+        "free"
+      ],
+      "forks": 7287,
+      "openIssues": 31,
+      "commits30d": 8,
+      "contributors": 29,
+      "closedIssues30d": 2,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 36,
+        "contributorStrength": 46,
+        "issueResponse": 25,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 36,
+        "externalHeat": 25
+      },
+      "healthScore": 54,
+      "potentialScore": 43,
+      "score": 48,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "dreamhunter2333/cloudflare_temp_email",
+        "purpose": "基于 Cloudflare 免费服务搭建的临时邮箱系统，支持收发邮件、附件、IMAP/SMTP、Telegram Bot，使用 Rust WASM 解析邮件，速度快且免费。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "需要 Cloudflare 账号（免费版即可）",
+          "需要拥有一个域名并托管到 Cloudflare",
+          "推荐使用 GitHub Actions 自动部署"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "需要临时邮箱服务或自建邮件系统的个人开发者、小团队，希望零成本运行且功能完整。",
+        "deploymentSteps": [
+          "Fork 项目仓库并配置 Cloudflare API 令牌",
+          "在 Cloudflare 中添加域名并设置 DNS",
+          "通过 GitHub Actions 部署 Workers 和 Pages",
+          "配置管理后台和可选功能（如 Telegram Bot）"
+        ],
+        "risks": [
+          "Cloudflare 免费版有每日请求限制",
+          "域名需正确配置 MX 记录，否则无法收信",
+          "可能被滥用，需配置限流和黑名单"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "LEANN",
+      "repo": "StarTrail-org/LEANN",
+      "url": "https://github.com/StarTrail-org/LEANN",
+      "category": "知识库",
+      "reportedStars": 12717,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "stars": 12717,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 409,
+      "language": "Python",
+      "homepage": "https://arxiv.org/abs/2506.08276",
+      "topics": [
+        "ai",
+        "faiss",
+        "gpt-oss",
+        "langchain",
+        "llama-index",
+        "llm",
+        "localstorage",
+        "offline-first",
+        "ollama",
+        "privacy",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "vector-database",
+        "vector-search",
+        "vectors"
+      ],
+      "forks": 1149,
+      "openIssues": 46,
+      "commits30d": 5,
+      "contributors": 42,
+      "closedIssues30d": 4,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 30,
+        "contributorStrength": 51,
+        "issueResponse": 31,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 37,
+        "externalHeat": 25
+      },
+      "healthScore": 46,
+      "potentialScore": 43,
+      "score": 44,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "StarTrail-org/LEANN",
+        "purpose": "轻量级向量数据库，通过图结构选择性重计算实现 97% 存储节省，可在个人设备上运行 RAG 应用，支持文件、邮件、聊天记录等多种数据源，完全离线且保护隐私。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Python 3.9+ 和 uv",
+          "支持 Linux、macOS、Windows（WSL）",
+          "建议至少 8GB 内存，处理大数据集需更多"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "希望在本地设备上构建个人 RAG 系统、索引大量文档且注重隐私的用户，适合个人知识管理和 AI 记忆增强。",
+        "deploymentSteps": [
+          "安装 uv 并克隆仓库",
+          "创建虚拟环境并运行 uv pip install leann",
+          "运行示例脚本（如索引邮件或浏览器历史）"
+        ],
+        "risks": [
+          "首次索引大数据集可能耗时较长",
+          "部分功能（如 DiskANN）需要编译依赖，macOS 需 13.3+"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ai-engineering-from-scratch",
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Learn it. Build it. Ship it for others.",
+      "stars": 42222,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 126,
+      "language": "Python",
+      "homepage": "https://aiengineeringfromscratch.com",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "forks": 7034,
+      "openIssues": 106,
+      "commits30d": 2,
+      "contributors": 8,
+      "closedIssues30d": 1,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 18,
+        "contributorStrength": 30,
+        "issueResponse": 15,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 21,
+        "externalHeat": 25
+      },
+      "healthScore": 33,
+      "potentialScore": 43,
+      "score": 39,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "rohitg00/ai-engineering-from-scratch",
+        "purpose": "免费开源的AI工程课程，包含503节课、20个阶段，覆盖线性代数、深度学习、LLM、代理工程等。每节课产出可复用的提示词、技能包或MCP服务器，支持Python、TypeScript、Rust、Julia。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "需要Python、Node.js等编程环境",
+          "可选安装Claude Code等AI代理以使用内置技能",
+          "建议至少8GB内存用于深度学习实验"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "需查阅README（课程按阶段学习，总约320小时）",
+        "suitableFor": "希望系统学习AI工程原理的开发者，从数学基础到生产部署，适合自学或教学使用。",
+        "deploymentSteps": [
+          "克隆仓库到本地",
+          "根据水平测试选择起始阶段",
+          "按顺序学习课程并完成练习",
+          "使用内置技能在AI代理中测试"
+        ],
+        "risks": [
+          "课程内容量大，需持续投入时间",
+          "部分实验可能需要GPU支持"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Kronos",
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "stars": 32580,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 387,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 5597,
+      "openIssues": 239,
+      "commits30d": 0,
+      "contributors": 19,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 0,
+        "contributorStrength": 40,
+        "issueResponse": 6,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 15,
+        "externalHeat": 25
+      },
+      "healthScore": 29,
+      "potentialScore": 38,
+      "score": 34,
+      "risks": [
+        "近期维护活跃度偏低",
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "shiyu-coder/Kronos",
+        "purpose": "首个开源金融K线基础模型：将OHLCV数据转化为离散token，通过自回归Transformer预测市场走势。支持多交易所、多任务。",
+        "productType": "模型",
+        "deploymentConditions": [
+          "需Python 3.10+",
+          "需安装PyTorch和Hugging Face库",
+          "推荐GPU用于推理和微调"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "金融量化研究者或开发者，希望使用预训练模型进行K线预测、微调或学术研究。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖",
+          "从Hugging Face下载模型和分词器",
+          "运行示例代码进行预测或微调"
+        ],
+        "risks": [
+          "模型仅供研究，不构成投资建议",
+          "需查阅README了解完整使用方法和数据格式"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "ThinkJEPA",
+      "repo": "Hai-chao-Zhang/ThinkJEPA",
+      "url": "https://github.com/Hai-chao-Zhang/ThinkJEPA",
+      "category": "模型",
+      "reportedStars": 46,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model",
+      "stars": 46,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 112,
+      "language": "Python",
+      "homepage": "http://www.zhanghaichao.xyz/ThinkJEPA/",
+      "topics": [
+        "computer-vision",
+        "dexterous-manipulation",
+        "dexterous-robotic-hand",
+        "jepa",
+        "large-language-model",
+        "latent-world-model",
+        "multimodal",
+        "multimodal-reasoning",
+        "reasoning",
+        "representation-learning",
+        "robotics",
+        "self-supervised-learning",
+        "semantic-guidance",
+        "thinkjepa",
+        "video-modeling",
+        "video-representation",
+        "video-understanding",
+        "vision-language-model",
+        "vla",
+        "world-model"
+      ],
+      "forks": 4,
+      "openIssues": 1,
+      "commits30d": 4,
+      "contributors": 1,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 27,
+        "contributorStrength": 9,
+        "issueResponse": 39,
+        "releaseCadence": 0,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 25,
+        "externalHeat": 25
+      },
+      "healthScore": 20,
+      "potentialScore": 44,
+      "score": 34,
+      "risks": [
+        "贡献者集中度较高"
+      ],
+      "deploymentBrief": {
+        "repo": "Hai-chao-Zhang/ThinkJEPA",
+        "purpose": "ThinkJEPA 是一种双路径具身预测框架，结合视觉语言模型（VLM）进行高层语义推理和 JEPA 分支进行低层动力学控制，用于灵巧操作等机器人任务。",
+        "productType": "模型",
+        "deploymentConditions": [
+          "需要 NVIDIA GPU 和 CUDA 12.8+",
+          "需要 Python 3.11+ 和 conda",
+          "需要下载预训练缓存数据（约需 50GB+ 存储）",
+          "需要 Hugging Face 账号并接受数据集访问协议"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "1–2小时（含数据下载）",
+        "suitableFor": "从事机器人、具身 AI 或视频预测研究的科研人员和工程师，需要复现论文结果或进行二次开发。",
+        "deploymentSteps": [
+          "创建 conda 环境并安装 PyTorch 2.10+ 及相关依赖",
+          "从 Hugging Face 下载预处理的缓存数据集",
+          "运行训练脚本 scripts/train.sh"
+        ],
+        "risks": [
+          "需要高性能 GPU（如 A100），显存需求高",
+          "数据下载需科学上网，且数据集较大",
+          "环境配置复杂，依赖版本需严格匹配"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "awesome-claude-skills",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stars": 68742,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 279,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "composio",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "mcp",
+        "openai-codex",
+        "rube",
+        "saas",
+        "skill",
+        "workflow-automation"
+      ],
+      "forks": 7803,
+      "openIssues": 1070,
+      "commits30d": 0,
+      "contributors": 29,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": null,
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 0,
+        "contributorStrength": 46,
+        "issueResponse": 7,
+        "releaseCadence": 0,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 18,
+        "externalHeat": 25
+      },
+      "healthScore": 16,
+      "potentialScore": 42,
+      "score": 31,
+      "risks": [
+        "未检测到明确许可证",
+        "近期维护活跃度偏低",
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "purpose": "精选1000+个Claude技能（Skills）资源列表，涵盖文档处理、开发工具、数据分析等场景。技能包可让Claude执行发送邮件、创建工单等实际操作，支持Claude Code、Codex、Cursor等AI代理。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "需要Claude Code或兼容的AI代理环境",
+          "需要Composio API密钥（免费获取）",
+          "技能包需下载到本地目录"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望扩展Claude等AI代理功能、实现自动化工作流的开发者，尤其是需要连接500+应用（如Slack、GitHub）的团队。",
+        "deploymentSteps": [
+          "克隆或下载技能包仓库",
+          "安装技能插件到Claude Code",
+          "运行设置命令并输入API密钥",
+          "重启Claude Code并测试技能"
+        ],
+        "risks": [
+          "技能质量参差不齐，需自行评估",
+          "部分技能可能依赖外部服务，需保持网络连接"
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
+}

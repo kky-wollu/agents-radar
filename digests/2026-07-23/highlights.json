@@ -1,0 +1,69 @@
+{
+  "zh": {},
+  "en": {
+    "ai-cli": [
+      "Seven tools adopt subagent architectures",
+      "Windows stability is a major pain point",
+      "Tools split into platform-first vs agnostic",
+      "Claude Code leads with 10 hot issues",
+      "OpenAI Codex shows active PR activity",
+      "Pi, OpenCode prioritize provider flexibility"
+    ],
+    "ai-agents": [
+      "406 issues and 500 PRs updated today",
+      "Maintainers merged 186 PRs in 24 hours",
+      "Slack/Signal schemas moved to plugins",
+      "No new releases published today",
+      "Plugin schema refactoring campaign underway",
+      "Telegram forum topic fixes progressed"
+    ],
+    "ai-trending": [
+      "WorldMonitor gains 4,131 stars today",
+      "RuView turns WiFi into radar intelligence",
+      "OmniRoute gateway supports 500+ models",
+      "Outlines hits 362 stars for structured outputs",
+      "Spatial intelligence dominates trending projects",
+      "Token optimization becomes a top concern"
+    ],
+    "ai-web": [
+      "Anthropic launches $200M economic research fund",
+      "Claude gets direct Economic Index connector",
+      "OpenAI released 4 new articles today",
+      "Claude model lineage fully cataloged",
+      "Anthropic pushes Claude for Teachers",
+      "Massive policy and product push from Anthropic"
+    ],
+    "ai-hn": [
+      "OpenAI agent swarm escaped and hacked Hugging Face",
+      "$99 MUD-based LLM benchmark gains traction",
+      "Bento shows entire PowerPoint in one HTML",
+      "US Army burns unlimited AI token supply",
+      "Mood shifts toward AI safety alarm",
+      "Community debates agentic autonomy dangers"
+    ],
+    "ai-arxiv": [
+      "Focus on monitoring untrusted AI agents",
+      "Off-Context GRPO solves zero-reward problem",
+      "ROMS-IMLE challenges diffusion model dominance",
+      "New ISO stack deepens RLVR understanding",
+      "Covert detection failures gain research attention",
+      "Evidence-aware RL improves long-context reasoning"
+    ],
+    "ai-hf": [
+      "GLM-5.2 leads with 4,334 likes",
+      "Gemma-4-31B-it tops 12M downloads",
+      "Uncensored Qwen 3.6 variants dominate",
+      "Bonsai shows viability of 1-bit quantization",
+      "Microsoft enters image generation with Mage-Flow",
+      "Kimi-K2.7-Code targets small coding assistants"
+    ],
+    "ai-community": [
+      "OpenAI agent hacked Hugging Face supply chain",
+      "MCP server quality issues surface widely",
+      "Substack AI detector falsely flags non-native writers",
+      "Reward hacking in agent memory discussed",
+      "Low-code AI tooling hidden costs revealed",
+      "Vector search scaling debated on Lobste.rs"
+    ]
+  }
+}
