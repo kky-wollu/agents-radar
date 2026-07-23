@@ -55,6 +55,11 @@
       "date": "2026-07-21",
       "stars": 86733,
       "growth": 383
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 86992,
+      "growth": 259
     }
   ],
   "firecrawl/firecrawl": [
@@ -321,6 +326,11 @@
       "date": "2026-07-21",
       "stars": 85481,
       "growth": 353
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 85799,
+      "growth": 318
     }
   ],
   "open-compass/opencompass": [
@@ -355,6 +365,11 @@
       "date": "2026-07-20",
       "stars": 61208,
       "growth": 460
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 61553,
+      "growth": 345
     }
   ],
   "headroomlabs-ai/headroom": [
@@ -445,6 +460,11 @@
       "date": "2026-07-23",
       "stars": 218954,
       "growth": 1187
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 219494,
+      "growth": 540
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -472,6 +492,11 @@
       "date": "2026-07-21",
       "stars": 185620,
       "growth": 55
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 185659,
+      "growth": 39
     }
   ],
   "Shubhamsaboo/awesome-llm-apps": [
@@ -501,6 +526,11 @@
       "date": "2026-07-14",
       "stars": 45960,
       "growth": 15
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 46097,
+      "growth": 137
     }
   ],
   "pytorch/pytorch": [
@@ -557,6 +587,11 @@
       "date": "2026-07-21",
       "stars": 176528,
       "growth": 414
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 176731,
+      "growth": 203
     }
   ],
   "open-webui/open-webui": [
@@ -576,6 +611,11 @@
       "date": "2026-07-16",
       "stars": 27011,
       "growth": 143
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 27654,
+      "growth": 643
     }
   ],
   "CopilotKit/CopilotKit": [
@@ -590,6 +630,11 @@
       "date": "2026-07-14",
       "stars": 57056,
       "growth": 0
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 58452,
+      "growth": 1396
     }
   ],
   "OpenCut-app/OpenCut": [
@@ -672,6 +717,11 @@
       "date": "2026-07-21",
       "stars": 85885,
       "growth": 79
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 86119,
+      "growth": 234
     }
   ],
   "OpenHands/OpenHands": [
@@ -928,6 +978,11 @@
       "date": "2026-07-23",
       "stars": 25175,
       "growth": 0
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 27087,
+      "growth": 1912
     }
   ],
   "shiyu-coder/Kronos": [
@@ -935,6 +990,11 @@
       "date": "2026-07-23",
       "stars": 32580,
       "growth": 0
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 33020,
+      "growth": 440
     }
   ],
   "ayghri/i-have-adhd": [
@@ -956,6 +1016,11 @@
       "date": "2026-07-23",
       "stars": 68828,
       "growth": 0
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 71483,
+      "growth": 2655
     }
   ],
   "Hai-chao-Zhang/ThinkJEPA": [
@@ -970,6 +1035,11 @@
       "date": "2026-07-23",
       "stars": 12717,
       "growth": 0
+    },
+    {
+      "date": "2026-07-24",
+      "stars": 12719,
+      "growth": 2
     }
   ],
   "dreamhunter2333/cloudflare_temp_email": [
@@ -977,6 +1047,55 @@
       "date": "2026-07-23",
       "stars": 10792,
       "growth": 0
+    }
+  ],
+  "Mirrowel/LLM-API-Key-Proxy": [
+    {
+      "date": "2026-07-24",
+      "stars": 527,
+      "growth": 0
+    }
+  ],
+  "Panniantong/Agent-Reach": [
+    {
+      "date": "2026-07-24",
+      "stars": 60158,
+      "growth": 0
+    }
+  ],
+  "alibaba/open-code-review": [
+    {
+      "date": "2026-07-24",
+      "stars": 11458,
+      "growth": 265
+    }
+  ],
+  "earthtojake/text-to-cad": [
+    {
+      "date": "2026-07-24",
+      "stars": 9952,
+      "growth": 293
+    }
+  ],
+  "HKUDS/nanobot": [
+    {
+      "date": "2026-07-24",
+      "stars": 46133,
+      "growth": 0
+    }
+  ],
+  "jingyaogong/minimind": [
+    {
+      "date": "2026-07-24",
+      "stars": 53782,
+      "growth": 0
+    }
+  ],
+  "citrolabs/ego-lite": [
+    {
+      "date": "2026-07-24",
+      "stars": 1587,
+      "growth": 219
     }
   ]
 }

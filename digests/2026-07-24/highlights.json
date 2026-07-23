@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode 的“自动发现模型”需求获 187 赞，社区呼声极高",
+      "OpenAI Codex 发布 2 个 Alpha 版本，社区讨论活跃",
+      "Gemini CLI 发布 Nightly 版本，PR 活跃度超 10",
+      "Claude Code 和 Copilot CLI 版本发布节奏放缓",
+      "安全/权限系统误报成为各工具最大痛点",
+      "多代理工作流的可观测性成社区新需求"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目 24 小时产生 351 条 Issue 和 500 条 PR",
+      "P0/P1 级 bug 如会话中断和消息丢失依然顽固",
+      "核心架构重构 PR 被合并，提升代码可维护性",
+      "关键 Bug 修复：CI 和数据库迁移路径问题已解决",
+      "项目处于高负载维护与功能迭代并行阶段",
+      "维护者积极合并 PR，但 Bug 积压可能正在扩大"
+    ],
+    "ai-trending": [
+      "OmniRoute 网关日增 1925 星，支持 290 多家提供商",
+      "Agent-Reach 获 6 万星，赋予 AI Agent 全网浏览能力",
+      "Hermes Agent 以 21.9 万星领跑今日 Agent 框架类",
+      "DeepSeek-Reasonix 破 2.7 万星，优化长时编码",
+      "阿里巴巴开源代码审查工具，混合规则与 LLM Agent",
+      "ZhuLinsen 股票分析系统获 5.8 万星，金融 AI 成亮点"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 4.7，安全约束下裁剪能力",
+      "Claude for Creative Work 发布 Connectors，接入 Adobe 等工具",
+      "Opus 4.7 是 Project Glasswing 安全框架首个实践产物",
+      "Anthropic 三连发，展示安全与产品化的谨慎平衡",
+      "OpenAI 仅更新一篇医疗页面，转向垂直行业深耕",
+      "Claude Opus 4.5 作为旧版本被重新提及"
+    ],
+    "ai-hn": [
+      "OpenAI 与 Anthropic 联手呼吁限制开源模型引发争议",
+      "Echo 项目展示开源模型达顶级水平，成本仅三分之一",
+      "Show HN：OneCLI 解决 AI Agent 密钥管理核心痛点",
+      "Stripe 拟天价收购 AI 模型市场 OpenRouter",
+      "Claude-thermos 项目可保持 Claude 会话持续活跃",
+      "开源视频编辑器 Palmier Pro 深度集成 AI 能力"
+    ],
+    "ai-arxiv": [
+      "LKValues 构建斯里兰卡语境价值观对齐基准",
+      "SoftReason 提出全可微分的神经-软符号推理架构",
+      "PoTRE 受认知异质性启发增强长程规划能力",
+      "Sound Probabilistic Safety Bounds 提供严格安全边界",
+      "Maskability Index 量化提示与预训练任务匹配度",
+      "Exposure is Optional 挑战语言学传统并列观点"
+    ],
+    "ai-hf": [
+      "GLM-5.2 凭借 MoE 架构和 4364 点赞成社区焦点",
+      "Gemma-4-31B-it 下载量超 1266 万，谷歌强力基础模型",
+      "百度 Unlimited-OCR 下载量超 241 万，识别能力强大",
+      "Qwen3-TTS 支持自定义音色，下载量近 250 万",
+      "Solar-Open2-250B 2500 亿参数开源，代表高端趋势",
+      "Motif-3-Beta 探索新型特征提取技术，创新方向"
+    ],
+    "ai-community": [
+      "AI Agent 肮脏秘密被戳破，引发 42 条社区热议",
+      "开发者用小型 Go 分类器替代 7B 模型，降本增效",
+      "过度依赖安全护栏会限制 AI 能力，呼吁关注治理",
+      "AI 端点如何从根本上变革传统 API 设计和调用",
+      "开发者分享削减 95% 上下文技巧，提升 AI 编码效率",
+      "后 AI 热时期，Lobste.rs 转向传统编程语言思考"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows remains weakest link across ecosystem",
+      "Security hardening PRs signal reliability shift",
+      "Claude Code documentation 100+ days stale",
+      "OpenAI Codex released v0.146.0-alpha",
+      "Permission system reliability dominates concerns",
+      "Platform stability issues across all tools"
+    ],
+    "ai-agents": [
+      "OpenClaw at 351 issues, 500 PRs today",
+      "184 PRs merged, prepping new release",
+      "P0 gateway startup regression still open",
+      "37% of PRs merged or closed",
+      "2026.7.2-beta.3 latest available version",
+      "Telegram DM and tool schema issues persist"
+    ],
+    "ai-trending": [
+      "Hermes-Agent hits 219,492 stars",
+      "Production AI gateways top trending",
+      "Finance foundation model Kronos gains traction",
+      "RuView non-visual spatial intelligence emerges",
+      "ECC evaluation framework sees major adoption",
+      "OmniRoute leads agent infrastructure shift"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7 introduces safety-first policy",
+      "Claude Mythos Preview reduces cyber capabilities",
+      "Claude targets Adobe, Ableton, Autodesk integration",
+      "Anthropic released 3 new articles today",
+      "OpenAI published health-related initiative link",
+      "Claude Opus 4.5 lowered pricing to $5/$25"
+    ],
+    "ai-hn": [
+      "OpenAI and Anthropic unite against open models",
+      "Community calls lobbying threat to open science",
+      "Echo claims Fable-level results at 1/3 cost",
+      "Users question OpenAI no consequences for hack",
+      "Show HN projects focus on developer ergonomics",
+      "272 points on open-weight AI security debate"
+    ],
+    "ai-arxiv": [
+      "LKValues aligns LLMs with Sri Lankan values",
+      "SLM-LLM collaborative inference framework proposed",
+      "License laundering studied across Hugging Face",
+      "Fully differentiable neuro-symbolic architectures emerge",
+      "Quantum kernel diagnostics applied to ML",
+      "Probabilistic safety bounds proven for LLMs"
+    ],
+    "ai-hf": [
+      "Bonsai-27B 1-bit variant hits 1.9M downloads",
+      "Google Gemma-4-31B-it tops 12.6M downloads",
+      "GLM-5.2 MoE model gets 4.3K weekly likes",
+      "Qwen3.6 fine-tunes rapidly proliferate",
+      "7 of top 10 models are multimodal",
+      "Extreme quantization trend dominates landscape"
+    ]
+  }
+}
