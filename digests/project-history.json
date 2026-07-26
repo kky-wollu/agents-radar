@@ -60,6 +60,11 @@
       "date": "2026-07-24",
       "stars": 86992,
       "growth": 259
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 87237,
+      "growth": 245
     }
   ],
   "firecrawl/firecrawl": [
@@ -231,6 +236,11 @@
       "date": "2026-07-21",
       "stars": 48801,
       "growth": 38
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 49020,
+      "growth": 219
     }
   ],
   "santifer/career-ops": [
@@ -331,6 +341,11 @@
       "date": "2026-07-24",
       "stars": 85799,
       "growth": 318
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 86058,
+      "growth": 259
     }
   ],
   "open-compass/opencompass": [
@@ -370,6 +385,11 @@
       "date": "2026-07-24",
       "stars": 61553,
       "growth": 345
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 61767,
+      "growth": 214
     }
   ],
   "headroomlabs-ai/headroom": [
@@ -497,6 +517,11 @@
       "date": "2026-07-24",
       "stars": 185659,
       "growth": 39
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 185698,
+      "growth": 39
     }
   ],
   "Shubhamsaboo/awesome-llm-apps": [
@@ -570,6 +595,11 @@
       "date": "2026-07-21",
       "stars": 45284,
       "growth": 60
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 45388,
+      "growth": 104
     }
   ],
   "ollama/ollama": [
@@ -623,6 +653,11 @@
       "date": "2026-07-14",
       "stars": 35999,
       "growth": 0
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 36295,
+      "growth": 296
     }
   ],
   "ZhuLinsen/daily_stock_analysis": [
@@ -695,6 +730,11 @@
       "date": "2026-07-21",
       "stars": 105745,
       "growth": 988
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 106906,
+      "growth": 1161
     }
   ],
   "PaddlePaddle/PaddleOCR": [
@@ -722,6 +762,11 @@
       "date": "2026-07-24",
       "stars": 86119,
       "growth": 234
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 86282,
+      "growth": 163
     }
   ],
   "OpenHands/OpenHands": [
@@ -802,6 +847,11 @@
       "date": "2026-07-20",
       "stars": 6050,
       "growth": 0
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 6092,
+      "growth": 42
     }
   ],
   "github/copilot-sdk": [
@@ -936,6 +986,11 @@
       "date": "2026-07-21",
       "stars": 33444,
       "growth": 0
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 33599,
+      "growth": 155
     }
   ],
   "tensorflow/tensorflow": [
@@ -995,6 +1050,11 @@
       "date": "2026-07-24",
       "stars": 33020,
       "growth": 440
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 34146,
+      "growth": 1126
     }
   ],
   "ayghri/i-have-adhd": [
@@ -1068,6 +1128,11 @@
       "date": "2026-07-24",
       "stars": 11458,
       "growth": 265
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 13742,
+      "growth": 2284
     }
   ],
   "earthtojake/text-to-cad": [
@@ -1082,6 +1147,11 @@
       "date": "2026-07-24",
       "stars": 46133,
       "growth": 0
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 46268,
+      "growth": 135
     }
   ],
   "jingyaogong/minimind": [
@@ -1089,6 +1159,11 @@
       "date": "2026-07-24",
       "stars": 53782,
       "growth": 0
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 53864,
+      "growth": 82
     }
   ],
   "citrolabs/ego-lite": [
@@ -1096,6 +1171,53 @@
       "date": "2026-07-24",
       "stars": 1587,
       "growth": 219
+    },
+    {
+      "date": "2026-07-27",
+      "stars": 4428,
+      "growth": 2841
+    }
+  ],
+  "andrewyng/aisuite": [
+    {
+      "date": "2026-07-27",
+      "stars": 15385,
+      "growth": 0
+    }
+  ],
+  "pbakaus/impeccable": [
+    {
+      "date": "2026-07-27",
+      "stars": 50615,
+      "growth": 0
+    }
+  ],
+  "OtterMind/Chat2DB": [
+    {
+      "date": "2026-07-27",
+      "stars": 27077,
+      "growth": 0
+    }
+  ],
+  "anthropics/claude-cookbooks": [
+    {
+      "date": "2026-07-27",
+      "stars": 50206,
+      "growth": 0
+    }
+  ],
+  "harry0703/MoneyPrinterTurbo": [
+    {
+      "date": "2026-07-27",
+      "stars": 99408,
+      "growth": 0
+    }
+  ],
+  "HKUDS/LightRAG": [
+    {
+      "date": "2026-07-27",
+      "stars": 38186,
+      "growth": 0
     }
   ]
 }

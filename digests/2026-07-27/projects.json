@@ -1,0 +1,1751 @@
+{
+  "generated": "2026-07-26T23:08:53.403Z",
+  "date": "2026-07-27",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "nanobot",
+      "repo": "HKUDS/nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "category": "智能体",
+      "reportedStars": 46268,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+      "stars": 46268,
+      "dailyGrowth": 135,
+      "acceleration": 135,
+      "ageDays": 176,
+      "language": "Python",
+      "homepage": "https://nanobot.wiki",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "llm",
+        "nanobot",
+        "openai",
+        "openclaw"
+      ],
+      "forks": 8192,
+      "openIssues": 824,
+      "commits30d": 508,
+      "contributors": 406,
+      "closedIssues30d": 100,
+      "releases90d": 5,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 81,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 85,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 94,
+        "externalHeat": 25
+      },
+      "healthScore": 96,
+      "potentialScore": 78,
+      "score": 86,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "HKUDS/nanobot",
+        "purpose": "超轻量级个人AI智能体运行时，支持WebUI、终端、Telegram、Discord等多渠道交互。提供工具调用、记忆、MCP协议、模型路由、自动化任务等功能，可自托管运行。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Python 3.11或更高版本",
+          "需要LLM API密钥",
+          "可选：连接聊天应用（Telegram、Discord等）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望拥有自托管个人AI助手的开发者，需要持久化工作流和多渠道接入。",
+        "deploymentSteps": [
+          "使用pip install nanobot-ai安装",
+          "配置LLM API密钥和其他设置（参考文档）",
+          "启动WebUI或终端交互",
+          "可选：连接聊天应用（如Telegram）"
+        ],
+        "risks": [
+          "需自行配置和管理LLM API密钥",
+          "长期运行需考虑服务器资源"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "CherryStudio",
+      "repo": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "category": "智能体",
+      "reportedStars": 49020,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stars": 49020,
+      "dailyGrowth": 219,
+      "acceleration": 181,
+      "ageDays": 794,
+      "language": "TypeScript",
+      "homepage": "https://cherryai.com",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "awesome-skills",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "hermes-agent",
+        "openclaw",
+        "skills",
+        "vibe-coding"
+      ],
+      "forks": 4670,
+      "openIssues": 1203,
+      "commits30d": 569,
+      "contributors": 406,
+      "closedIssues30d": 100,
+      "releases90d": 9,
+      "license": "AGPL-3.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 81,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 91,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 94,
+        "externalHeat": 25
+      },
+      "healthScore": 96,
+      "potentialScore": 76,
+      "score": 84,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "CherryHQ/cherry-studio",
+        "purpose": "跨平台AI桌面客户端，支持多种LLM提供商（OpenAI、Gemini、Anthropic等），内置300+预配置AI助手，提供智能对话、文档处理、翻译、代码高亮等功能，无需环境配置即可使用。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "Windows、Mac或Linux操作系统",
+          "从GitHub Releases下载安装包",
+          "无需额外环境配置"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "2–5分钟",
+        "suitableFor": "需要统一管理多个LLM服务的普通用户和开发者，追求开箱即用的桌面AI助手。",
+        "deploymentSteps": [
+          "访问GitHub Releases页面下载对应系统的安装包",
+          "运行安装程序完成安装",
+          "启动应用，配置LLM API密钥即可使用"
+        ],
+        "risks": [
+          "需自行提供LLM API密钥",
+          "桌面应用仅支持单用户模式"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "open-code-review",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 13742,
+      "dailyGrowth": 2284,
+      "acceleration": 2019,
+      "ageDays": 70,
+      "language": "Go",
+      "homepage": "https://open-codereview.ai",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "forks": 939,
+      "openIssues": 58,
+      "commits30d": 168,
+      "contributors": 70,
+      "closedIssues30d": 69,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 85,
+        "contributorStrength": 57,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 81,
+        "externalHeat": 25
+      },
+      "healthScore": 88,
+      "potentialScore": 79,
+      "score": 83,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "alibaba/open-code-review",
+        "purpose": "阿里巴巴开源的AI代码审查CLI工具，结合确定性流水线和LLM智能体，提供精确到行级的审查评论。内置NPE、线程安全、XSS、SQL注入等规则集，支持OpenAI和Anthropic兼容接口。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Node.js环境（通过npm安装）",
+          "需要配置LLM模型端点（如OpenAI或Anthropic API密钥）",
+          "支持Windows、macOS、Linux"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "需要自动化代码审查的团队或个人开发者，希望获得比通用AI代理更精准、更低成本的审查结果。",
+        "deploymentSteps": [
+          "通过npm全局安装：npm install -g @alibaba-group/open-code-review",
+          "配置LLM API密钥（如设置OPENAI_API_KEY环境变量）",
+          "在Git仓库中运行ocr review命令审查当前分支的diff",
+          "可选：运行ocr scan命令审查整个文件或目录"
+        ],
+        "risks": [
+          "需要有效的LLM API密钥，可能产生费用",
+          "审查质量依赖所选模型，建议使用GPT-4或Claude 3.5等高性能模型"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "CopilotKit",
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "category": "智能体",
+      "reportedStars": 36295,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "stars": 36295,
+      "dailyGrowth": 296,
+      "acceleration": 296,
+      "ageDays": 1134,
+      "language": "TypeScript",
+      "homepage": "https://docs.copilotkit.ai",
+      "topics": [
+        "agent",
+        "agent-native",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agent",
+        "ai-assistant",
+        "assistant",
+        "assistant-chat-bots",
+        "copilot",
+        "copilot-chat",
+        "generative-ui",
+        "js",
+        "llm",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "ts",
+        "typescript"
+      ],
+      "forks": 4479,
+      "openIssues": 375,
+      "commits30d": 1302,
+      "contributors": 211,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 72,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 94,
+        "acceleration": 100,
+        "projectAge": 58,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 74,
+      "score": 82,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "CopilotKit/CopilotKit",
+        "purpose": "全栈智能体应用开发SDK，支持React、Angular、Vue、React Native等多平台。提供生成式UI、共享状态、人机协作工作流，让开发者快速为应用添加AI聊天、工具调用和动态界面。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Node.js环境",
+          "需要LLM API密钥（如OpenAI、Anthropic等）",
+          "推荐使用npx命令创建项目"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "前端开发者，希望为Web或移动应用快速集成AI智能体功能，支持多框架。",
+        "deploymentSteps": [
+          "运行npx copilotkit@latest create创建新项目",
+          "按照提示配置LLM API密钥",
+          "在项目中集成CopilotKit组件并自定义UI",
+          "部署到生产环境（需自行托管）"
+        ],
+        "risks": [
+          "需自行管理LLM API密钥和费用",
+          "高级功能（如自学习）需额外配置或付费"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "milvus",
+      "repo": "milvus-io/milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "category": "知识库",
+      "reportedStars": 45388,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "stars": 45388,
+      "dailyGrowth": 104,
+      "acceleration": 44,
+      "ageDays": 2506,
+      "language": "Go",
+      "homepage": "https://milvus.io",
+      "topics": [
+        "anns",
+        "cloud-native",
+        "diskann",
+        "distributed",
+        "embedding-database",
+        "embedding-similarity",
+        "embedding-store",
+        "faiss",
+        "golang",
+        "hnsw",
+        "image-search",
+        "llm",
+        "nearest-neighbor-search",
+        "rag",
+        "vector-database",
+        "vector-search",
+        "vector-similarity",
+        "vector-store"
+      ],
+      "forks": 4142,
+      "openIssues": 1160,
+      "commits30d": 241,
+      "contributors": 364,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 91,
+        "contributorStrength": 79,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 83,
+        "acceleration": 100,
+        "projectAge": 58,
+        "communityActivity": 90,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 71,
+      "score": 81,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "milvus-io/milvus",
+        "purpose": "高性能云原生向量数据库，专为大规模向量近似搜索设计，支持CPU/GPU加速，可水平扩展，适用于AI应用中的非结构化数据（文本、图像等）的存储与检索。",
+        "productType": "数据基础设施",
+        "deploymentConditions": [
+          "需要Docker环境（推荐）或Kubernetes集群",
+          "至少4GB内存，推荐16GB以上",
+          "生产环境需配置对象存储（如MinIO、S3）和元数据存储（如etcd）",
+          "GPU加速需NVIDIA驱动和CUDA工具包"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "需要构建大规模向量搜索或RAG应用的团队，熟悉容器化部署和分布式系统。",
+        "deploymentSteps": [
+          "使用Docker Compose启动Milvus standalone模式：下载docker-compose.yml并运行docker compose up -d",
+          "验证服务：通过curl http://localhost:9091/health检查健康状态",
+          "安装Python SDK：pip install pymilvus，并连接客户端测试插入和搜索"
+        ],
+        "risks": [
+          "分布式部署配置复杂，需仔细阅读官方文档",
+          "性能调优依赖索引类型和硬件配置，需查阅README",
+          "生产环境需配置持久化存储和备份策略"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "browser-use",
+      "repo": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "智能体",
+      "reportedStars": 106906,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "stars": 106906,
+      "dailyGrowth": 1161,
+      "acceleration": 173,
+      "ageDays": 633,
+      "language": "Python",
+      "homepage": "https://browser-use.com",
+      "topics": [
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "browser-use",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "forks": 11744,
+      "openIssues": 330,
+      "commits30d": 165,
+      "contributors": 334,
+      "closedIssues30d": 17,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 84,
+        "contributorStrength": 78,
+        "issueResponse": 73,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 78,
+        "externalHeat": 25
+      },
+      "healthScore": 87,
+      "potentialScore": 75,
+      "score": 80,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "browser-use/browser-use",
+        "purpose": "让AI智能体像人一样操作浏览器：打开网页、点击按钮、填写表单、提取数据。开发者只需描述任务，智能体即可自动完成在线操作，适用于表单填写、数据抓取、QA自动化等场景。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.11或更高版本",
+          "需要LLM API密钥（如OpenAI、Anthropic等）",
+          "推荐使用uv或pip安装"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望用AI自动化浏览器操作的开发者，适合快速集成到现有Python项目中。",
+        "deploymentSteps": [
+          "使用uv add browser-use或pip install browser-use安装库",
+          "在.env文件中配置LLM API密钥（如BROWSER_USE_API_KEY）",
+          "编写Python脚本，导入Agent并运行任务"
+        ],
+        "risks": [
+          "需自行提供LLM API密钥，可能产生费用",
+          "浏览器自动化可能受网站反爬机制影响"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "vllm",
+      "repo": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "模型",
+      "reportedStars": 87235,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "stars": 87237,
+      "dailyGrowth": 245,
+      "acceleration": -14,
+      "ageDays": 1263,
+      "language": "Python",
+      "homepage": "https://vllm.ai",
+      "topics": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "gpt",
+        "gpt-oss",
+        "inference",
+        "kimi",
+        "llama",
+        "llm",
+        "llm-serving",
+        "model-serving",
+        "moe",
+        "openai",
+        "pytorch",
+        "qwen",
+        "qwen3",
+        "tpu",
+        "transformer"
+      ],
+      "forks": 19888,
+      "openIssues": 6102,
+      "commits30d": 1016,
+      "contributors": 3069,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 100,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 92,
+        "acceleration": 22,
+        "projectAge": 58,
+        "communityActivity": 100,
+        "externalHeat": 25
+      },
+      "healthScore": 100,
+      "potentialScore": 59,
+      "score": 76,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "vllm-project/vllm",
+        "purpose": "高性能LLM推理和服务引擎，通过PagedAttention等技术实现高吞吐、低延迟的模型部署，支持200+模型架构和多种量化方式。",
+        "productType": "数据基础设施",
+        "deploymentConditions": [
+          "Python 3.8+ 和 CUDA环境",
+          "至少一块NVIDIA GPU（推荐A100或以上）",
+          "需安装vLLM库：pip install vllm",
+          "需下载目标模型权重（如Llama、Qwen等）"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "需要高效部署和推理LLM的团队，如构建聊天机器人、API服务等，具备GPU服务器运维经验。",
+        "deploymentSteps": [
+          "安装vLLM：pip install vllm",
+          "下载模型权重（如从Hugging Face）",
+          "启动API服务器：python -m vllm.entrypoints.openai.api_server --model /path/to/model",
+          "通过OpenAI兼容API调用模型"
+        ],
+        "risks": [
+          "GPU显存不足可能导致OOM，需根据模型大小选择合适GPU",
+          "首次加载模型需下载权重，耗时较长",
+          "生产部署需考虑负载均衡和容错"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ragflow",
+      "repo": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "category": "知识库",
+      "reportedStars": 86058,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stars": 86058,
+      "dailyGrowth": 259,
+      "acceleration": -59,
+      "ageDays": 958,
+      "language": "Go",
+      "homepage": "https://ragflow.io",
+      "topics": [
+        "agent-harness",
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents",
+        "context-engine",
+        "context-engineering",
+        "context-management",
+        "harness-engineering",
+        "knowledge-compilation",
+        "llm-apps",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "forks": 10083,
+      "openIssues": 2064,
+      "commits30d": 695,
+      "contributors": 689,
+      "closedIssues30d": 100,
+      "releases90d": 9,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 88,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 93,
+        "acceleration": 0,
+        "projectAge": 72,
+        "communityActivity": 96,
+        "externalHeat": 25
+      },
+      "healthScore": 98,
+      "potentialScore": 57,
+      "score": 74,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "infiniflow/ragflow",
+        "purpose": "开源RAG引擎，结合检索增强生成与Agent能力，提供深度文档理解、模板化分块、可追溯引用等功能，为LLM构建高质量上下文层。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "Docker环境（推荐）",
+          "至少4核CPU和8GB内存",
+          "需要LLM API密钥（如OpenAI、DeepSeek等）",
+          "需配置向量数据库（如Elasticsearch）"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "企业级RAG应用开发者，需要处理复杂文档并构建知识库问答系统，具备Docker和数据库运维经验。",
+        "deploymentSteps": [
+          "克隆仓库并运行docker-compose up -d启动服务",
+          "访问Web界面，配置LLM和向量数据库连接",
+          "上传文档并选择分块模板",
+          "创建知识库并测试问答"
+        ],
+        "risks": [
+          "Docker部署需确保端口不冲突",
+          "文档解析质量依赖所选模型和模板",
+          "大规模文档处理可能消耗较多资源"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "qdrant",
+      "repo": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "category": "知识库",
+      "reportedStars": 33599,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "stars": 33599,
+      "dailyGrowth": 155,
+      "acceleration": 155,
+      "ageDays": 2248,
+      "language": "Rust",
+      "homepage": "https://qdrant.tech",
+      "topics": [
+        "ai-search",
+        "ai-search-engine",
+        "embeddings-similarity",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "knn-algorithm",
+        "machine-learning",
+        "mlops",
+        "nearest-neighbor-search",
+        "neural-network",
+        "neural-search",
+        "recommender-system",
+        "search",
+        "search-engine",
+        "search-engines",
+        "similarity-search",
+        "vector-database",
+        "vector-search",
+        "vector-search-engine"
+      ],
+      "forks": 2524,
+      "openIssues": 643,
+      "commits30d": 2,
+      "contributors": 173,
+      "closedIssues30d": 30,
+      "releases90d": 4,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 18,
+        "contributorStrength": 69,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 87,
+        "acceleration": 100,
+        "projectAge": 58,
+        "communityActivity": 62,
+        "externalHeat": 25
+      },
+      "healthScore": 77,
+      "potentialScore": 66,
+      "score": 71,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "qdrant/qdrant",
+        "purpose": "高性能向量相似度搜索引擎和数据库，用Rust编写，支持丰富的过滤和混合搜索，适用于神经网络匹配、语义搜索、推荐系统等场景。",
+        "productType": "数据基础设施",
+        "deploymentConditions": [
+          "需要Docker环境",
+          "默认端口6333，确保未被占用",
+          "生产环境需配置安全认证和持久化存储"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "需要快速部署向量搜索服务的个人开发者或小团队，熟悉Docker基本操作。",
+        "deploymentSteps": [
+          "运行Docker容器：docker run -p 6333:6333 qdrant/qdrant",
+          "验证服务：访问http://localhost:6333/dashboard或使用curl检查",
+          "安装Python客户端：pip install qdrant-client，连接并创建集合"
+        ],
+        "risks": [
+          "默认无认证，生产环境需参考安全指南配置",
+          "大规模部署需考虑分片和复制，需查阅README"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ego-lite",
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "stars": 4428,
+      "dailyGrowth": 2841,
+      "acceleration": 2622,
+      "ageDays": 101,
+      "language": "JavaScript",
+      "homepage": "https://lite.ego.app",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "browser",
+        "skills",
+        "skills-sh"
+      ],
+      "forks": 220,
+      "openIssues": 41,
+      "commits30d": 73,
+      "contributors": 7,
+      "closedIssues30d": 6,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 71,
+        "contributorStrength": 28,
+        "issueResponse": 40,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 46,
+        "externalHeat": 25
+      },
+      "healthScore": 68,
+      "potentialScore": 72,
+      "score": 70,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "citrolabs/ego-lite",
+        "purpose": "专为AI智能体设计的浏览器，让AI代理在独立空间中并行运行网页自动化任务，同时保留你的浏览标签不受干扰。支持共享登录状态，零配置，免费使用。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "仅支持macOS系统（Apple Silicon或Intel）",
+          "需下载.dmg安装包并手动安装",
+          "Windows和Linux版本尚在规划中"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "需要让AI代理（如Claude Code、Codex）在后台执行网页自动化任务，同时自己正常浏览网页的开发者。",
+        "deploymentSteps": [
+          "从GitHub Releases或官网下载对应macOS版本的.dmg文件",
+          "打开.dmg文件，将应用拖入Applications文件夹完成安装",
+          "首次启动时选择是否迁移Chrome数据，让AI代理继承你的登录状态",
+          "在AI代理CLI中使用/ego-browser命令开始执行任务"
+        ],
+        "risks": [
+          "目前仅支持macOS，其他系统用户需等待",
+          "Chrome数据迁移涉及隐私，需确认是否信任应用"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "LightRAG",
+      "repo": "HKUDS/LightRAG",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "category": "知识库",
+      "reportedStars": 38186,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "stars": 38186,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 662,
+      "language": "Python",
+      "homepage": "https://arxiv.org/abs/2410.05779",
+      "topics": [
+        "genai",
+        "gpt",
+        "gpt-4",
+        "graphrag",
+        "knowledge-graph",
+        "large-language-models",
+        "llm",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "forks": 5371,
+      "openIssues": 239,
+      "commits30d": 408,
+      "contributors": 298,
+      "closedIssues30d": 22,
+      "releases90d": 8,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 99,
+        "contributorStrength": 77,
+        "issueResponse": 94,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 90,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 53,
+      "score": 70,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "HKUDS/LightRAG",
+        "purpose": "简单快速的检索增强生成框架，基于知识图谱提升LLM回答的准确性和上下文相关性，支持多种存储后端和分块策略。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10及以上环境",
+          "需要LLM API密钥（如OpenAI）或本地模型",
+          "可选：Docker用于本地部署嵌入和重排序后端"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望快速为LLM应用添加RAG能力的开发者，熟悉Python和API调用。",
+        "deploymentSteps": [
+          "安装LightRAG：pip install lightrag-hku",
+          "设置LLM API密钥（如OPENAI_API_KEY）",
+          "编写Python脚本初始化LightRAG，插入文档并执行查询"
+        ],
+        "risks": [
+          "依赖外部LLM服务，需考虑API成本和可用性",
+          "大规模数据处理需配置合适的存储后端（如OpenSearch）"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "mem0",
+      "repo": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "知识库",
+      "reportedStars": 61767,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Universal memory layer for AI Agents",
+      "stars": 61767,
+      "dailyGrowth": 214,
+      "acceleration": -131,
+      "ageDays": 1133,
+      "language": "TypeScript",
+      "homepage": "https://mem0.ai",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "application",
+        "chatbots",
+        "chatgpt",
+        "genai",
+        "llm",
+        "long-term-memory",
+        "memory",
+        "memory-management",
+        "python",
+        "rag",
+        "state-management"
+      ],
+      "forks": 7200,
+      "openIssues": 731,
+      "commits30d": 120,
+      "contributors": 389,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 79,
+        "contributorStrength": 80,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 91,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 86,
+        "externalHeat": 25
+      },
+      "healthScore": 92,
+      "potentialScore": 52,
+      "score": 69,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "mem0ai/mem0",
+        "purpose": "为AI助手和智能体提供通用记忆层，实现个性化交互，支持多层级记忆（用户、会话、智能体），持续学习用户偏好。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.8+或Node.js环境",
+          "可选：自托管服务器需Docker和docker compose",
+          "云平台需注册获取API密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–15分钟",
+        "suitableFor": "需要为AI应用添加长期记忆功能的开发者，快速集成到现有聊天机器人或智能体中。",
+        "deploymentSteps": [
+          "安装Python SDK：pip install mem0ai",
+          "初始化Mem0客户端并配置LLM（如OpenAI）",
+          "调用add方法存储记忆，search方法检索"
+        ],
+        "risks": [
+          "自托管版本需配置数据库（默认Qdrant），需查阅README",
+          "高级功能（如混合搜索）需安装额外依赖"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The design language that makes your AI harness better at design.",
+      "stars": 50615,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 253,
+      "language": "JavaScript",
+      "homepage": "https://impeccable.style",
+      "topics": [],
+      "forks": 2984,
+      "openIssues": 40,
+      "commits30d": 340,
+      "contributors": 39,
+      "closedIssues30d": 37,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 96,
+        "contributorStrength": 50,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 82,
+        "externalHeat": 25
+      },
+      "healthScore": 89,
+      "potentialScore": 55,
+      "score": 69,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "pbakaus/impeccable",
+        "purpose": "为AI编码智能体提供设计指导的工具，包含23个命令和60条确定性检测规则。帮助AI生成的前端设计避免常见模式（如过度使用卡片、灰色文字等），提升设计质量。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Node.js环境（通过npx运行）",
+          "支持Claude Code、Cursor、Codex、Grok Build等AI编码工具",
+          "无需API密钥，确定性规则本地运行"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "使用AI编码工具生成前端界面的开发者，希望改善AI生成的设计质量，避免千篇一律的模板风格。",
+        "deploymentSteps": [
+          "在项目根目录运行npx impeccable install",
+          "选择要安装的AI编码工具（如claude、cursor）",
+          "在AI工具中运行/impeccable init进行初始化设置",
+          "使用/impeccable <命令> <目标>进行设计优化"
+        ],
+        "risks": [
+          "需要AI编码工具支持技能安装，部分工具可能需要额外配置",
+          "设计指导效果依赖AI模型的理解能力"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "atomic-agents",
+      "repo": "Eigenwise/atomic-agents",
+      "url": "https://github.com/Eigenwise/atomic-agents",
+      "category": "模型",
+      "reportedStars": 6092,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Building AI agents, atomically",
+      "stars": 6092,
+      "dailyGrowth": 42,
+      "acceleration": 42,
+      "ageDays": 784,
+      "language": "Python",
+      "homepage": "https://eigenwise.github.io/atomic-agents/",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "large-language-model",
+        "large-language-models",
+        "llms",
+        "openai",
+        "openai-api"
+      ],
+      "forks": 516,
+      "openIssues": 5,
+      "commits30d": 33,
+      "contributors": 39,
+      "closedIssues30d": 7,
+      "releases90d": 4,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 58,
+        "contributorStrength": 50,
+        "issueResponse": 54,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 72,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 54,
+        "externalHeat": 25
+      },
+      "healthScore": 72,
+      "potentialScore": 65,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Eigenwise/atomic-agents",
+        "purpose": "轻量级模块化AI Agent框架，基于原子化设计原则，提供可组合、可复用的Agent组件，支持多种LLM提供商。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.9+",
+          "需要至少一个LLM API密钥（如OpenAI、Anthropic等）",
+          "安装atomic-agents库：pip install atomic-agents"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望快速构建AI Agent应用的开发者，熟悉Python和Pydantic即可。",
+        "deploymentSteps": [
+          "安装atomic-agents库及对应provider（如instructor[openai]）",
+          "设置API密钥环境变量",
+          "编写Agent配置和自定义输出Schema",
+          "运行Agent实例，传入输入并获取结构化输出"
+        ],
+        "risks": [
+          "API调用产生费用，需注意用量",
+          "框架较新，文档和社区支持可能有限"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "autoGPT",
+      "repo": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "category": "智能体",
+      "reportedStars": 185698,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 185698,
+      "dailyGrowth": 39,
+      "acceleration": 0,
+      "ageDays": 1229,
+      "language": "Python",
+      "homepage": "https://agpt.co",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "forks": 46068,
+      "openIssues": 493,
+      "commits30d": 102,
+      "contributors": 833,
+      "closedIssues30d": 18,
+      "releases90d": 10,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 76,
+        "contributorStrength": 91,
+        "issueResponse": 75,
+        "releaseCadence": 100,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 72,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 81,
+        "externalHeat": 25
+      },
+      "healthScore": 73,
+      "potentialScore": 57,
+      "score": 64,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "Significant-Gravitas/AutoGPT",
+        "purpose": "开源AI智能体平台，让你用自然语言描述任务，自动构建并运行智能体完成完整工作流。提供托管平台和自托管两种方式，支持45+集成平台和数百种AI模型。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "托管平台：注册账号即可使用，无需基础设施",
+          "自托管：需要Docker环境，提供基础设施和模型API密钥",
+          "支持macOS、Linux、Windows"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟（自托管）",
+        "suitableFor": "希望用AI智能体自动化复杂工作流的个人或团队，从简单任务到多步骤业务流程均可。",
+        "deploymentSteps": [
+          "托管平台：访问platform.agpt.co注册账号",
+          "自托管：运行一键安装脚本（curl或PowerShell）",
+          "配置模型API密钥（如OpenAI）",
+          "通过AutoPilot用自然语言描述任务，或使用Build可视化编辑器构建工作流"
+        ],
+        "risks": [
+          "托管平台为付费服务，按使用量计费",
+          "自托管需要自行维护基础设施和模型费用",
+          "复杂智能体可能消耗大量API调用费用"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "category": "应用",
+      "reportedStars": 99407,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "stars": 99408,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 868,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow",
+        "workflow-automation",
+        "youtube-shorts"
+      ],
+      "forks": 14746,
+      "openIssues": 7,
+      "commits30d": 44,
+      "contributors": 79,
+      "closedIssues30d": 39,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 63,
+        "contributorStrength": 59,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 74,
+        "externalHeat": 25
+      },
+      "healthScore": 84,
+      "potentialScore": 50,
+      "score": 64,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "purpose": "利用AI大模型和自动化工作流，根据主题或关键词一键生成高清短视频，自动完成脚本、素材匹配、字幕和背景音乐合成。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "Python 3.11 或更高版本",
+          "需要配置大模型API密钥（如Kimi、OpenAI等）",
+          "需要安装FFmpeg用于视频处理",
+          "建议至少4GB内存"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "内容创作者、短视频运营者、希望快速生成视频的个人或团队，具备基本Python环境配置能力。",
+        "deploymentSteps": [
+          "克隆仓库并安装Python依赖：pip install -r requirements.txt",
+          "配置环境变量，填入大模型API密钥和素材源",
+          "运行Web服务：python app.py，访问本地端口",
+          "在Web界面输入主题或关键词，生成短视频"
+        ],
+        "risks": [
+          "依赖外部API，密钥泄露或配额不足可能导致服务中断",
+          "视频素材匹配质量受限于素材库和模型能力",
+          "生成速度受GPU和网络影响"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "PaddleOCR",
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "category": "基础工具",
+      "reportedStars": 86282,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "stars": 86282,
+      "dailyGrowth": 163,
+      "acceleration": -71,
+      "ageDays": 2271,
+      "language": "Python",
+      "homepage": "https://www.paddleocr.com",
+      "topics": [
+        "ai4science",
+        "chineseocr",
+        "document-parsing",
+        "document-translation",
+        "kie",
+        "ocr",
+        "paddleocr-vl",
+        "pdf-extractor-rag",
+        "pdf-parser",
+        "pdf2markdown",
+        "pp-ocr",
+        "pp-structure",
+        "rag"
+      ],
+      "forks": 11085,
+      "openIssues": 218,
+      "commits30d": 2,
+      "contributors": 295,
+      "closedIssues30d": 92,
+      "releases90d": 2,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 18,
+        "contributorStrength": 77,
+        "issueResponse": 100,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 88,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 65,
+        "externalHeat": 25
+      },
+      "healthScore": 71,
+      "potentialScore": 47,
+      "score": 57,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "PaddlePaddle/PaddleOCR",
+        "purpose": "全球领先的OCR工具包和文档AI引擎，可将PDF和图片转换为结构化数据（JSON/Markdown），支持100+语言。内置轻量级视觉语言模型，适用于RAG和智能体应用。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.8–3.12环境",
+          "支持CPU、GPU、XPU、NPU等多种硬件",
+          "通过pip安装paddleocr"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "需要从文档和图片中提取结构化文本的开发者，适用于构建RAG系统、文档解析或数据录入自动化。",
+        "deploymentSteps": [
+          "安装PaddlePaddle深度学习框架（根据硬件选择版本）",
+          "通过pip安装paddleocr：pip install paddleocr",
+          "下载预训练模型（首次使用时自动下载）",
+          "编写Python代码调用PaddleOCR进行文字识别或文档解析"
+        ],
+        "risks": [
+          "GPU版本需要CUDA环境配置，可能较复杂",
+          "模型文件较大，首次下载需较长时间和稳定网络"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "aisuite",
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Simple, unified interface to multiple Generative AI providers ",
+      "stars": 15385,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 756,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 1628,
+      "openIssues": 134,
+      "commits30d": 280,
+      "contributors": 52,
+      "closedIssues30d": 1,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 93,
+        "contributorStrength": 53,
+        "issueResponse": 13,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 53,
+        "externalHeat": 25
+      },
+      "healthScore": 69,
+      "potentialScore": 46,
+      "score": 56,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "andrewyng/aisuite",
+        "purpose": "轻量级Python库，提供统一的聊天补全API和智能体API，支持OpenAI、Anthropic、Google、Ollama等多种LLM提供商。只需更改模型名字符串即可切换提供商，简化多模型开发。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.8+环境",
+          "通过pip安装，可选安装特定提供商的SDK",
+          "需要相应LLM提供商的API密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "需要在多个LLM提供商之间切换的Python开发者，希望用统一接口快速构建聊天或智能体应用。",
+        "deploymentSteps": [
+          "使用pip安装aisuite：pip install aisuite",
+          "可选安装特定提供商SDK：pip install 'aisuite[anthropic]'",
+          "设置API密钥环境变量（如OPENAI_API_KEY）",
+          "在代码中导入aisuite并创建客户端，调用chat.completions.create方法"
+        ],
+        "risks": [
+          "需自行管理多个API密钥和费用",
+          "不同提供商的功能差异可能影响统一接口的兼容性"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Chat2DB",
+      "repo": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "stars": 27077,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1132,
+      "language": "Java",
+      "homepage": "https://chat2db.ai",
+      "topics": [
+        "ai",
+        "bi",
+        "chatgpt",
+        "clickhouse",
+        "clickhouse-client",
+        "database",
+        "datagrip",
+        "db2",
+        "dbeaver",
+        "gpt",
+        "hive",
+        "mysql",
+        "navicat",
+        "oracle",
+        "postgresql",
+        "redis",
+        "redis-client",
+        "sqlserver",
+        "text2sql"
+      ],
+      "forks": 2941,
+      "openIssues": 128,
+      "commits30d": 236,
+      "contributors": 68,
+      "closedIssues30d": 100,
+      "releases90d": 1,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 90,
+        "contributorStrength": 57,
+        "issueResponse": 100,
+        "releaseCadence": 40,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 58,
+        "communityActivity": 82,
+        "externalHeat": 25
+      },
+      "healthScore": 62,
+      "potentialScore": 49,
+      "score": 54,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "OtterMind/Chat2DB",
+        "purpose": "AI驱动的数据库客户端和SQL工作台，支持MySQL、PostgreSQL、Oracle等30+数据库。提供SQL编辑、AI辅助生成/优化SQL、数据可视化、ER图、数据导入导出等功能，可桌面或Docker部署。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "Windows、macOS或Linux（桌面版）",
+          "或Docker 19.03+（Web版）",
+          "需要数据库连接信息",
+          "可选：AI功能需LLM API密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–15分钟",
+        "suitableFor": "数据库管理员、开发者、数据分析师，需要统一管理多种数据库并利用AI提升SQL效率。",
+        "deploymentSteps": [
+          "从GitHub Releases下载桌面版安装包并安装",
+          "或使用Docker运行容器（需先初始化加密密钥）",
+          "启动应用，添加数据库连接",
+          "可选：配置AI模型以使用智能SQL功能"
+        ],
+        "risks": [
+          "Docker部署需注意加密密钥备份，丢失会导致密码不可读",
+          "Web版应绑定127.0.0.1避免未授权访问"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "minimind",
+      "repo": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "category": "模型",
+      "reportedStars": 53863,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "stars": 53864,
+      "dailyGrowth": 82,
+      "acceleration": 82,
+      "ageDays": 730,
+      "language": "Python",
+      "homepage": "https://jingyaogong.github.io/minimind",
+      "topics": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "forks": 6988,
+      "openIssues": 48,
+      "commits30d": 5,
+      "contributors": 12,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 30,
+        "contributorStrength": 35,
+        "issueResponse": 15,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 80,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 27,
+        "externalHeat": 25
+      },
+      "healthScore": 40,
+      "potentialScore": 61,
+      "score": 52,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "jingyaogong/minimind",
+        "purpose": "从零开始训练一个仅64M参数的小型语言模型，覆盖预训练、监督微调、强化学习等完整流程，旨在降低LLM学习门槛。",
+        "productType": "模型",
+        "deploymentConditions": [
+          "Python 3.8+ 和 PyTorch",
+          "至少一块NVIDIA GPU（推荐3090或更高）",
+          "约3元GPU租用成本（2小时训练）",
+          "需下载预训练数据集（约几百MB）"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "2–3小时",
+        "suitableFor": "对LLM原理感兴趣的开发者或研究者，希望亲手训练一个小模型以理解内部机制。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖：pip install -r requirements.txt",
+          "下载预训练数据集并放置到指定目录",
+          "运行训练脚本：python train.py --config configs/minimind-3.yaml",
+          "训练完成后使用推理脚本测试模型对话能力"
+        ],
+        "risks": [
+          "训练需要GPU，无GPU环境无法完成",
+          "数据集下载可能受网络影响",
+          "训练时间因硬件配置而异，可能超过2小时"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Kronos",
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "stars": 34146,
+      "dailyGrowth": 1126,
+      "acceleration": 686,
+      "ageDays": 391,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 5750,
+      "openIssues": 247,
+      "commits30d": 0,
+      "contributors": 19,
+      "closedIssues30d": 1,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 0,
+        "contributorStrength": 40,
+        "issueResponse": 10,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 17,
+        "externalHeat": 25
+      },
+      "healthScore": 30,
+      "potentialScore": 63,
+      "score": 49,
+      "risks": [
+        "近期维护活跃度偏低",
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "shiyu-coder/Kronos",
+        "purpose": "首个开源金融K线基础模型，基于45+全球交易所数据训练。将OHLCV数据量化为离散token，通过自回归Transformer进行预测，支持多种量化任务，提供预训练模型和微调脚本。",
+        "productType": "模型",
+        "deploymentConditions": [
+          "Python 3.10或更高版本",
+          "需安装依赖（requirements.txt）",
+          "推荐GPU（CUDA）用于推理和微调",
+          "从Hugging Face下载模型权重"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "金融量化研究人员和开发者，需要基于K线数据进行预测或微调模型。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖：pip install -r requirements.txt",
+          "从Hugging Face加载预训练模型和tokenizer",
+          "准备K线DataFrame数据，调用KronosPredictor进行预测",
+          "可选：使用微调脚本适配自定义任务"
+        ],
+        "risks": [
+          "模型较大，需GPU资源",
+          "金融预测存在不确定性，结果仅供参考"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "Claude Cookbooks",
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "stars": 50206,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 1076,
+      "language": "Jupyter Notebook",
+      "homepage": null,
+      "topics": [],
+      "forks": 5918,
+      "openIssues": 296,
+      "commits30d": 24,
+      "contributors": 85,
+      "closedIssues30d": 3,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 53,
+        "contributorStrength": 60,
+        "issueResponse": 17,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 43,
+        "externalHeat": 25
+      },
+      "healthScore": 46,
+      "potentialScore": 44,
+      "score": 45,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "anthropics/claude-cookbooks",
+        "purpose": "提供一系列Jupyter Notebook示例和指南，展示如何有效使用Claude API进行文本分类、RAG、工具调用、多模态分析等任务。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Claude API密钥（免费注册）",
+          "Python环境及Jupyter Notebook支持",
+          "部分示例需要安装额外库（如Pinecone、Wikipedia API等）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望学习或集成Claude API的开发者，熟悉Python和Jupyter Notebook即可快速上手。",
+        "deploymentSteps": [
+          "克隆仓库到本地",
+          "安装Jupyter Notebook或VS Code等支持.ipynb的环境",
+          "打开任意Notebook，填入Claude API密钥",
+          "按顺序运行单元格，观察输出结果"
+        ],
+        "risks": [
+          "API调用会产生费用，需注意用量",
+          "部分示例依赖第三方服务（如Pinecone），需额外配置"
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
+}

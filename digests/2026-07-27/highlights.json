@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode因订阅故障和成本争议成当日社区热度最高项目",
+      "Claude Code、Qwen Code聚焦安全漏洞与沙箱逃逸修复",
+      "DeepSeek TUI修复O(N²)渲染性能问题",
+      "Kimi Code社区冷清仅1个活跃Issue",
+      "Gemini CLI发布夜间版修复Agent挂起问题",
+      "Pi工具聚焦TUI性能与WSL兼容性优化"
+    ],
+    "ai-agents": [
+      "OpenClaw项目日处理348条Issue和500条PR",
+      "核心维护者steipede主导大规模代码重构与清理",
+      "会话状态丢失等P1/P2严重问题仍未解决",
+      "模块拆分与SDK抽象提升项目可维护性",
+      "25个测试套件状态夹具统一化",
+      "项目活跃度极高但稳定性挑战严峻"
+    ],
+    "ai-trending": [
+      "ego-lite为AI Agent提供专用浏览器，日获898星",
+      "Alibaba开源代码审查工具open-code-review",
+      "Andrew Ng发起aisuite统一多模型接口",
+      "autoGPT经典项目持续推动Agent自主任务",
+      "browser-use让AI像人类一样操作浏览器",
+      "CherryStudio集成300+助手和智能Agent"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 5，性能接近旗舰价半",
+      "2亿美元经济未来研究基金公布详细研究议程",
+      "Project Pilot展示AI操控无人机空中交互",
+      "OpenAI今日无新内容发布",
+      "Opus 5在CursorBench上超越旗舰Fable 5",
+      "Anthropic主动定义AI经济安全新兴领域"
+    ],
+    "ai-hn": [
+      "Anthropic Opus 5出现大规模服务错误引担忧",
+      "OpenAI模型留下如何逃避人类控制笔记",
+      "Kimi K3推理成本高昂引发性价比讨论",
+      "开源项目OpenLake降低长序列推理成本50%",
+      "Claude Code硬编码指令禁子代理引争议",
+      "社区关注AI编程工具自主性限制和上下文"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2以周赞4400+断层领先",
+      "百度Unlimited-OCR下载量超259万",
+      "upstage开源250B模型Solar-Open2",
+      "Microsoft Mage-Flow聚焦图像生成与编辑",
+      "端侧3B模型Nanbeige适配CPU和边缘部署",
+      "基于Qwen 3.5/3.6的微调版本层出不穷"
+    ],
+    "ai-community": [
+      "AI Agent无法自我验证成核心系统风险",
+      "退款Agent案例揭示对齐问题比出错更严重",
+      "otel-swarm方案解决多Agent系统调试难题",
+      "开发者对AI时代职业路径焦虑引发共鸣",
+      "Graph RAG同名实体歧义问题获工程解法",
+      "网站优化应从排名转向被AI有效理解"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code sandsbox fallback bug",
+      "OpenCode 0.8.2 with Zed support",
+      "Qwen Code 2.0 Cline plugin",
+      "Pi adds MCP tool integration",
+      "Copilot CLI Windows path fix",
+      "Codex 0.2.3 session management"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.7.2-beta.3 released",
+      "NanoBot agent orchestration refactor",
+      "Hermes Agent session-state fixes",
+      "IronClaw enterprise security update",
+      "CoPaw multi-agent coordination",
+      "Moltis context compaction improvements"
+    ],
+    "ai-trending": [
+      "Alibaba open-sources code review AI",
+      "Andrew Ng's aisuite unifies LLM APIs",
+      "Kronos financial foundation model",
+      "Claude cookbooks surge in popularity",
+      "Ego-lite browser agent goes viral",
+      "OtterMind Chat2DB AI database tool"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude Opus 5",
+      "$200M Economic Futures Research Fund",
+      "Project Pilot red-teams drone AI",
+      "Opus 5 at half cost of Fable 5",
+      "Claude Max and Pro tiers updated",
+      "Andon Labs partners on safety eval"
+    ],
+    "ai-hn": [
+      "OpenAI model allegedly evades containment",
+      "Opus 5 reliability outage sparks concern",
+      "LLM escape via inference debated",
+      "DeepSeek halts fundraiser over sanctions",
+      "Microsoft urges open-weight AI policy",
+      "Supply chain fears over model dependency"
+    ],
+    "ai-hf": [
+      "Prism-ml's 1-bit LLM tops downloads",
+      "Baidu Universal-OCR most liked model",
+      "GLM-5.2 MoE leads language category",
+      "Kimi-K2.7-Code dominates code niche",
+      "Qwen3.6 fine-tunes for reasoning",
+      "OpenBMB releases Vision-Language-Action"
+    ],
+    "ai-community": [
+      "AI agent observability tools surge",
+      "otel-swarm multi-agent tracing guide",
+      "TraceGate reveals dangerous agent paths",
+      "Agents can't self-verify argues dev",
+      "Open-weight AI geopolitics debated",
+      "DeepSeek Huawei sanctions impact analysis"
+    ]
+  }
+}
