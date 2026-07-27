@@ -118,6 +118,11 @@
       "date": "2026-07-21",
       "stars": 149509,
       "growth": 551
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 150454,
+      "growth": 945
     }
   ],
   "ColeMurray/background-agents": [
@@ -197,6 +202,11 @@
       "date": "2026-07-21",
       "stars": 162773,
       "growth": 164
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 163047,
+      "growth": 274
     }
   ],
   "hugohe3/ppt-master": [
@@ -241,6 +251,11 @@
       "date": "2026-07-27",
       "stars": 49020,
       "growth": 219
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 49048,
+      "growth": 28
     }
   ],
   "santifer/career-ops": [
@@ -287,6 +302,11 @@
       "date": "2026-07-16",
       "stars": 99143,
       "growth": 50
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 99977,
+      "growth": 834
     }
   ],
   "galilai-group/stable-pretraining": [
@@ -346,6 +366,11 @@
       "date": "2026-07-27",
       "stars": 86058,
       "growth": 259
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 86160,
+      "growth": 102
     }
   ],
   "open-compass/opencompass": [
@@ -407,6 +432,11 @@
       "date": "2026-07-23",
       "stars": 61239,
       "growth": 2280
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 62782,
+      "growth": 1543
     }
   ],
   "topoteretes/cognee": [
@@ -446,6 +476,11 @@
       "date": "2026-07-16",
       "stars": 87394,
       "growth": 139
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 88750,
+      "growth": 1356
     }
   ],
   "samchon/nestia": [
@@ -522,6 +557,11 @@
       "date": "2026-07-27",
       "stars": 185698,
       "growth": 39
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 185719,
+      "growth": 21
     }
   ],
   "Shubhamsaboo/awesome-llm-apps": [
@@ -573,6 +613,11 @@
       "date": "2026-07-21",
       "stars": 101813,
       "growth": 2
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 102024,
+      "growth": 211
     }
   ],
   "milvus-io/milvus": [
@@ -600,6 +645,11 @@
       "date": "2026-07-27",
       "stars": 45388,
       "growth": 104
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 45391,
+      "growth": 3
     }
   ],
   "ollama/ollama": [
@@ -622,6 +672,11 @@
       "date": "2026-07-24",
       "stars": 176731,
       "growth": 203
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 177026,
+      "growth": 295
     }
   ],
   "open-webui/open-webui": [
@@ -629,6 +684,11 @@
       "date": "2026-07-14",
       "stars": 145310,
       "growth": 0
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 146971,
+      "growth": 1661
     }
   ],
   "esengine/DeepSeek-Reasonix": [
@@ -704,6 +764,11 @@
       "date": "2026-07-23",
       "stars": 93886,
       "growth": 6187
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 97133,
+      "growth": 3247
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -735,6 +800,11 @@
       "date": "2026-07-27",
       "stars": 106906,
       "growth": 1161
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 107022,
+      "growth": 116
     }
   ],
   "PaddlePaddle/PaddleOCR": [
@@ -1133,6 +1203,11 @@
       "date": "2026-07-27",
       "stars": 13742,
       "growth": 2284
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 14742,
+      "growth": 1000
     }
   ],
   "earthtojake/text-to-cad": [
@@ -1164,6 +1239,11 @@
       "date": "2026-07-27",
       "stars": 53864,
       "growth": 82
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 53906,
+      "growth": 42
     }
   ],
   "citrolabs/ego-lite": [
@@ -1211,6 +1291,11 @@
       "date": "2026-07-27",
       "stars": 99408,
       "growth": 0
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 99557,
+      "growth": 149
     }
   ],
   "HKUDS/LightRAG": [
@@ -1218,6 +1303,27 @@
       "date": "2026-07-27",
       "stars": 38186,
       "growth": 0
+    }
+  ],
+  "bradautomates/claude-video": [
+    {
+      "date": "2026-07-28",
+      "stars": 11031,
+      "growth": 412
+    }
+  ],
+  "NanmiCoder/MediaCrawler": [
+    {
+      "date": "2026-07-28",
+      "stars": 58142,
+      "growth": 349
+    }
+  ],
+  "mvanhorn/last30days-skill": [
+    {
+      "date": "2026-07-28",
+      "stars": 54145,
+      "growth": 221
     }
   ]
 }

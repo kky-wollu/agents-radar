@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code焦点转向Agent行为安全与计费问题",
+      "OpenAI Codex因Windows兼容性问题引发大量讨论",
+      "Gemini CLI被指Agent频繁误报成功",
+      "OpenCode与Pi通过插件系统打造AI开发OS",
+      "GitHub Copilot CLI的Plan模式回归引关注",
+      "Qwen Code面临MCP授权绕过等安全挑战"
+    ],
+    "ai-agents": [
+      "OpenClaw项目24小时内处理500条Issue和PR",
+      "SSRF漏洞修复提升技能安装供应链安全",
+      "沙盒子代理越权读取其他代理内存问题待修复",
+      "P0/P1级Bug反复出现成最大健康度风险",
+      "卡死会话恢复与新任务竞态条件修复提交",
+      "主分支CI故障已修复确保开发流程畅通"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review日增980星，Go语言",
+      "browser-use让AI Agent操控浏览器获10万+星",
+      "headroomlabs-ai/headroom聚焦LLM Token优化",
+      "ollama/ollama已支持Kimi-K2.6等最新模型",
+      "huggingface/transformers稳居AI基石项目",
+      "AutoGPT等Agent框架持续引领自动化趋势"
+    ],
+    "ai-web": [
+      "Anthropic CEO澄清并非反对开源权重模型",
+      "Claude与Cognizant合作培训3万认证开发者",
+      "Anthropic区分有益开源与高危模型引讨论",
+      "Claude Code集成至Cognizant Flowsource平台",
+      "Anthropic精准定位自身在AI治理中的角色",
+      "OpenAI今日仅单一URL更新缺乏实质内容"
+    ],
+    "ai-hn": [
+      "Anthropic开源声明引社区两极激烈辩论",
+      "Claude服务现严重错误与API过载问题",
+      "Claude共享聊天记录疑被Google索引爬取",
+      "黄仁勋罕见发帖支持AI模型开放访问",
+      "Sam Altman称身处奇点引热议",
+      "韩国9500亿美元半导体投资计划受关注"
+    ],
+    "ai-hf": [
+      "moonshotai Kimi-K3多模态模型近6000点赞",
+      "百度Unlimited-OCR下载量突破260万",
+      "GLM-5.2采用MoE架构下载量破百万",
+      "Qwen3.6-35B-A3B下载量达618万",
+      "GGUF量化模型占热门榜近三分之一",
+      "NVIDIA发布Cosmos3-Edge视觉模型"
+    ],
+    "ai-community": [
+      "AI被指系统性破坏初级开发者成长路径",
+      "Agent Skills安全威胁模型类比apt-get引警醒",
+      "无限制上下文被批为技术债的营销包装",
+      "AI OSINT Agent4分钟挖掘数字足迹引隐私震动",
+      "Agent安全防御需超越检测理解攻击序列",
+      "开放权重与监管的政治角力受社区热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "80+ PRs merged across CLI tools",
+      "Windows stability issues plague all tools",
+      "Billing transparency remains a top concern",
+      "Agent false success reporting bugs persist",
+      "Claude Code leads ecosystem extensibility",
+      "DeepSeek TUI garners community interest"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and PRs today",
+      "Severe P0 memory leaks under triage",
+      "225 PRs merged or closed in 24 hours",
+      "Beta cycle 2026.7.2-beta.4 ongoing",
+      "Hosting deployment advanced via major PRs",
+      "Session-state regressions being addressed"
+    ],
+    "ai-trending": [
+      "mem0 crosses 60k+ stars this week",
+      "ollama/ollama hits 177k stars",
+      "firecrawl gains 7.2k stars weekly",
+      "Token compression emerges as new category",
+      "Vector database zvec enables on-device RAG",
+      "Agent harnesses extend multimodal capabilities"
+    ],
+    "ai-web": [
+      "Dario Amodei rejects open-weights bans",
+      "Anthropic outlines authoritarian usage risks",
+      "Cognizant partnership scales Claude to 30k staff",
+      "Policy stance separates safety from IP debate",
+      "OpenAI published no retrievable content today",
+      "Two new Anthropic articles published today"
+    ],
+    "ai-hn": [
+      "Anthropic open-weights stance sparks polarized debate",
+      "Service outage erodes user trust",
+      "Claude shared chat privacy leak reported",
+      "Sam Altman declares 'we are in the singularity'",
+      "Jensen Huang defends open models on Twitter",
+      "Nvidia in $250B financing talks with OpenAI"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops trending with 5,965 likes",
+      "Qwen3.6-35B-A3B hits 6.2M downloads",
+      "'Uncensored' fine-tunes surge in popularity",
+      "1-bit and 2-bit quantizations gain momentum",
+      "Baidu Unlimited-OCR leads vision-language OCR",
+      "Laguna-S-2.1 spawns enterprise-ready variants"
+    ],
+    "ai-community": [
+      "AI tools break junior developer pipeline",
+      "MCP-specific attack surfaces documented",
+      "First 'AI-run' ransomware reported",
+      "Kimi K3 2.8T parameter release imminent",
+      "Self-hosted job search agents gain traction",
+      "'Unlimited context' called technical debt"
+    ]
+  }
+}
