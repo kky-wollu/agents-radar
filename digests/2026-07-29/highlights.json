@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "DeepSeek TUI 冲刺 v0.9.2，聚焦沙箱与LaTeX渲染。",
+      "OpenAI Codex 发布首个 alpha 版，修复稳定性问题。",
+      "Gemini CLI 修复 SSRF 安全漏洞，提升可靠性。",
+      "OpenCode 修复 MCP 兼容性倒退，支持 Windows ARM64。",
+      "Copilot CLI 新版本出现启动崩溃，社区高度关注。",
+      "Kimi Code CLI 修复插件管理与 OAuth 登录问题。"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.5，强化状态安全恢复。",
+      "引入隔离存储区与崩溃可恢复的 SQLite 快照。",
+      "Codex 目录页引入缓存策略，显著减少 CPU 消耗。",
+      "修复会话分组并发丢失问题，提升数据一致性。",
+      "社区 24 小时内产生 500 条 Issue 和 500 条 PR。",
+      "架构升级新增数据丢失拒绝机制，保障数据安全。"
+    ],
+    "ai-trending": [
+      "moeru-ai/airi 成今日最热 AI 虚拟伴侣/智能体。",
+      "微软 Agent 治理工具登榜，安全议题成焦点。",
+      "huggingface/speech-to-speech 引领多模态 Agent 交互。",
+      "Andrew Ng 的 aisuite 持续走高，简化多模型调用。",
+      "claude-video 日增 989 star，赋能视频理解。",
+      "headroom 工具可压缩 Agent 输出，节省 95% token。"
+    ],
+    "ai-web": [
+      "Claude 成功攻击 HAWK 与 AES 算法，颠覆安全认知。",
+      "Anthropic CEO 亲自撰文，阐明开源权重模型立场。",
+      "OpenAI 密集发布企业指南，加速商业化落地。",
+      "开源 Codex Security 工具，用于代码审计与漏洞发现。",
+      "Anthropic 用 Claude 发现密码学算法数学缺陷。",
+      "OpenAI 可能发布 GPT-5 相关官方内容预热。"
+    ],
+    "ai-hn": [
+      "Anthropic 用 Claude 发现密码学漏洞，社区热议明。",
+      "OpenAI 开源 Codex Security，获 240 分高赞。",
+      "Claude 聊天记录泄露事件引发安全担忧。",
+      "研究显示未审查 LLM 更乐观，讨论审查与偏见。",
+      "Fast Remediation 模型成为信任新标准。",
+      "AI 安全与隐私成今日 HN 社区讨论主线。"
+    ],
+    "ai-arxiv": [
+      "Kimi K3 发布 2.8T 参数 MoE 模型，开源里程碑。",
+      "发现 SAE 特征描述清晰但因果效应不一致。",
+      "LLM 可自主生成离子阱量子计算编译器。",
+      "系统研究多轮长程规划，从预训练到后训练。",
+      "理论证明时序图生成无法修复分布漂移。",
+      "多篇论文反思智能体可靠性与权限控制。"
+    ],
+    "ai-hf": [
+      "Kimi-K3 以 7922 点赞登顶本周 Hugging Face 冠军。",
+      "百度 Unlimited-OCR 获 269 万下载，实用模型之王。",
+      "zai-org/GLM-5.2 以 4599 点赞保持高热度。",
+      "Upstage 开源 250B 参数 Solar-Open2 模型。",
+      "微软推出 Mage-Flow 图像编辑与 VibeVoice 语音模型。",
+      "Poolside 的 Laguna-S-2.1 稳固代码生成领域地位。"
+    ],
+    "ai-community": [
+      "Slopsquatting 概念利用 AI 幻觉进行供应链攻击。",
+      "反思社区应追求深度理解而非盲目溯源。",
+      "一文总结 10 个与 ChatGPT 协作的典型故障模式。",
+      "从零构建 TypeScript MCP 服务器教程爆火。",
+      "警告 AI Agent 写权限导致私有仓库被入侵。",
+      "追踪 GPT-6 真假传闻，引发开发者激烈辩论。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code closed 93 issues in 24h",
+      "OpenCode and Pi added to digest",
+      "MCP ecosystem fragmentation growing",
+      "Token waste is top developer pain",
+      "Enterprise readiness still aspirational",
+      "Cross-platform parity issues persist"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.5 released",
+      "Crash-recoverable SQLite snapshots added",
+      "Quarantine store survives database damage",
+      "500 issues and 500 PRs in 24h",
+      "P0/P1 gateway memory leaks triaged",
+      "Telegram/Signal channel fixes ongoing"
+    ],
+    "ai-trending": [
+      "moeru-ai/airi surges for voice agents",
+      "affaan-m/ECC gains +692 stars today",
+      "Microsoft agent-governance-toolkit launched",
+      "HuggingFace speech-to-speech goes production",
+      "Andrew Ng's aisuite unified API trending",
+      "Cherry Studio hits 49,091 stars"
+    ],
+    "ai-web": [
+      "Claude discovers cryptographic math flaws",
+      "CEO Dario Amodei clarifies open-weights stance",
+      "OpenAI published 7 enterprise guides",
+      "Cryptographic weakness discovery is step-change",
+      "Post-quantum cryptography implications noted",
+      "Anthropic rejects open-weights bans"
+    ],
+    "ai-hn": [
+      "Anthropic breaks HAWK-256 encryption",
+      "Private chats allegedly leaked via Google",
+      "153-point debate on cryptographic breakthrough",
+      "Community pivots from agent hype to privacy",
+      "Open-source attack code released for review",
+      "Geopolitical AI hardware bans debated"
+    ],
+    "ai-arxiv": [
+      "Kimi K3: 2.8T parameter MoE model",
+      "D-Score detects hallucinations via hidden states",
+      "Hierarchical risk control for LLMs proposed",
+      "Focus on operational trustworthiness",
+      "Formal permission algebras for agents",
+      "Scaling laws vs auditability tension"
+    ],
+    "ai-hf": [
+      "Kimi-K3 dominates HuggingFace likes",
+      "Qwen3.6-35B-A3B leads downloads",
+      "1-bit Bonsai quantization goes viral",
+      "baidu Unlimited-OCR trending",
+      "GLM-5.2 MoE model hits 4,599 likes",
+      "Solar-Open2-250B from Upstage launched"
+    ],
+    "ai-community": [
+      "Slopsquatting weaponizes AI hallucinations",
+      "Write access audit warning for AI agents",
+      "Microsoft open-weights debate on Lobste.rs",
+      "Developer asks for deeper understanding",
+      "MCP server best practices discussed",
+      "Avoid deploying untested models in production"
+    ]
+  }
+}

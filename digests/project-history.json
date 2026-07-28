@@ -161,6 +161,11 @@
       "date": "2026-07-13",
       "stars": 228929,
       "growth": 0
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 234760,
+      "growth": 5831
     }
   ],
   "acon96/home-llm": [
@@ -256,6 +261,11 @@
       "date": "2026-07-28",
       "stars": 49048,
       "growth": 28
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 49091,
+      "growth": 43
     }
   ],
   "santifer/career-ops": [
@@ -307,6 +317,11 @@
       "date": "2026-07-28",
       "stars": 99977,
       "growth": 834
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 100055,
+      "growth": 78
     }
   ],
   "galilai-group/stable-pretraining": [
@@ -371,6 +386,11 @@
       "date": "2026-07-28",
       "stars": 86160,
       "growth": 102
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 86264,
+      "growth": 104
     }
   ],
   "open-compass/opencompass": [
@@ -415,6 +435,11 @@
       "date": "2026-07-27",
       "stars": 61767,
       "growth": 214
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 61946,
+      "growth": 179
     }
   ],
   "headroomlabs-ai/headroom": [
@@ -437,6 +462,11 @@
       "date": "2026-07-28",
       "stars": 62782,
       "growth": 1543
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 62952,
+      "growth": 170
     }
   ],
   "topoteretes/cognee": [
@@ -459,6 +489,11 @@
       "date": "2026-07-21",
       "stars": 28767,
       "growth": 273
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 29514,
+      "growth": 747
     }
   ],
   "thedotmack/claude-mem": [
@@ -481,6 +516,11 @@
       "date": "2026-07-28",
       "stars": 88750,
       "growth": 1356
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 88871,
+      "growth": 121
     }
   ],
   "samchon/nestia": [
@@ -520,6 +560,11 @@
       "date": "2026-07-24",
       "stars": 219494,
       "growth": 540
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 221885,
+      "growth": 2391
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -689,6 +734,11 @@
       "date": "2026-07-28",
       "stars": 146971,
       "growth": 1661
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 147112,
+      "growth": 141
     }
   ],
   "esengine/DeepSeek-Reasonix": [
@@ -718,6 +768,11 @@
       "date": "2026-07-27",
       "stars": 36295,
       "growth": 296
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 36343,
+      "growth": 48
     }
   ],
   "ZhuLinsen/daily_stock_analysis": [
@@ -730,6 +785,11 @@
       "date": "2026-07-24",
       "stars": 58452,
       "growth": 1396
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 59414,
+      "growth": 962
     }
   ],
   "OpenCut-app/OpenCut": [
@@ -769,6 +829,11 @@
       "date": "2026-07-28",
       "stars": 97133,
       "growth": 3247
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 97745,
+      "growth": 612
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -922,6 +987,11 @@
       "date": "2026-07-27",
       "stars": 6092,
       "growth": 42
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 6095,
+      "growth": 3
     }
   ],
   "github/copilot-sdk": [
@@ -1244,6 +1314,11 @@
       "date": "2026-07-28",
       "stars": 53906,
       "growth": 42
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 53948,
+      "growth": 42
     }
   ],
   "citrolabs/ego-lite": [
@@ -1263,6 +1338,11 @@
       "date": "2026-07-27",
       "stars": 15385,
       "growth": 0
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 15663,
+      "growth": 278
     }
   ],
   "pbakaus/impeccable": [
@@ -1310,6 +1390,11 @@
       "date": "2026-07-28",
       "stars": 11031,
       "growth": 412
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 12051,
+      "growth": 1020
     }
   ],
   "NanmiCoder/MediaCrawler": [
@@ -1324,6 +1409,62 @@
       "date": "2026-07-28",
       "stars": 54145,
       "growth": 221
+    }
+  ],
+  "Picovoice/picollm": [
+    {
+      "date": "2026-07-29",
+      "stars": 315,
+      "growth": 0
+    }
+  ],
+  "moeru-ai/airi": [
+    {
+      "date": "2026-07-29",
+      "stars": 44727,
+      "growth": 0
+    }
+  ],
+  "huggingface/speech-to-speech": [
+    {
+      "date": "2026-07-29",
+      "stars": 7192,
+      "growth": 0
+    }
+  ],
+  "microsoft/agent-governance-toolkit": [
+    {
+      "date": "2026-07-29",
+      "stars": 5170,
+      "growth": 0
+    }
+  ],
+  "shareAI-lab/learn-claude-code": [
+    {
+      "date": "2026-07-29",
+      "stars": 72504,
+      "growth": 0
+    }
+  ],
+  "virgiliojr94/book-to-skill": [
+    {
+      "date": "2026-07-29",
+      "stars": 11270,
+      "growth": 0
+    }
+  ],
+  "genieincodebottle/generative-ai": [
+    {
+      "date": "2026-07-29",
+      "stars": 2573,
+      "growth": 0
+    }
+  ],
+  "VectifyAI/PageIndex": [
+    {
+      "date": "2026-07-29",
+      "stars": 34872,
+      "growth": 0
     }
   ]
 }

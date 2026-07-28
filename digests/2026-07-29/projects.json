@@ -1,0 +1,2026 @@
+{
+  "generated": "2026-07-28T23:11:55.085Z",
+  "date": "2026-07-29",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "hermes-agent",
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "智能体",
+      "reportedStars": 221884,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The agent that grows with you",
+      "stars": 221885,
+      "dailyGrowth": 2391,
+      "acceleration": 1851,
+      "ageDays": 371,
+      "language": "Python",
+      "homepage": "https://hermes-agent.nousresearch.com",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "forks": 42455,
+      "openIssues": 26139,
+      "commits30d": 5497,
+      "contributors": 2403,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 100,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 100,
+        "externalHeat": 25
+      },
+      "healthScore": 100,
+      "potentialScore": 79,
+      "score": 88,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "NousResearch/hermes-agent",
+        "purpose": "自我改进的AI代理，内置学习循环：从经验中创建技能、跨会话记忆、支持Telegram/Discord等多平台。可运行在本地、Docker、SSH或无服务器环境，使用任意模型。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "支持Linux、macOS、WSL2、Windows（PowerShell）",
+          "需安装Python 3.11和Node.js",
+          "可选：配置模型提供商（如OpenAI、OpenRouter）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要长期运行、自我进化的AI代理的用户，希望跨平台使用，并利用学习循环提升效率。",
+        "deploymentSteps": [
+          "运行一键安装脚本：curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash",
+          "重新加载shell配置",
+          "运行hermes命令开始聊天"
+        ],
+        "risks": [
+          "安装过程可能被防病毒软件误报",
+          "需注意API密钥安全"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "cognee",
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "category": "知识库",
+      "reportedStars": 29514,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "stars": 29514,
+      "dailyGrowth": 747,
+      "acceleration": 474,
+      "ageDays": 1077,
+      "language": "Python",
+      "homepage": "https://www.cognee.ai",
+      "topics": [
+        "agent-memory",
+        "agent-skills",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "cognitive-architecture",
+        "cognitive-memory",
+        "context-engineering",
+        "contributions-welcome",
+        "good-first-issue",
+        "good-first-pr",
+        "graph-database",
+        "graph-rag",
+        "help-wanted",
+        "knowledge",
+        "knowledge-graph",
+        "memory-management",
+        "open-source",
+        "vector-database"
+      ],
+      "forks": 2839,
+      "openIssues": 514,
+      "commits30d": 435,
+      "contributors": 231,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 73,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 78,
+      "score": 85,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "topoteretes/cognee",
+        "purpose": "开源AI记忆平台，为智能体提供持久长期记忆，通过知识图谱和向量嵌入实现数据统一管理、跨会话回忆和知识共享。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10-3.14，需LLM API密钥（如OpenAI）。",
+          "支持Docker部署，需查阅README获取docker-compose配置。",
+          "可选：使用向量数据库（如Qdrant）增强搜索。"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30分钟",
+        "suitableFor": "需要为AI智能体构建持久记忆系统的开发者，适用于企业知识库、智能助手等场景。",
+        "deploymentSteps": [
+          "安装：pip install cognee",
+          "设置LLM_API_KEY环境变量。",
+          "运行Python示例代码，调用remember/recall API。",
+          "可选：启动Docker容器部署完整服务。"
+        ],
+        "risks": [
+          "依赖外部LLM API，可能产生费用。",
+          "自托管版本需自行管理数据库和基础设施。"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "应用",
+      "reportedStars": 234758,
+      "reportedDaily": 692,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 234760,
+      "dailyGrowth": 5831,
+      "acceleration": 5831,
+      "ageDays": 192,
+      "language": "JavaScript",
+      "homepage": "https://ecc.tools",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "forks": 35772,
+      "openIssues": 100,
+      "commits30d": 143,
+      "contributors": 300,
+      "closedIssues30d": 47,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 82,
+        "contributorStrength": 77,
+        "issueResponse": 100,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 86,
+        "externalHeat": 25
+      },
+      "healthScore": 89,
+      "potentialScore": 80,
+      "score": 84,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "affaan-m/ECC",
+        "purpose": "智能体框架性能优化系统，为Claude Code、Codex等编码智能体提供技能、本能、记忆、安全和研究优先的开发工具，支持多语言。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "Node.js 18+",
+          "需要安装npm包：ecc-universal 或 ecc-agentshield",
+          "可选：GitHub App安装"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "使用Claude Code等编码智能体的开发者，希望提升智能体性能和安全性。",
+        "deploymentSteps": [
+          "安装npm包：npm install -g ecc-universal",
+          "运行初始化命令：ecc init（需查阅 README）",
+          "根据提示配置智能体集成"
+        ],
+        "risks": [
+          "仅从官方渠道安装，避免恶意软件",
+          "Pro版本需付费",
+          "部分功能依赖GitHub App"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "cherry-studio",
+      "repo": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "category": "应用",
+      "reportedStars": 49091,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stars": 49091,
+      "dailyGrowth": 43,
+      "acceleration": 15,
+      "ageDays": 796,
+      "language": "TypeScript",
+      "homepage": "https://cherryai.com",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "awesome-skills",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "hermes-agent",
+        "openclaw",
+        "skills",
+        "vibe-coding"
+      ],
+      "forks": 4675,
+      "openIssues": 1184,
+      "commits30d": 627,
+      "contributors": 408,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "AGPL-3.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 81,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 73,
+        "acceleration": 80,
+        "projectAge": 72,
+        "communityActivity": 94,
+        "externalHeat": 25
+      },
+      "healthScore": 96,
+      "potentialScore": 69,
+      "score": 80,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "CherryHQ/cherry-studio",
+        "purpose": "一款跨平台桌面AI生产力工具，支持接入多种大语言模型（如OpenAI、Gemini、Ollama等），提供智能对话、300+预设助手、文档处理、MCP服务器等功能，开箱即用无需配置环境。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "支持Windows、Mac、Linux操作系统",
+          "无需安装Python或Node.js等运行时环境",
+          "从GitHub Releases页面下载对应系统的安装包即可"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望快速获得一个功能丰富的AI对话桌面客户端，无需自行搭建后端或配置环境的个人用户。",
+        "deploymentSteps": [
+          "访问GitHub Releases页面，下载对应操作系统的最新版本安装包",
+          "双击安装包，按照提示完成安装",
+          "启动应用，配置所需的大语言模型API密钥（如OpenAI、Gemini等）",
+          "开始使用内置的300+助手或创建自定义助手"
+        ],
+        "risks": [
+          "需自行获取并配置第三方LLM服务的API密钥，部分服务可能收费",
+          "本地模型支持需额外安装Ollama或LM Studio"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ragflow",
+      "repo": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "category": "知识库",
+      "reportedStars": 86263,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stars": 86264,
+      "dailyGrowth": 104,
+      "acceleration": 2,
+      "ageDays": 960,
+      "language": "Go",
+      "homepage": "https://ragflow.io",
+      "topics": [
+        "agent-harness",
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents",
+        "context-engine",
+        "context-engineering",
+        "context-management",
+        "harness-engineering",
+        "knowledge-compilation",
+        "llm-apps",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "forks": 10117,
+      "openIssues": 2023,
+      "commits30d": 766,
+      "contributors": 693,
+      "closedIssues30d": 100,
+      "releases90d": 9,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 88,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 83,
+        "acceleration": 54,
+        "projectAge": 72,
+        "communityActivity": 96,
+        "externalHeat": 25
+      },
+      "healthScore": 98,
+      "potentialScore": 66,
+      "score": 79,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "infiniflow/ragflow",
+        "purpose": "RAGFlow 是一款开源检索增强生成引擎，结合 Agent 能力为大型语言模型提供高质量上下文层，支持从复杂非结构化数据中提取知识，实现精准问答与可追溯引用。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "需要 Docker 环境",
+          "推荐至少 4 核 CPU 和 16GB 内存",
+          "需要 GPU 支持以获得最佳性能（可选）",
+          "需要配置 LLM API 密钥（如 OpenAI）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "希望快速搭建企业级 RAG 知识库的团队，需要处理复杂文档并集成 LLM 进行问答。",
+        "deploymentSteps": [
+          "克隆仓库并进入目录",
+          "使用 Docker Compose 启动服务：docker compose up -d",
+          "访问 http://localhost:9380 完成初始化配置",
+          "上传文档并创建知识库，连接 LLM 模型"
+        ],
+        "risks": [
+          "Docker 镜像较大，首次拉取可能耗时较长",
+          "需要自行准备 LLM API 密钥，否则无法使用核心功能",
+          "高并发场景下可能需要调整资源限制"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "应用",
+      "reportedStars": 97741,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 97745,
+      "dailyGrowth": 612,
+      "acceleration": -2635,
+      "ageDays": 116,
+      "language": "Python",
+      "homepage": "https://www.graphify.com",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "forks": 9476,
+      "openIssues": 687,
+      "commits30d": 428,
+      "contributors": 175,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 70,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 90,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 61,
+      "score": 75,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Graphify-Labs/graphify",
+        "purpose": "将代码库、文档、PDF等转化为可查询的知识图谱，基于AST（抽象语法树）本地解析，无需向量数据库，每个连接都有来源标签，支持在Claude Code、Cursor等AI编程助手中直接查询。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Python 3.10+环境",
+          "推荐使用uv或pipx安装",
+          "支持多种AI编程助手（Claude Code、Cursor、Codex等）",
+          "完全本地运行，无需外部API"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "需要快速理解大型代码库结构、查找代码间依赖关系的开发者，尤其是使用AI编程助手进行代码分析和重构的用户。",
+        "deploymentSteps": [
+          "使用uv或pipx安装graphifyy：uv tool install graphifyy",
+          "运行graphify install注册技能到AI助手",
+          "在AI助手中输入/graphify . 对当前项目生成知识图谱",
+          "使用graphify explain、graphify path等命令查询图谱"
+        ],
+        "risks": [
+          "对非代码文件（如PDF、图片）的解析依赖AI助手的模型，可能产生额外费用",
+          "大型代码库生成图谱可能耗时较长",
+          "需确保AI助手支持Agent Skills标准"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "headroom",
+      "repo": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "基础工具",
+      "reportedStars": 62952,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "stars": 62952,
+      "dailyGrowth": 170,
+      "acceleration": -1373,
+      "ageDays": 202,
+      "language": "Python",
+      "homepage": "https://docs.headroomlabs.ai/docs",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "forks": 4773,
+      "openIssues": 580,
+      "commits30d": 594,
+      "contributors": 231,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 73,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 88,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 58,
+      "score": 74,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "headroomlabs-ai/headroom",
+        "purpose": "压缩AI代理读取的工具输出、日志、文件和RAG块，减少发送给大语言模型的令牌数（JSON数据减少60-95%，编码代理减少15-20%），同时保持答案质量。支持库、代理和MCP服务器三种使用方式。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.13+或Node.js环境",
+          "安装headroom-ai包（CLI仅PyPI提供）",
+          "可选：配置代理或MCP服务器"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "使用AI代理（如Claude Code、Cursor）的开发者，希望降低令牌消耗和成本，同时保持输出质量。",
+        "deploymentSteps": [
+          "安装headroom-ai：uv tool install --python 3.13 'headroom-ai[all]'",
+          "运行headroom deploy进行本地部署",
+          "使用headroom wrap包装代理工具"
+        ],
+        "risks": [
+          "压缩可能影响某些特定内容的准确性",
+          "需确保代理工具兼容性"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "category": "知识库",
+      "reportedStars": 88871,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "stars": 88871,
+      "dailyGrowth": 121,
+      "acceleration": -1235,
+      "ageDays": 331,
+      "language": "JavaScript",
+      "homepage": "https://claude-mem.ai",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "forks": 7730,
+      "openIssues": 305,
+      "commits30d": 305,
+      "contributors": 138,
+      "closedIssues30d": 77,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 94,
+        "contributorStrength": 66,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 84,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 87,
+        "externalHeat": 25
+      },
+      "healthScore": 92,
+      "potentialScore": 57,
+      "score": 72,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "thedotmack/claude-mem",
+        "purpose": "为Claude Code等AI智能体提供跨会话持久记忆，自动捕获工具使用记录并生成语义摘要，在后续会话中注入相关上下文。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需Node.js 20+。",
+          "支持Claude Code、OpenCode等IDE。",
+          "安装命令：npx claude-mem install。"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5分钟",
+        "suitableFor": "使用Claude Code等AI编码助手的开发者，希望保持项目上下文连续性。",
+        "deploymentSteps": [
+          "运行安装命令：npx claude-mem install",
+          "重启Claude Code。",
+          "可选：配置记忆存储后端（默认本地SQLite）。"
+        ],
+        "risks": [
+          "依赖Node.js和npm环境。",
+          "记忆数据存储在本地，多设备同步需额外配置。"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "daily_stock_analysis",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "category": "应用",
+      "reportedStars": 59414,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars": 59414,
+      "dailyGrowth": 962,
+      "acceleration": -434,
+      "ageDays": 200,
+      "language": "Python",
+      "homepage": "https://dsa.zhulinsen.tech",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "forks": 50881,
+      "openIssues": 46,
+      "commits30d": 92,
+      "contributors": 105,
+      "closedIssues30d": 74,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 75,
+        "contributorStrength": 63,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 79,
+        "externalHeat": 25
+      },
+      "healthScore": 88,
+      "potentialScore": 58,
+      "score": 71,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "ZhuLinsen/daily_stock_analysis",
+        "purpose": "基于AI大模型的多市场股票智能分析系统，支持A股、港股、美股等，自动获取行情与新闻，生成决策仪表盘并推送到企业微信、Telegram等渠道，可零成本通过GitHub Actions定时运行。",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "推荐使用GitHub Actions免费部署，无需服务器",
+          "需配置至少一个AI模型API密钥（如Anspire、Gemini等）",
+          "需配置至少一个通知渠道（如企业微信、Telegram）",
+          "需设置自选股代码列表"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要每日自动获取股票分析报告并推送到手机或群聊的个人投资者，希望零成本部署的量化分析爱好者。",
+        "deploymentSteps": [
+          "Fork本仓库到自己的GitHub账号",
+          "在仓库Settings中添加所需的Secrets（API密钥、通知配置、自选股列表）",
+          "启用GitHub Actions，手动触发一次工作流测试",
+          "确认推送成功，之后每个工作日自动运行"
+        ],
+        "risks": [
+          "免费行情数据源可能受上游限流或接口变动影响，稳定性不保证",
+          "需自行申请并管理多个第三方API密钥",
+          "GitHub Actions免费额度有限，高频使用可能受限"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "aisuite",
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Simple, unified interface to multiple Generative AI providers ",
+      "stars": 15663,
+      "dailyGrowth": 278,
+      "acceleration": 278,
+      "ageDays": 758,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 1656,
+      "openIssues": 140,
+      "commits30d": 241,
+      "contributors": 52,
+      "closedIssues30d": 1,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 91,
+        "contributorStrength": 53,
+        "issueResponse": 13,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 94,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 52,
+        "externalHeat": 25
+      },
+      "healthScore": 68,
+      "potentialScore": 69,
+      "score": 69,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "andrewyng/aisuite",
+        "purpose": "提供统一的Python库，通过标准化的Chat Completions API和Agents API，让开发者轻松切换和调用多个大语言模型（如OpenAI、Anthropic、Google等），并支持工具调用和智能体构建。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python 3.8+环境",
+          "需安装aisuite库及所需提供商SDK",
+          "需获取各提供商API密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望统一管理多个LLM提供商API调用的Python开发者，快速集成聊天补全和智能体功能。",
+        "deploymentSteps": [
+          "使用pip安装aisuite库：pip install aisuite[all]",
+          "设置各提供商API密钥为环境变量",
+          "编写Python代码调用client.chat.completions.create()"
+        ],
+        "risks": [
+          "API密钥管理不当可能导致泄露",
+          "不同提供商模型参数差异需注意"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "mem0",
+      "repo": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "知识库",
+      "reportedStars": 61946,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Universal memory layer for AI Agents",
+      "stars": 61946,
+      "dailyGrowth": 179,
+      "acceleration": -35,
+      "ageDays": 1135,
+      "language": "TypeScript",
+      "homepage": "https://mem0.ai",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "application",
+        "chatbots",
+        "chatgpt",
+        "genai",
+        "llm",
+        "long-term-memory",
+        "memory",
+        "memory-management",
+        "python",
+        "rag",
+        "state-management"
+      ],
+      "forks": 7224,
+      "openIssues": 755,
+      "commits30d": 114,
+      "contributors": 389,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 78,
+        "contributorStrength": 80,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 89,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 86,
+        "externalHeat": 25
+      },
+      "healthScore": 92,
+      "potentialScore": 52,
+      "score": 69,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "mem0ai/mem0",
+        "purpose": "为AI助手和智能体提供智能记忆层，支持多层级记忆（用户、会话、智能体），实现个性化交互和持续学习。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python SDK：pip install mem0ai，需Python 3.8+。",
+          "自托管服务器：需Docker和docker-compose。",
+          "云平台：注册即可使用，无需本地部署。"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15分钟",
+        "suitableFor": "需要为AI应用添加长期记忆功能的开发者，适用于聊天机器人、客服系统等场景。",
+        "deploymentSteps": [
+          "安装SDK：pip install mem0ai",
+          "设置API密钥或使用自托管服务器。",
+          "调用API添加和检索记忆。"
+        ],
+        "risks": [
+          "自托管版本需自行管理数据库和基础设施。",
+          "云平台可能涉及数据隐私问题。"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "CopilotKit",
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "category": "智能体",
+      "reportedStars": 36343,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "stars": 36343,
+      "dailyGrowth": 48,
+      "acceleration": -248,
+      "ageDays": 1136,
+      "language": "TypeScript",
+      "homepage": "https://docs.copilotkit.ai",
+      "topics": [
+        "agent",
+        "agent-native",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agent",
+        "ai-assistant",
+        "assistant",
+        "assistant-chat-bots",
+        "copilot",
+        "copilot-chat",
+        "generative-ui",
+        "js",
+        "llm",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "ts",
+        "typescript"
+      ],
+      "forks": 4486,
+      "openIssues": 339,
+      "commits30d": 1391,
+      "contributors": 212,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 72,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 74,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 94,
+      "potentialScore": 50,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "CopilotKit/CopilotKit",
+        "purpose": "全栈智能体应用SDK，支持React、Angular、Vue、React Native等前端框架，提供生成式UI、共享状态和人机协作工作流，兼容AG-UI协议。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Node.js 18+",
+          "需要LLM API密钥（OpenAI、Anthropic等）",
+          "前端项目需使用支持的框架（React/Next.js等）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要快速为Web或移动应用添加AI聊天和生成式UI功能的前后端开发者。",
+        "deploymentSteps": [
+          "创建项目：npx copilotkit@latest create",
+          "安装技能：npx copilotkit@latest skills install",
+          "按照提示配置LLM密钥",
+          "启动开发服务器"
+        ],
+        "risks": [
+          "依赖外部LLM API，需付费",
+          "Slack/Teams集成处于Beta阶段",
+          "自学习功能需申请早期访问"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "airi",
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "stars": 44727,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 604,
+      "language": "TypeScript",
+      "homepage": "https://airi.moeru.ai/docs/",
+      "topics": [
+        "ai-companion",
+        "ai-vtuber",
+        "airi",
+        "digital-life",
+        "grok-companion",
+        "live2d",
+        "neuro-sama",
+        "neurosama",
+        "openclaw",
+        "vrm",
+        "vtuber"
+      ],
+      "forks": 4447,
+      "openIssues": 178,
+      "commits30d": 100,
+      "contributors": 172,
+      "closedIssues30d": 36,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 76,
+        "contributorStrength": 69,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 82,
+        "externalHeat": 25
+      },
+      "healthScore": 89,
+      "potentialScore": 52,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "moeru-ai/airi",
+        "purpose": "自托管的AI伴侣项目，旨在重现Neuro-sama，支持实时语音聊天、Minecraft和Factorio游戏互动。提供Web、macOS、Windows客户端，可自定义虚拟角色。",
+        "productType": "桌面应用",
+        "deploymentConditions": [
+          "支持macOS、Windows、Linux桌面端",
+          "也可通过Web浏览器访问",
+          "需自行配置后端服务（自托管）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "希望拥有自托管AI虚拟伴侣的用户，喜欢二次元文化，愿意折腾配置。",
+        "deploymentSteps": [
+          "从GitHub Releases下载对应平台安装包",
+          "安装并启动应用",
+          "根据文档配置后端服务和模型"
+        ],
+        "risks": [
+          "自托管需要一定的技术能力",
+          "可能依赖外部API服务"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "open-webui",
+      "repo": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "category": "应用",
+      "reportedStars": 147112,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars": 147112,
+      "dailyGrowth": 141,
+      "acceleration": -1520,
+      "ageDays": 1026,
+      "language": "Python",
+      "homepage": "https://openwebui.com",
+      "topics": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ],
+      "forks": 21382,
+      "openIssues": 313,
+      "commits30d": 891,
+      "contributors": 863,
+      "closedIssues30d": 100,
+      "releases90d": 8,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 91,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 86,
+        "acceleration": 0,
+        "projectAge": 72,
+        "communityActivity": 97,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 56,
+      "score": 67,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "open-webui/open-webui",
+        "purpose": "一个功能丰富的自托管AI平台，提供友好的Web界面，支持连接Ollama本地模型和OpenAI兼容API，内置RAG（检索增强生成）、多模型对话、图像生成、用户权限管理等功能，可完全离线运行。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "推荐使用Docker部署，支持:ollama和:cuda标签",
+          "也可通过pip、uv或Kubernetes安装",
+          "需要至少一个LLM后端（Ollama本地模型或OpenAI兼容API）",
+          "默认使用SQLite数据库，可选PostgreSQL"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "希望自建一个功能全面的AI聊天和知识库平台，支持多用户、权限管理、RAG和插件扩展的团队或个人。",
+        "deploymentSteps": [
+          "确保已安装Docker和Docker Compose",
+          "运行官方提供的Docker命令启动容器（如docker run -d -p 3000:8080 ghcr.io/open-webui/open-webui:main）",
+          "首次访问Web界面，创建管理员账号",
+          "在设置中配置LLM后端（如Ollama地址或OpenAI API密钥）",
+          "根据需要启用RAG、图像生成、Web搜索等附加功能"
+        ],
+        "risks": [
+          "Docker镜像较大，需稳定网络下载",
+          "若使用本地Ollama模型，需额外下载模型文件，占用磁盘空间",
+          "生产环境建议配置PostgreSQL和S3存储，增加复杂度"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "agent-governance-toolkit",
+      "repo": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "stars": 5170,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 148,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "agent-framework",
+        "ai-agents",
+        "ai-safety",
+        "compliance",
+        "governance",
+        "microsoft",
+        "owasp",
+        "policy-engine",
+        "python",
+        "security",
+        "trust",
+        "zero-trust"
+      ],
+      "forks": 833,
+      "openIssues": 160,
+      "commits30d": 128,
+      "contributors": 122,
+      "closedIssues30d": 6,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 80,
+        "contributorStrength": 65,
+        "issueResponse": 33,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 59,
+        "externalHeat": 25
+      },
+      "healthScore": 76,
+      "potentialScore": 50,
+      "score": 61,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "microsoft/agent-governance-toolkit",
+        "purpose": "为AI智能体提供策略执行、零信任身份、沙箱执行和可靠性工程的生产级治理工具包，覆盖OWASP智能体十大安全风险。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+",
+          "需要编写YAML策略文件",
+          "可选：Claude Code插件市场安装"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "需要将AI智能体安全部署到生产环境的团队，尤其是关注合规、审计和零信任架构的企业。",
+        "deploymentSteps": [
+          "安装：pip install agent-governance-toolkit[full]",
+          "创建策略文件 policy.yaml",
+          "在代码中导入并装饰工具函数：from agentmesh.governance import govern; safe_tool = govern(my_tool, policy='policy.yaml')",
+          "运行应用，策略自动生效"
+        ],
+        "risks": [
+          "公共预览版可能有破坏性变更",
+          "策略配置错误可能导致误拦截或漏放",
+          "需深入理解OWASP智能体风险"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "claude-video",
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "category": "基础工具",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "stars": 12051,
+      "dailyGrowth": 1020,
+      "acceleration": 608,
+      "ageDays": 96,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 1210,
+      "openIssues": 78,
+      "commits30d": 5,
+      "contributors": 1,
+      "closedIssues30d": 6,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 30,
+        "contributorStrength": 9,
+        "issueResponse": 36,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 25,
+        "externalHeat": 25
+      },
+      "healthScore": 47,
+      "potentialScore": 68,
+      "score": 59,
+      "risks": [
+        "贡献者集中度较高"
+      ],
+      "deploymentBrief": {
+        "repo": "bradautomates/claude-video",
+        "purpose": "让Claude能够“观看”视频：下载视频、提取帧、获取字幕，并将视觉和音频信息传递给Claude进行分析。支持YouTube等链接和本地文件，可回答关于视频内容的问题。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Claude Code或兼容的代理工具",
+          "需安装yt-dlp和ffmpeg（首次运行自动安装）",
+          "可选：Whisper API密钥（用于无字幕视频）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "需要让AI分析视频内容的用户，如总结视频、诊断bug、分析广告创意等。",
+        "deploymentSteps": [
+          "在Claude Code中安装插件：/plugin marketplace add bradautomates/claude-video",
+          "安装插件：/plugin install watch@claude-video",
+          "使用/watch命令加上视频URL或路径提问"
+        ],
+        "risks": [
+          "视频帧数多时令牌消耗大",
+          "需注意API使用限制"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "PageIndex",
+      "repo": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "category": "知识库",
+      "reportedStars": 34872,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "stars": 34872,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 484,
+      "language": "Python",
+      "homepage": "https://pageindex.ai",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "context-engineering",
+        "information-retrieval",
+        "llm",
+        "rag",
+        "reasoning",
+        "retrieval",
+        "retrieval-augmented-generation",
+        "vector-database"
+      ],
+      "forks": 3057,
+      "openIssues": 143,
+      "commits30d": 19,
+      "contributors": 14,
+      "closedIssues30d": 30,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 49,
+        "contributorStrength": 36,
+        "issueResponse": 100,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 62,
+        "externalHeat": 25
+      },
+      "healthScore": 69,
+      "potentialScore": 48,
+      "score": 57,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "VectifyAI/PageIndex",
+        "purpose": "无向量数据库、无分块的推理型RAG系统，通过构建文档树索引并利用LLM推理实现类人检索，在金融文档基准上达到98.7%准确率。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "自托管需Python 3.10+和LLM API密钥（如OpenAI）。",
+          "支持Docker部署，需查阅README获取docker-compose配置。",
+          "云服务可直接使用Chat平台或API，无需本地部署。"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30分钟至1小时",
+        "suitableFor": "需要高精度文档检索的RAG应用开发者，尤其是金融、法律等专业领域。",
+        "deploymentSteps": [
+          "克隆仓库：git clone https://github.com/VectifyAI/PageIndex.git",
+          "安装依赖：pip install -r requirements.txt",
+          "设置LLM API密钥环境变量。",
+          "运行示例脚本或启动API服务。"
+        ],
+        "risks": [
+          "自托管版本使用标准PDF解析，效果可能不如云服务。",
+          "依赖LLM API，可能产生费用。"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "learn-claude-code",
+      "repo": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "category": "智能体",
+      "reportedStars": 72504,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "stars": 72504,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 394,
+      "language": "Python",
+      "homepage": "https://learn.shareai.run",
+      "topics": [
+        "agent",
+        "agent-development",
+        "ai-agent",
+        "claude",
+        "claude-code",
+        "educational",
+        "llm",
+        "python",
+        "teaching",
+        "tutorial"
+      ],
+      "forks": 11763,
+      "openIssues": 60,
+      "commits30d": 18,
+      "contributors": 38,
+      "closedIssues30d": 22,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 49,
+        "contributorStrength": 49,
+        "issueResponse": 100,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 66,
+        "externalHeat": 25
+      },
+      "healthScore": 60,
+      "potentialScore": 49,
+      "score": 54,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "shareAI-lab/learn-claude-code",
+        "purpose": "一个教学型项目，从零开始构建类似Claude Code的智能体框架（agent harness），帮助开发者理解智能体的本质：模型提供智能，框架提供执行环境。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+",
+          "需查阅 README 了解具体依赖"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "想深入理解AI智能体架构的开发者，尤其是对agent harness设计感兴趣的人。",
+        "deploymentSteps": [
+          "克隆仓库：git clone https://github.com/shareAI-lab/learn-claude-code.git",
+          "安装依赖：pip install -r requirements.txt（需查阅 README 确认）",
+          "运行示例脚本，参考 README 中的教程逐步学习"
+        ],
+        "risks": [
+          "项目为教学性质，可能不适合生产环境",
+          "依赖可能随教程更新而变化"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "atomic-agents",
+      "repo": "Eigenwise/atomic-agents",
+      "url": "https://github.com/Eigenwise/atomic-agents",
+      "category": "智能体",
+      "reportedStars": 6095,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Building AI agents, atomically",
+      "stars": 6095,
+      "dailyGrowth": 3,
+      "acceleration": -39,
+      "ageDays": 786,
+      "language": "Python",
+      "homepage": "https://eigenwise.github.io/atomic-agents/",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "large-language-model",
+        "large-language-models",
+        "llms",
+        "openai",
+        "openai-api"
+      ],
+      "forks": 517,
+      "openIssues": 5,
+      "commits30d": 32,
+      "contributors": 39,
+      "closedIssues30d": 7,
+      "releases90d": 4,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 58,
+        "contributorStrength": 50,
+        "issueResponse": 54,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 46,
+        "acceleration": 0,
+        "projectAge": 72,
+        "communityActivity": 54,
+        "externalHeat": 25
+      },
+      "healthScore": 72,
+      "potentialScore": 39,
+      "score": 53,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Eigenwise/atomic-agents",
+        "purpose": "轻量级模块化AI智能体框架，基于原子化设计（每个组件单一职责），支持Pydantic和Instructor，可组合构建可预测的AI流水线。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+",
+          "需要OpenAI API密钥或其他LLM提供商密钥",
+          "可选：安装额外provider包如instructor[anthropic]"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望用工程化方式构建可靠AI应用的开发者，尤其是偏好模块化和类型安全的团队。",
+        "deploymentSteps": [
+          "安装：pip install atomic-agents",
+          "安装provider：pip install instructor[groq]（可选）",
+          "编写智能体代码，参考快速开始示例",
+          "运行脚本"
+        ],
+        "risks": [
+          "依赖外部LLM API，需付费",
+          "v2.0可能有破坏性变更"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "speech-to-speech",
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "category": "智能体",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Build local voice agents with open-source models",
+      "stars": 7192,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 720,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "assistant",
+        "language-model",
+        "machine-learning",
+        "python",
+        "speech",
+        "speech-synthesis",
+        "speech-to-text",
+        "speech-translation"
+      ],
+      "forks": 949,
+      "openIssues": 113,
+      "commits30d": 51,
+      "contributors": 30,
+      "closedIssues30d": 5,
+      "releases90d": 1,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 65,
+        "contributorStrength": 46,
+        "issueResponse": 30,
+        "releaseCadence": 40,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 47,
+        "externalHeat": 25
+      },
+      "healthScore": 56,
+      "potentialScore": 45,
+      "score": 50,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "huggingface/speech-to-speech",
+        "purpose": "构建低延迟语音智能体管道的Python库，支持VAD、语音转文字、大语言模型和文字转语音的模块化组合，提供兼容OpenAI Realtime的WebSocket API。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "Python 3.10+",
+          "需要OpenAI API密钥或其他LLM提供商密钥",
+          "可选：CUDA 12.x或更高版本用于GPU加速"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要快速搭建语音对话应用的开发者，尤其是希望使用开源模型实现本地语音智能体的场景。",
+        "deploymentSteps": [
+          "安装：pip install speech-to-speech",
+          "设置环境变量：export OPENAI_API_KEY=...",
+          "启动服务：speech-to-speech",
+          "连接客户端：python scripts/listen_and_play_realtime.py"
+        ],
+        "risks": [
+          "默认使用OpenAI API，需付费",
+          "本地模型可能需要GPU和额外配置",
+          "CUDA版本兼容性问题"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "book-to-skill",
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "category": "应用",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "stars": 11270,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 89,
+      "language": "Python",
+      "homepage": null,
+      "topics": [],
+      "forks": 1332,
+      "openIssues": 13,
+      "commits30d": 8,
+      "contributors": 13,
+      "closedIssues30d": 1,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 36,
+        "contributorStrength": 36,
+        "issueResponse": 25,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 32,
+        "externalHeat": 25
+      },
+      "healthScore": 56,
+      "potentialScore": 45,
+      "score": 50,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "virgiliojr94/book-to-skill",
+        "purpose": "将技术书籍PDF、文档文件夹等转化为AI编程助手（如Claude Code、GitHub Copilot CLI）可加载的技能包，按章节结构化存储，支持按需查询，大幅减少上下文消耗，避免幻觉。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要Python 3.10+环境",
+          "支持PDF、EPUB、DOCX、Markdown等多种文档格式",
+          "需安装对应的文档解析工具（如pdftotext、pandoc等）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "经常阅读技术书籍并在编程时希望快速引用书中知识的开发者，尤其是使用Claude Code、Copilot CLI等AI编程助手的用户。",
+        "deploymentSteps": [
+          "使用pip或pipx安装book-to-skill（pip install book-to-skill）",
+          "运行命令将书籍转化为技能：book-to-skill ./your-book.pdf",
+          "生成的技能文件自动放置到AI助手的技能目录（如~/.claude/skills/）",
+          "在AI助手中使用/your-book-slug命令查询书中内容"
+        ],
+        "risks": [
+          "需手动安装文档解析依赖，部分格式可能需要额外工具",
+          "生成的技能质量取决于文档结构和解析效果，复杂排版可能不理想",
+          "仅支持技术类书籍，非技术内容效果未知"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "minimind",
+      "repo": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "category": "模型",
+      "reportedStars": 53947,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "stars": 53948,
+      "dailyGrowth": 42,
+      "acceleration": 0,
+      "ageDays": 732,
+      "language": "Python",
+      "homepage": "https://jingyaogong.github.io/minimind",
+      "topics": [
+        "artificial-intelligence",
+        "large-language-model"
+      ],
+      "forks": 7000,
+      "openIssues": 48,
+      "commits30d": 4,
+      "contributors": 12,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 27,
+        "contributorStrength": 35,
+        "issueResponse": 15,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 72,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 26,
+        "externalHeat": 25
+      },
+      "healthScore": 39,
+      "potentialScore": 49,
+      "score": 45,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "jingyaogong/minimind",
+        "purpose": "从零开始训练一个仅64M参数的小型语言模型，覆盖预训练、监督微调、强化学习等完整流程，代码使用PyTorch原生实现，不依赖高层封装，最低仅需3元GPU成本，适合LLM入门学习。",
+        "productType": "模型",
+        "deploymentConditions": [
+          "需要NVIDIA GPU（推荐单张3090或更高）",
+          "需要Python和PyTorch环境",
+          "需下载训练数据和预训练模型（可选）",
+          "支持单机单卡或多卡（DDP、DeepSpeed）训练"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "2小时以上（训练时间）",
+        "suitableFor": "希望深入理解大语言模型内部原理、从零动手训练一个LLM的学习者和研究人员，以及需要轻量级本地模型的开发者。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖（pip install -r requirements.txt）",
+          "下载预训练数据集（如pretrain_t2t.jsonl）",
+          "运行预训练脚本：python train_pretrain.py",
+          "运行监督微调脚本：python train_sft.py",
+          "可选：运行强化学习脚本（DPO、PPO等）"
+        ],
+        "risks": [
+          "训练需要GPU，无GPU无法完成训练",
+          "训练时间较长（2小时以上），需耐心等待",
+          "模型参数量小，能力有限，不适合生产环境",
+          "需自行处理数据下载和预处理，可能遇到网络问题"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "picollm",
+      "repo": "Picovoice/picollm",
+      "url": "https://github.com/Picovoice/picollm",
+      "category": "基础工具",
+      "reportedStars": 315,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "On-device LLM Inference Powered by X-Bit Quantization",
+      "stars": 315,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 840,
+      "language": "Python",
+      "homepage": "https://picovoice.ai/",
+      "topics": [
+        "compression",
+        "efficient-inference",
+        "gemma",
+        "generative-ai",
+        "language-model",
+        "language-models",
+        "large-language-model",
+        "llama",
+        "llama2",
+        "llama3",
+        "llm",
+        "llm-inference",
+        "llms",
+        "mistral",
+        "mixtral",
+        "model-compression",
+        "natural-language-processing",
+        "quantization",
+        "self-hosted"
+      ],
+      "forks": 26,
+      "openIssues": 4,
+      "commits30d": 7,
+      "contributors": 11,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 34,
+        "contributorStrength": 33,
+        "issueResponse": 27,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 31,
+        "externalHeat": 25
+      },
+      "healthScore": 42,
+      "potentialScore": 42,
+      "score": 42,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Picovoice/picollm",
+        "purpose": "高性能跨平台SDK，用于在设备上本地运行压缩的大语言模型，支持CPU和GPU推理，保证隐私。采用picoLLM压缩算法，在低比特率下保持高精度，支持多种开源模型。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Picovoice AccessKey进行认证",
+          "支持Linux、macOS、Windows、Raspberry Pi、Android、iOS、Web",
+          "需下载模型文件（从Picovoice Console获取）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要在边缘设备或本地运行LLM的开发者，注重隐私和离线能力，支持多种平台。",
+        "deploymentSteps": [
+          "注册Picovoice Console获取AccessKey",
+          "安装对应平台SDK（如pip install picollm）",
+          "下载模型文件并设置路径",
+          "编写代码调用推理接口"
+        ],
+        "risks": [
+          "AccessKey需联网验证，离线使用受限",
+          "模型文件较大，需注意存储空间"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "generative-ai",
+      "repo": "genieincodebottle/generative-ai",
+      "url": "https://github.com/genieincodebottle/generative-ai",
+      "category": "模型",
+      "reportedStars": 2573,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Comprehensive resources on Generative AI, including a detailed roadmap, projects, use cases, interview preparation, and coding preparation.",
+      "stars": 2573,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 932,
+      "language": "Jupyter Notebook",
+      "homepage": "https://aimlcompanion.ai/",
+      "topics": [
+        "agentic-ai",
+        "agentic-framework",
+        "claude",
+        "gemini",
+        "genai",
+        "genai-usecase",
+        "generative-ai",
+        "interview-questions",
+        "langchain",
+        "langgraph",
+        "large-language-model",
+        "llm-agent",
+        "llm-evaluation",
+        "mcp",
+        "model-context-protocol",
+        "multimodal",
+        "n8n",
+        "n8n-workflow",
+        "openai-api",
+        "retrieval-augmented-generation"
+      ],
+      "forks": 618,
+      "openIssues": 5,
+      "commits30d": 3,
+      "contributors": 6,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 23,
+        "contributorStrength": 26,
+        "issueResponse": 26,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 25,
+        "externalHeat": 25
+      },
+      "healthScore": 35,
+      "potentialScore": 40,
+      "score": 38,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "genieincodebottle/generative-ai",
+        "purpose": "提供生成式AI的全面学习资源，包括路线图、项目案例、面试准备和编码练习，帮助开发者系统掌握GenAI技术。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "无需部署，直接访问GitHub仓库或配套学习平台AI-ML Companion即可使用。",
+          "如需运行Jupyter Notebook示例，需安装Python和Jupyter环境。"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "无需部署",
+        "suitableFor": "希望系统学习生成式AI的开发者、学生和研究人员，从入门到进阶均可受益。",
+        "deploymentSteps": [
+          "克隆仓库：git clone https://github.com/genieincodebottle/generative-ai.git",
+          "浏览README和文档，按需学习。",
+          "可选：安装Python和Jupyter，运行Notebook示例。"
+        ],
+        "risks": [
+          "部分内容依赖外部平台（如AI-ML Companion），需网络访问。"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "LLMs-from-scratch",
+      "repo": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "category": "模型",
+      "reportedStars": 100055,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "stars": 100055,
+      "dailyGrowth": 78,
+      "acceleration": -756,
+      "ageDays": 1101,
+      "language": "Jupyter Notebook",
+      "homepage": "https://amzn.to/4fqvn0D",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning",
+        "finetuning",
+        "from-scratch",
+        "generative-ai",
+        "gpt",
+        "instruction-tuning",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "pretraining",
+        "python",
+        "pytorch",
+        "tokenizer",
+        "transformers"
+      ],
+      "forks": 15375,
+      "openIssues": 2,
+      "commits30d": 3,
+      "contributors": 68,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 23,
+        "contributorStrength": 57,
+        "issueResponse": 37,
+        "releaseCadence": 0,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 79,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 39,
+        "externalHeat": 25
+      },
+      "healthScore": 28,
+      "potentialScore": 40,
+      "score": 35,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "rasbt/LLMs-from-scratch",
+        "purpose": "从零开始用PyTorch实现类似ChatGPT的大语言模型，涵盖预训练、微调等完整流程，配套书籍《Build a Large Language Model (From Scratch)》。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "需安装Python 3.10+和PyTorch。",
+          "建议使用GPU加速训练，但CPU也可运行小规模实验。",
+          "需安装Jupyter Notebook或VS Code等开发环境。"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "数小时至数天（取决于实验规模）",
+        "suitableFor": "希望深入理解LLM原理并动手实践的深度学习工程师和研究人员。",
+        "deploymentSteps": [
+          "克隆仓库：git clone https://github.com/rasbt/LLMs-from-scratch.git",
+          "安装依赖：pip install -r requirements.txt（需查阅README获取具体文件）",
+          "按章节顺序运行Jupyter Notebook。",
+          "可选：使用GPU加速训练。"
+        ],
+        "risks": [
+          "训练大模型需要大量计算资源，普通硬件可能耗时较长。",
+          "需自行准备数据集和API密钥（如使用OpenAI）。"
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
+}
