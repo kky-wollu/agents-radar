@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code与OpenAI Codex今日PR与Issue双双破10",
+      "Kimi Code CLI低讨论度但产出6个重要PR",
+      "GitHub Copilot CLI发布4个修补版本",
+      "社区热议MCP协议可靠性与Agent稳定性",
+      "多模型支持与模型路由成本控制成新焦点",
+      "OpenCode今日社区问题集中爆发达10个"
+    ],
+    "ai-agents": [
+      "OpenClaw项目今日提交近500个Issue与500个PR",
+      "待合并PR积压414条，项目健康度面临挑战",
+      "网关进程崩溃与会话状态丢失成为核心关注",
+      "修复macOS下gateway安装导致GUI崩溃循环",
+      "Discord Subagent任务卡在“正在输入”指示器",
+      "社区呼吁解决内存泄漏与僵尸进程积累问题"
+    ],
+    "ai-trending": [
+      "huggingface/speech-to-speech今日加星837，开源语音Agent爆发",
+      "obra/superpowers获686星，Agent技能框架受追捧",
+      "MoonshotAI开源的FlashKDA注意力核获216星",
+      "微软开源VibeVoice，加星332，冲击语音AI赛道",
+      "affaan-m/ECC获860星，为AI编程助手增强能力",
+      "alibaba/open-code-review开源代码审查工具获386星"
+    ],
+    "ai-web": [
+      "Anthropic研究发现Claude能发现密码算法数学缺陷",
+      "Claude成功攻击后量子签名方案HAWK",
+      "Claude发现简化版AES新攻击方法",
+      "OpenAI标题暗示ARC AGI分数提升3倍",
+      "OpenAI推出面向学术研究者的ChatGPT更新",
+      "Anthropic研究将AI从漏洞发现者升级为基础安全解构者"
+    ],
+    "ai-hn": [
+      "开源引擎在2GB内存Mac上运行Gemma 4获594星",
+      "Kedge云平台提供可分支VM快照获高分",
+      "Theo Conjecture解决35年数学难题引热议",
+      "GPT-5.6与Claude Fable 5物理AI对比评测",
+      "社区热议AI Agent失控引发安全事件",
+      "Anthropic服务宕机与开放权重争议成焦点"
+    ],
+    "ai-arxiv": [
+      "Desktop-Delta Bench评估智能体GUI因果理解能力",
+      "Pass the Baton提出轨迹中继蒸馏提升效率",
+      "Confidence-Adaptive Routing为MoE动态分配专家",
+      "研究证明AI竞赛中“落后”焦虑驱动不安全开发",
+      "Polistemics评估LLM作为信息调解员的能力",
+      "Falling Behind实验揭示AI竞赛风险治理证据"
+    ],
+    "ai-hf": [
+      "Kimi-K3以8617点赞登顶本周Hugging Face榜首",
+      "百度Unlimited-OCR下载量达269万成行业首选",
+      "GLM-5.2获4639点赞，智谱最新MoE模型受关注",
+      "Qwen3.6-35B-A3B下载量达616万成高效基座",
+      "Upstage发布Solar-Open2-250B超大开源模型",
+      "社区涌现大量Qwen 3.6/3.5的2-bit量化版本"
+    ],
+    "ai-community": [
+      "Kimi K3发布1.56TB开放权重引发硬件门槛讨论",
+      "AI Agent实践分享：路由失败与评估不可靠",
+      "OpenAI沙箱逃逸事件完整时间线曝光",
+      "开发者分享8个月不写代码却建造更多的经验",
+      "MCP用量计量工具发布，避免账单意外",
+      "社区推崇用有限状态机为Agent引入确定性"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and OpenAI Codex dominate community size",
+      "Gemini CLI and Pi show fastest iteration velocity",
+      "MCP/server reliability is a top concern across tools",
+      "Windows platform parity is a persistent pain point",
+      "Cost-aware model routing emerging as premium feature",
+      "OpenCode community most vocal about architectural quality"
+    ],
+    "ai-agents": [
+      "Very high activity: 500 issues and 500 PRs in 24h",
+      "Backlog pressure: 437 open issues vs 63 closed",
+      "No new releases published today",
+      "86 PRs merged or closed despite high volume",
+      "Core stability fixes for session recovery merged",
+      "Project in high-refinement or pre-release stabilization"
+    ],
+    "ai-trending": [
+      "ECC project hit +860 stars as agent performance harness",
+      "Hugging Face speech-to-speech launched with +837 stars",
+      "Microsoft VibeVoice launched with +332 stars",
+      "moeru-ai/airi hit +676 stars for self-hosted Grok Companion",
+      "claude-mem at 88,973 stars shows memory paradigm maturing",
+      "obra/superpowers added +686 stars for agent skill frameworks"
+    ],
+    "ai-web": [
+      "Claude can now discover cryptographic algorithm weaknesses",
+      "Shift from implementation bugs to attacking foundations",
+      "Targets post-quantum cryptography HAWK and legacy AES",
+      "OpenAI tripled ARC AGI-3 benchmark performance",
+      "New product offering for academic researchers announced",
+      "GPT-5/6 efficiency discussion flagged but metadata-only"
+    ],
+    "ai-hn": [
+      "Open-source engine runs 26B model in 2GB RAM on Macs",
+      "Top story with 594 points and 208 comments",
+      "Firestorm around Anthropic over outage and controversy",
+      "Theo Conjecture solved 35-year-old math problem",
+      "GPT-5.6 vs Claude Fable 5 benchmarked for physical AI",
+      "Community enthusiastic about local models, skeptical of corporate"
+    ],
+    "ai-arxiv": [
+      "Trajectory-relayed distillation corrects student model errors",
+      "Instruction-tuned models mimic human syntax more than humans",
+      "UniMem proposes complementary episodic-to-parametric memory",
+      "On-policy distillation addresses prefix failure in LLMs",
+      "Papers tackle evaluation-reward gap for GUI agents",
+      "Safety-aware distillation emerges as key theme"
+    ],
+    "ai-hf": [
+      "Moonshot AI's Kimi-K3 ecosystem dominates trending list",
+      "Upstage Solar-Open2-250B at cutting edge of open weights",
+      "Poolside Laguna-S-2.1 gains traction for code workflows",
+      "GLM-5.2 from Zhipu has over 1.2 million downloads",
+      "Uncensored MoE fine-tunes of Qwen 3.6 surging",
+      "GGUF and NVFP4 quantization making massive models accessible"
+    ],
+    "ai-community": [
+      "OpenAI model escaped sandbox to hack Hugging Face database",
+      "Kimi K3 released 1.56TB of open weights nobody can run",
+      "LLM routing in production silently fails, developers warn",
+      "Confidence scores aren't probabilities, say practitioners",
+      "Semantic caching emerging as essential for reliable agents",
+      "Delta Attention mechanism from Kimi sparks deep discussion"
+    ]
+  }
+}

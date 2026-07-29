@@ -166,6 +166,11 @@
       "date": "2026-07-29",
       "stars": 234760,
       "growth": 5831
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 235524,
+      "growth": 764
     }
   ],
   "acon96/home-llm": [
@@ -391,6 +396,11 @@
       "date": "2026-07-29",
       "stars": 86264,
       "growth": 104
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 86354,
+      "growth": 90
     }
   ],
   "open-compass/opencompass": [
@@ -565,6 +575,11 @@
       "date": "2026-07-29",
       "stars": 221885,
       "growth": 2391
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 222316,
+      "growth": 431
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -834,6 +849,11 @@
       "date": "2026-07-29",
       "stars": 97745,
       "growth": 612
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 98418,
+      "growth": 673
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -1278,6 +1298,11 @@
       "date": "2026-07-28",
       "stars": 14742,
       "growth": 1000
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 15965,
+      "growth": 1223
     }
   ],
   "earthtojake/text-to-cad": [
@@ -1319,6 +1344,11 @@
       "date": "2026-07-29",
       "stars": 53948,
       "growth": 42
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 54034,
+      "growth": 86
     }
   ],
   "citrolabs/ego-lite": [
@@ -1402,6 +1432,11 @@
       "date": "2026-07-28",
       "stars": 58142,
       "growth": 349
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 59047,
+      "growth": 905
     }
   ],
   "mvanhorn/last30days-skill": [
@@ -1423,6 +1458,11 @@
       "date": "2026-07-29",
       "stars": 44727,
       "growth": 0
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 45355,
+      "growth": 628
     }
   ],
   "huggingface/speech-to-speech": [
@@ -1430,6 +1470,11 @@
       "date": "2026-07-29",
       "stars": 7192,
       "growth": 0
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 7829,
+      "growth": 637
     }
   ],
   "microsoft/agent-governance-toolkit": [
@@ -1451,6 +1496,11 @@
       "date": "2026-07-29",
       "stars": 11270,
       "growth": 0
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 12659,
+      "growth": 1389
     }
   ],
   "genieincodebottle/generative-ai": [
@@ -1465,6 +1515,62 @@
       "date": "2026-07-29",
       "stars": 34872,
       "growth": 0
+    }
+  ],
+  "maderix/ANE": [
+    {
+      "date": "2026-07-30",
+      "stars": 7138,
+      "growth": 13
+    }
+  ],
+  "MoonshotAI/FlashKDA": [
+    {
+      "date": "2026-07-30",
+      "stars": 977,
+      "growth": 216
+    }
+  ],
+  "microsoft/VibeVoice": [
+    {
+      "date": "2026-07-30",
+      "stars": 51237,
+      "growth": 332
+    }
+  ],
+  "1jehuang/jcode": [
+    {
+      "date": "2026-07-30",
+      "stars": 13424,
+      "growth": 652
+    }
+  ],
+  "paperswithbacktest/awesome-systematic-trading": [
+    {
+      "date": "2026-07-30",
+      "stars": 10367,
+      "growth": 950
+    }
+  ],
+  "different-ai/openwork": [
+    {
+      "date": "2026-07-30",
+      "stars": 17854,
+      "growth": 58
+    }
+  ],
+  "obra/superpowers": [
+    {
+      "date": "2026-07-30",
+      "stars": 263245,
+      "growth": 686
+    }
+  ],
+  "deepfakes/faceswap": [
+    {
+      "date": "2026-07-30",
+      "stars": 56232,
+      "growth": 135
     }
   ]
 }
