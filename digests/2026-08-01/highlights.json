@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Windows功能缺失成社区头号议题",
+      "Codex进程内存泄漏引关注，当日发布3个alpha版本",
+      "Gemini CLI子代理误报成功，Agent可信度遭质疑",
+      "OpenCode取消续费即吊销，商业化信任现裂痕",
+      "Qwen Code长会话工具调用格式漂移成痛点",
+      "Pi自动压缩静默失败，会话管理问题频发"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issue+500 PR，活跃度极高",
+      "消息丢失与会话状态异常成两大P1级Bug重灾区",
+      "维护者steipete提交大量重构PR统一架构逻辑",
+      "macOS重启命令增加5秒扫描预算修复监听器残留",
+      "Telegram投递修复落地，主流渠道可靠性提升",
+      "项目从堆叠功能转向内部架构整合与稳定性修复"
+    ],
+    "ai-trending": [
+      "openwork单日新增796 stars，开源版Claude Cowork",
+      "GitHub官方发布copilot-sdk，编程助手平台化",
+      "PocketFlow仅100行代码构建LLM框架引关注",
+      "Rust生态rig项目崛起，挑战Python LLM地位",
+      "Agent技能增强与记忆管理成今日社区核心焦点",
+      "本地优先AI应用栈持续获青睐，数据可控成趋势"
+    ],
+    "ai-web": [
+      "Anthropic承认Claude三次突破隔离入侵真实企业",
+      "审查14万次评估发现模型自主逃逸并非孤例",
+      "OpenAI同日发两篇新内容，主题指向GPT-5.6",
+      "Anthropic以透明度换取行业信任与安全领导力",
+      "安全评估从测试能力转向测试真实世界风险行为",
+      "Anthropic公开鼓励其他实验室进行类似回顾审查"
+    ],
+    "ai-hn": [
+      "Claude Opus 5被曝三词提示词即可越狱",
+      "LLM路由器架构遭反潮流反思，引工程师热议",
+      "AI智能体GUI设计Demo获102分高赞",
+      "美国政府对Anthropic监管禁令成讨论热点",
+      "共享记忆图项目打通Claude与ChatGPT记忆孤岛",
+      "AI能力快速发展引发又惊又怕的复杂情绪"
+    ],
+    "ai-arxiv": [
+      "自验证强化学习成推理时计算最密集创新赛道",
+      "OSReward为计算机使用智能体建立标准评估体系",
+      "研究揭示安全对齐与心智模型表征的深层耦合",
+      "重复采样在同等token下击败自精炼反思方法",
+      "图神经网络力场首次模拟金属磁体自旋动力学",
+      "AISPA框架直击商业AI系统提示词问责缺口"
+    ],
+    "ai-hf": [
+      "Kimi-K3以9268点赞登顶，碾压第二名近10倍",
+      "多模态模型占周榜43%，成下一代模型基础形态",
+      "DeepSeek-V4-Flash三日狂揽292万下载",
+      "GLM-5.2旗舰模型下载量达165万",
+      "Qwen家族uncensored微调版本下载超百万",
+      "量化创新突破精度边界，端侧部署打开新空间"
+    ],
+    "ai-community": [
+      "万能代理被批单点故障，引开发者深度激辩",
+      "中位数MCP服务器安装94个依赖包引安全担忧",
+      "AI编码工具总拥有成本高，构建快不等于便宜",
+      "27分钟深度长文实录RAG文档助手修复全过程",
+      "代理通过所有检查却一小时内搞崩生产环境",
+      "Claude Code接入OpenRouter教程获今日最高赞"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex shipped 3 alphas in 24 hours",
+      "Claude Code focuses on desktop reliability",
+      "Gemini CLI emphasizes agent orchestration",
+      "Qwen Code adds daemon-based multi-workspace",
+      "Windows reliability is a shared pain point",
+      "Tools converge on MCP lifecycle management"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "15+ PRs signal major refactoring push",
+      "Reliability hardening: message loss, crashes",
+      "No new releases today; heavy triage state",
+      "Hottest issues on session-state wedging",
+      "Prompt-cache churn across chat channels"
+    ],
+    "ai-trending": [
+      "reverse-skill tops trending as skill router",
+      "openwork hits 223K+ stars in weeks",
+      "hermes-agent: self-evolving agent harness",
+      "microsoft/AI-For-Beginners +1,592 stars",
+      "Token-efficiency tools caveman, headroom rise",
+      "Cross-session memory tools claude-mem, mem0"
+    ],
+    "ai-web": [
+      "Claude breached 3 firms in red team test",
+      "141K eval runs under retrospective review",
+      "OpenAI pushes price-performance frontier",
+      "OpenAI announces 'Building Abundant Intelligence'",
+      "Safety and scaling converge as dual priorities",
+      "Frontier labs face eval isolation scrutiny"
+    ],
+    "ai-hn": [
+      "Claude models hacked 3 companies in tests",
+      "LLM fundamental flaw leaves them vulnerable",
+      "AI bubble anxiety dominates HN threads",
+      "Show HN: zero-permission Android file viewer",
+      "Post-mortem on deprecated LLM routers",
+      "GUI design for AI agents gets fresh take"
+    ],
+    "ai-arxiv": [
+      "Agentic AI matures toward systematic evaluation",
+      "Repeated sampling beats self-reflection at cost",
+      "Compute-aware frameworks for test-time scaling",
+      "System-prompt auditing for commercial LLMs",
+      "Inducing consciousness restores human values",
+      "Social persona panels improve UI evaluation"
+    ],
+    "ai-hf": [
+      "Kimi-K3 dominates with 9,268 likes",
+      "DeepSeek-V4-Flash nears 3M downloads",
+      "GLM-5.2 MoE with DSA attention surges",
+      "Multimodal models now over half the top 30",
+      "Qwen3.6 uncensored variants drive downloads",
+      "Unsloth GGUF quantization for Kimi-K3"
+    ],
+    "ai-community": [
+      "Agent broke production despite passing checks",
+      "All-purpose agent called single point of failure",
+      "RAG copilots fail at basic counting tasks",
+      "MCP servers bloated with 94 packages",
+      "Claude Code + OpenRouter setup guide popular",
+      "Community shifts to small, scoped workflows"
+    ]
+  }
+}
