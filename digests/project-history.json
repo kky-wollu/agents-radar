@@ -89,6 +89,11 @@
       "date": "2026-08-01",
       "stars": 8113,
       "growth": 178
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 8168,
+      "growth": 55
     }
   ],
   "virattt/ai-hedge-fund": [
@@ -232,6 +237,11 @@
       "date": "2026-08-01",
       "stars": 163211,
       "growth": 164
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 163336,
+      "growth": 125
     }
   ],
   "hugohe3/ppt-master": [
@@ -249,6 +259,11 @@
       "date": "2026-08-01",
       "stars": 42192,
       "growth": 1636
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 43001,
+      "growth": 809
     }
   ],
   "CherryHQ/cherry-studio": [
@@ -291,6 +306,11 @@
       "date": "2026-07-29",
       "stars": 49091,
       "growth": 43
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 49406,
+      "growth": 315
     }
   ],
   "santifer/career-ops": [
@@ -308,6 +328,11 @@
       "date": "2026-07-23",
       "stars": 61088,
       "growth": 1211
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 62788,
+      "growth": 1700
     }
   ],
   "starpig1129/DATAGEN": [
@@ -352,6 +377,11 @@
       "date": "2026-08-01",
       "stars": 100240,
       "growth": 185
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 100559,
+      "growth": 319
     }
   ],
   "galilai-group/stable-pretraining": [
@@ -431,6 +461,11 @@
       "date": "2026-08-01",
       "stars": 86526,
       "growth": 172
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 86818,
+      "growth": 292
     }
   ],
   "open-compass/opencompass": [
@@ -453,6 +488,11 @@
       "date": "2026-08-01",
       "stars": 7251,
       "growth": 56
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 7273,
+      "growth": 22
     }
   ],
   "mem0ai/mem0": [
@@ -490,6 +530,11 @@
       "date": "2026-08-01",
       "stars": 62214,
       "growth": 268
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 62520,
+      "growth": 306
     }
   ],
   "headroomlabs-ai/headroom": [
@@ -544,6 +589,11 @@
       "date": "2026-07-29",
       "stars": 29514,
       "growth": 747
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 29777,
+      "growth": 263
     }
   ],
   "thedotmack/claude-mem": [
@@ -576,6 +626,11 @@
       "date": "2026-08-01",
       "stars": 89175,
       "growth": 304
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 89560,
+      "growth": 385
     }
   ],
   "samchon/nestia": [
@@ -625,6 +680,11 @@
       "date": "2026-07-30",
       "stars": 222316,
       "growth": 431
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 225472,
+      "growth": 3156
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -672,6 +732,11 @@
       "date": "2026-08-01",
       "stars": 185742,
       "growth": 23
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 185811,
+      "growth": 69
     }
   ],
   "Shubhamsaboo/awesome-llm-apps": [
@@ -711,6 +776,11 @@
       "date": "2026-08-01",
       "stars": 46247,
       "growth": 150
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 46318,
+      "growth": 71
     }
   ],
   "pytorch/pytorch": [
@@ -770,6 +840,11 @@
       "date": "2026-08-01",
       "stars": 45440,
       "growth": 49
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 45510,
+      "growth": 70
     }
   ],
   "ollama/ollama": [
@@ -797,6 +872,11 @@
       "date": "2026-07-28",
       "stars": 177026,
       "growth": 295
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 177785,
+      "growth": 759
     }
   ],
   "open-webui/open-webui": [
@@ -831,6 +911,11 @@
       "date": "2026-07-24",
       "stars": 27654,
       "growth": 643
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 30742,
+      "growth": 3088
     }
   ],
   "CopilotKit/CopilotKit": [
@@ -870,6 +955,11 @@
       "date": "2026-08-01",
       "stars": 59700,
       "growth": 286
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 60061,
+      "growth": 361
     }
   ],
   "OpenCut-app/OpenCut": [
@@ -960,6 +1050,11 @@
       "date": "2026-07-28",
       "stars": 107022,
       "growth": 116
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 107872,
+      "growth": 850
     }
   ],
   "PaddlePaddle/PaddleOCR": [
@@ -1018,6 +1113,11 @@
       "date": "2026-08-01",
       "stars": 143113,
       "growth": 1254
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 143424,
+      "growth": 311
     }
   ],
   "mattpocock/skills": [
@@ -1106,6 +1206,11 @@
       "date": "2026-07-20",
       "stars": 23609,
       "growth": 374
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 28325,
+      "growth": 4716
     }
   ],
   "KnockOutEZ/wigolo": [
@@ -1340,6 +1445,11 @@
       "date": "2026-07-24",
       "stars": 12719,
       "growth": 2
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 12760,
+      "growth": 41
     }
   ],
   "dreamhunter2333/cloudflare_temp_email": [
@@ -1407,6 +1517,11 @@
       "date": "2026-08-01",
       "stars": 46481,
       "growth": 213
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 46617,
+      "growth": 136
     }
   ],
   "jingyaogong/minimind": [
@@ -1496,6 +1611,11 @@
       "date": "2026-08-01",
       "stars": 100809,
       "growth": 1252
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 101607,
+      "growth": 798
     }
   ],
   "HKUDS/LightRAG": [
@@ -1674,6 +1794,11 @@
       "date": "2026-07-30",
       "stars": 263245,
       "growth": 686
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 266443,
+      "growth": 3198
     }
   ],
   "deepfakes/faceswap": [
@@ -1716,12 +1841,78 @@
       "date": "2026-08-01",
       "stars": 4427,
       "growth": 0
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 4440,
+      "growth": 13
     }
   ],
   "zhaoxuya520/reverse-skill": [
     {
       "date": "2026-08-01",
       "stars": 10656,
+      "growth": 0
+    },
+    {
+      "date": "2026-08-05",
+      "stars": 17792,
+      "growth": 7136
+    }
+  ],
+  "firecrawl/pdf-inspector": [
+    {
+      "date": "2026-08-05",
+      "stars": 9935,
+      "growth": 0
+    }
+  ],
+  "TencentCloud/TencentDB-Agent-Memory": [
+    {
+      "date": "2026-08-05",
+      "stars": 13500,
+      "growth": 0
+    }
+  ],
+  "googleworkspace/cli": [
+    {
+      "date": "2026-08-05",
+      "stars": 30199,
+      "growth": 0
+    }
+  ],
+  "EveryInc/compound-engineering-plugin": [
+    {
+      "date": "2026-08-05",
+      "stars": 23856,
+      "growth": 0
+    }
+  ],
+  "browser-use/video-use": [
+    {
+      "date": "2026-08-05",
+      "stars": 19286,
+      "growth": 0
+    }
+  ],
+  "livekit/agents": [
+    {
+      "date": "2026-08-05",
+      "stars": 12378,
+      "growth": 0
+    }
+  ],
+  "microsoft/generative-ai-for-beginners": [
+    {
+      "date": "2026-08-05",
+      "stars": 116229,
+      "growth": 0
+    }
+  ],
+  "run-llama/llama_index": [
+    {
+      "date": "2026-08-05",
+      "stars": 51375,
       "growth": 0
     }
   ]
