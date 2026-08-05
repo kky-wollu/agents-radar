@@ -1,0 +1,411 @@
+{
+  "generated": "2026-08-05T23:10:59.362Z",
+  "date": "2026-08-06",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "superpowers",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 267270,
+      "dailyGrowth": 827,
+      "acceleration": -2371,
+      "ageDays": 300,
+      "language": "Shell",
+      "homepage": null,
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "forks": 23878,
+      "openIssues": 325,
+      "commits30d": 52,
+      "contributors": 44,
+      "closedIssues30d": 68,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 66,
+        "contributorStrength": 51,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 72,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 57,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "obra/superpowers",
+        "purpose": "为编码智能体提供一套完整的软件开发方法论和技能框架，通过头脑风暴、计划编写、子智能体驱动开发等流程，让智能体自动遵循测试驱动开发等最佳实践，提升代码质量。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要安装Claude Code、Cursor、Codex等支持的编码智能体工具",
+          "根据使用的工具选择对应的安装方式",
+          "需要网络访问以从市场或仓库安装插件"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "适合希望提升编码智能体自动化水平和代码质量的开发者，尤其是使用Claude Code、Cursor等工具的团队。",
+        "deploymentSteps": [
+          "根据使用的智能体工具选择安装方式",
+          "例如在Claude Code中运行/plugin install superpowers@claude-plugins-official",
+          "或在Cursor中运行/add-plugin superpowers",
+          "安装后重启智能体会话以激活技能"
+        ],
+        "risks": [
+          "不同工具的安装命令可能更新，需查阅最新文档",
+          "技能自动触发可能改变智能体行为，需要适应"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "TencentDB-Agent-Memory",
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "stars": 15012,
+      "dailyGrowth": 1512,
+      "acceleration": 1512,
+      "ageDays": 121,
+      "language": "TypeScript",
+      "homepage": null,
+      "topics": [
+        "agent",
+        "ai-agent",
+        "embedding",
+        "llm",
+        "local-first",
+        "long-term-memory",
+        "memory",
+        "openclaw-plugin",
+        "vector-search"
+      ],
+      "forks": 1366,
+      "openIssues": 518,
+      "commits30d": 7,
+      "contributors": 4,
+      "closedIssues30d": 27,
+      "releases90d": 10,
+      "license": "NOASSERTION",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 34,
+        "contributorStrength": 22,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 25
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 52,
+        "externalHeat": 25
+      },
+      "healthScore": 56,
+      "potentialScore": 73,
+      "score": 66,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "TencentCloud/TencentDB-Agent-Memory",
+        "purpose": "为AI智能体提供团队级记忆中枢，将对话、文档和代码转化为可复用的记忆资产，如聊天记忆、技能、知识库和代码图谱，支持跨智能体共享与治理，减少重复工作。",
+        "productType": "数据基础设施",
+        "deploymentConditions": [
+          "需要Node.js 22.16或更高版本",
+          "需要配置两组LLM参数（记忆组和代理组）",
+          "需要Docker或类似容器环境以启动三个服务",
+          "需要足够的磁盘空间存储记忆数据"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "适合需要为AI智能体团队建立持久记忆和知识共享的开发者或企业，尤其是使用Claude等编码智能体的场景。",
+        "deploymentSteps": [
+          "克隆仓库并进入deploy/global-images目录",
+          "复制.env.example为.env并编辑填入LLM参数",
+          "运行./start-all.sh启动所有服务",
+          "访问http://localhost:8125打开管理面板",
+          "根据输出的一行命令集成到Claude等智能体"
+        ],
+        "risks": [
+          "需要两组LLM API密钥，成本可能较高",
+          "多服务部署可能遇到端口冲突或资源不足",
+          "版本迁移可能需要额外工具，新安装可跳过"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "pdf-inspector",
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "stars": 11386,
+      "dailyGrowth": 1451,
+      "acceleration": 1451,
+      "ageDays": 180,
+      "language": "Rust",
+      "homepage": "https://firecrawl.github.io/pdf-inspector/",
+      "topics": [
+        "markdown",
+        "nodejs",
+        "ocr-routing",
+        "pdf",
+        "pdf-classification",
+        "pdf-extraction",
+        "pdf-parser",
+        "python",
+        "rust",
+        "text-extraction"
+      ],
+      "forks": 756,
+      "openIssues": 77,
+      "commits30d": 79,
+      "contributors": 9,
+      "closedIssues30d": 9,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 72,
+        "contributorStrength": 31,
+        "issueResponse": 48,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 50,
+        "externalHeat": 25
+      },
+      "healthScore": 50,
+      "potentialScore": 73,
+      "score": 63,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "firecrawl/pdf-inspector",
+        "purpose": "快速Rust库，用于PDF分类和文本提取，智能检测PDF是文本型还是扫描型，无需OCR即可提取位置感知文本并转换为干净的Markdown，支持Python、Node.js和浏览器WebAssembly。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Rust工具链（cargo）或Python/Node.js环境",
+          "对于Python，需要安装maturin并编译",
+          "对于Node.js，直接npm安装即可",
+          "对于浏览器，需要npm安装wasm包"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "适合需要快速处理PDF文档的开发者，尤其是需要将PDF转换为结构化Markdown的RAG或文档处理管道。",
+        "deploymentSteps": [
+          "根据语言选择安装方式：Python用maturin develop，Node.js用npm install，Rust用cargo add",
+          "在代码中调用process_pdf函数处理PDF文件",
+          "或使用CLI工具pdf2md和detect-pdf"
+        ],
+        "risks": [
+          "对于扫描型PDF，无法提取文本，需回退到OCR",
+          "复杂表格或布局可能转换不完美"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "airllm",
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "stars": 29053,
+      "dailyGrowth": 728,
+      "acceleration": -3988,
+      "ageDays": 1150,
+      "language": "Jupyter Notebook",
+      "homepage": null,
+      "topics": [
+        "chinese-llm",
+        "chinese-nlp",
+        "finetune",
+        "generative-ai",
+        "instruct-gpt",
+        "instruction-set",
+        "llama",
+        "llm",
+        "lora",
+        "open-models",
+        "open-source",
+        "open-source-models",
+        "qlora"
+      ],
+      "forks": 3119,
+      "openIssues": 129,
+      "commits30d": 20,
+      "contributors": 10,
+      "closedIssues30d": 0,
+      "releases90d": 3,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 50,
+        "contributorStrength": 32,
+        "issueResponse": 10,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 31,
+        "externalHeat": 25
+      },
+      "healthScore": 55,
+      "potentialScore": 43,
+      "score": 48,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "lyogavin/airllm",
+        "purpose": "大幅降低大语言模型推理内存占用，使70B模型可在单张4GB GPU上运行，无需量化或剪枝，支持405B、671B甚至2.8T模型在低显存设备上推理。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要Python环境和pip安装airllm",
+          "需要CUDA支持的GPU，显存至少4GB",
+          "需要足够的磁盘空间存储分层模型",
+          "对于最新模型可能需要特定版本的transformers和flash-attn"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "适合显存有限但需要运行大型语言模型的开发者或研究人员，用于本地推理和实验。",
+        "deploymentSteps": [
+          "使用pip install airllm安装包",
+          "导入AutoModel并加载模型，如Qwen3-32B",
+          "调用generate方法进行推理",
+          "确保磁盘空间足够，模型会分层保存"
+        ],
+        "risks": [
+          "推理速度可能较慢，因为需要流式加载层",
+          "某些模型可能需要特定CUDA版本或依赖",
+          "磁盘空间需求可能很大"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ADR",
+      "repo": "uber/ADR",
+      "url": "https://github.com/uber/ADR",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "stars": 1020,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 108,
+      "language": "Python",
+      "homepage": "https://arxiv.org/abs/2605.17380",
+      "topics": [
+        "agent-security",
+        "ai-agents",
+        "ai-security",
+        "benchmark",
+        "claude",
+        "claude-code",
+        "codex",
+        "cursor",
+        "llm-security",
+        "mcp",
+        "model-context-protocol",
+        "prompt-injection",
+        "threat-detection"
+      ],
+      "forks": 85,
+      "openIssues": 12,
+      "commits30d": 30,
+      "contributors": 6,
+      "closedIssues30d": 0,
+      "releases90d": 1,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 57,
+        "contributorStrength": 26,
+        "issueResponse": 22,
+        "releaseCadence": 40,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 35,
+        "externalHeat": 25
+      },
+      "healthScore": 49,
+      "potentialScore": 46,
+      "score": 47,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "uber/ADR",
+        "purpose": "为企业AI智能体提供安全防护系统，通过可观测性、安全基准测试和威胁检测，监控智能体行为，识别风险并防止不安全操作，已在Uber生产环境部署。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "需要Python环境和uv包管理器",
+          "需要配置ANTHROPIC_API_KEY和OPENAI_API_KEY",
+          "需要克隆仓库并进入Detection目录",
+          "需要足够的计算资源运行检测器"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "适合需要保护企业级AI智能体安全的组织，尤其是使用Cursor、Claude Code等编码工具的企业。",
+        "deploymentSteps": [
+          "克隆仓库并进入Detection目录",
+          "运行uv sync安装依赖",
+          "设置ANTHROPIC_API_KEY和OPENAI_API_KEY环境变量",
+          "运行检测器进行基准测试或威胁检测"
+        ],
+        "risks": [
+          "需要有效的API密钥，可能产生费用",
+          "基准测试包含合成数据，仅用于安全研究",
+          "预防组件未开源，功能不完整"
+        ],
+        "confidence": "medium"
+      }
+    }
+  ]
+}

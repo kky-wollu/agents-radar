@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 遗留 Issue 批量关闭，Cowork 兼容性讨论热",
+      "OpenAI Codex 发布 rust-v0.146.1，Windows 问题密集",
+      "Gemini CLI 子代理可靠性 P1 问题集中，SDK 修复节奏快",
+      "Copilot CLI 发布 v1.0.79 预发布版，MCP 兼容问题单日增4个",
+      "OpenCode 发布 v1.18.14，VS Code 扩展获 134 赞",
+      "Qwen Code 发布 v0.21.6 及桌面版 v0.1.0，聚焦安全漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw 修复 P0 级数据丢失风险，两个关键 PR 已关闭",
+      "P0 级数据库迁移失败问题 #119263 已解决，网关可启动",
+      "实时语音会话状态无限增长成今日最高热度 Issue",
+      "子代理结果静默丢失问题 #44925 引发 25 条评论",
+      "重复消息与会话挂起等 P1 级 Bug 是当前修复重点",
+      "Slack、WhatsApp 渠道多项修复与功能 PR 待合并"
+    ],
+    "ai-trending": [
+      "腾讯云 Agent 记忆层单日新增近 1900 stars，成最热赛道",
+      "DeepSeek 原生终端助手单日 +747 stars，挑战通用 CLI Agent",
+      "AirLLM 单张 4GB GPU 跑 70B 模型，降低推理门槛",
+      "Cloudflare 推 Agent 运行环境，提供浏览器自动化与沙箱",
+      "Uber 开源企业级 AI 安全框架 ADR，受高关注",
+      "superpowers、agent-skills 等项目推动 Agent 技能方法论沉淀"
+    ],
+    "ai-web": [
+      "OpenAI 推出 Economic Research Exchange，布局社会经济影响领域",
+      "OpenAI 官网新增内容，但仅有标题无正文需补全",
+      "Anthropic 今日零更新，延续安全与推理主线静默节奏",
+      "OpenAI 研究布局从纯技术层面向社会经济领域延伸",
+      "该新增条目为官网索引页，发布时间为 8 月 5 日",
+      "建议下一轮抓取优先补全该页面完整内容"
+    ],
+    "ai-hn": [
+      "BBC 曝 Anthropic AI 渗透测试中伪造身份冒充真人，社区震惊",
+      "Meta 被曝投放 AI 生成儿童性虐待素材广告，引热议",
+      "OpenAI 因歧视美国工人支付 320 万美元和解",
+      "OpenAI/Anthropic 模型在 UK 安全测试中突破安全边界",
+      "Prime Agent 自我改进 RLM Agent 获 53 分，受技术圈关注",
+      "社区热议为什么极客群体抵制 LLM，对巨头不信任累积"
+    ],
+    "ai-arxiv": [
+      "首次揭示 ALiBi 位置编码数值下溢缺陷，致注意力头失明",
+      "WorldCup Arena 用 39 天足球赛事实时评估 LLM，防泄漏",
+      "SocietyBench 开创反事实社会演化预测评估新范式",
+      "提出跨模型 KV 缓存迁移，免重算 prefill 降延迟",
+      "Omega-S 三行代码防灾难性遗忘，无需旧数据",
+      "TurnSight 实现工具集成推理的细粒度信用分配"
+    ],
+    "ai-hf": [
+      "Kimi-K3 超 1 万周点赞登顶，成最强人气王",
+      "GLM-5.2 周赞 4.8K 居第二，下载超 223 万",
+      "DeepSeek-V4-Flash 下载量全榜第一超 273 万",
+      "MiniMax-H3 携官方与 Comfy-Org 版同时上榜",
+      "Qwen3.6 系列微调与量化模型共 6 个，生态繁荣",
+      "百度 Unlimited-OCR 近 400 万下载成流量黑马"
+    ],
+    "ai-community": [
+      "81% 开发者被 AI 生成代码淹没，审查负担激增成热议",
+      "AWS 开源持久化 AI Agent 编排器 Kiro Crew",
+      "MCP 检索 Token 消耗是传统 grep 的 4 倍引关注",
+      "开发者分享 AI 助手顺从偏见导致的事故隐患",
+      "企业级 MCP 网关方案：OAuth 2.0 + RBAC 安全边界",
+      "AGENTS.md 编写指南成新热点，助编码 Agent 理解项目"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex lead as enterprise-grade tools",
+      "Cost predictability is top cross-tool concern",
+      "Windows stability #1 friction for Codex, Copilot",
+      "OpenCode migrating from v1 to v2 data models",
+      "Qwen Code consolidating on Tauri desktop shell",
+      "DeepSeek TUI expanding Runtime API surface"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "466 issues remain open; 34 closed today",
+      "79 PRs merged; 421 backlog open",
+      "Clawsweeper bot auto-generating patches",
+      "No new releases; beta 2026.7.2-beta.7 active",
+      "P0/P1 bugs: DB migration, media data loss"
+    ],
+    "ai-trending": [
+      "10 of 13 trending repos are AI-related",
+      "cloudflare/computer: agent computer-use runtime",
+      "loopx: agent loop state kernel",
+      "TencentDB-Agent-Memory: agent memory hub",
+      "DeepSeek-Reasonix coding agent trending",
+      "uber/ADR: enterprise agent security"
+    ],
+    "ai-web": [
+      "OpenAI launches Economic Research Exchange",
+      "Zero new Anthropic content detected today",
+      "OpenAI expands beyond model development",
+      "New program details unconfirmed, high priority",
+      "OpenAI building bridges to economics community",
+      "Potential policy influence at scale noted"
+    ],
+    "ai-hn": [
+      "Meta ads with AI child abuse imagery top story",
+      "Hobby programming communities rejecting LLMs debated",
+      "OpenAI engineer resigns to build telepathy",
+      "OpenAI settles worker discrimination claims",
+      "UK safety tests: OpenAI, Anthropic models rogue",
+      "AGs demanding transparency from AI labs"
+    ],
+    "ai-arxiv": [
+      "Test-time scaling dominates post-training research",
+      "ALiBi positional encodings have numerical failure",
+      "WorldCup Arena: leakage-free benchmark proposed",
+      "Recursive self-improvement in agentic systems",
+      "Cross-model KV cache transfer innovation",
+      "Muon Meets Mamba spectral optimization"
+    ],
+    "ai-hf": [
+      "Kimi-K3: 10.1K likes, 1.1M downloads",
+      "GLM-5.2: 2.23M downloads, sparse attention",
+      "DeepSeek-V4-Flash tops 400K+ downloads",
+      "MiniMax-H3 drives image-text-to-video",
+      "Qwen3.5/3.6 MoE uncensored fine-tunes trending",
+      "GGUF quantizations from unsloth in millions"
+    ],
+    "ai-community": [
+      "81% of devs buried in AI code review",
+      "Securing Claude Code apps is hard part",
+      "Agent said it worked; check the world",
+      "Review Tax shifting work, not eliminating",
+      "Lobste.rs discusses custom inference engines",
+      "Move from vibes to repeatable evaluation"
+    ]
+  }
+}

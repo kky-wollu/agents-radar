@@ -1211,6 +1211,11 @@
       "date": "2026-08-05",
       "stars": 28325,
       "growth": 4716
+    },
+    {
+      "date": "2026-08-06",
+      "stars": 29053,
+      "growth": 728
     }
   ],
   "KnockOutEZ/wigolo": [
@@ -1799,6 +1804,11 @@
       "date": "2026-08-05",
       "stars": 266443,
       "growth": 3198
+    },
+    {
+      "date": "2026-08-06",
+      "stars": 267270,
+      "growth": 827
     }
   ],
   "deepfakes/faceswap": [
@@ -1865,6 +1875,11 @@
       "date": "2026-08-05",
       "stars": 9935,
       "growth": 0
+    },
+    {
+      "date": "2026-08-06",
+      "stars": 11386,
+      "growth": 1451
     }
   ],
   "TencentCloud/TencentDB-Agent-Memory": [
@@ -1872,6 +1887,11 @@
       "date": "2026-08-05",
       "stars": 13500,
       "growth": 0
+    },
+    {
+      "date": "2026-08-06",
+      "stars": 15012,
+      "growth": 1512
     }
   ],
   "googleworkspace/cli": [
@@ -1913,6 +1933,13 @@
     {
       "date": "2026-08-05",
       "stars": 51375,
+      "growth": 0
+    }
+  ],
+  "uber/ADR": [
+    {
+      "date": "2026-08-06",
+      "stars": 1020,
       "growth": 0
     }
   ]
