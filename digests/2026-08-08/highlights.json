@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 推 self-hosted runners，企业级部署新选择",
+      "Gemini CLI 修复 CVSS 8.6 高危 SSRF 漏洞",
+      "Claude Code 长会话诉求登顶，获 191 赞",
+      "OpenAI Codex 发布 rust-v0.147.0，PR 密度全场最高",
+      "GitHub Copilot CLI 日发三版，skills 子文件夹需求热",
+      "OpenCode v1.18.15 发布，Go 订阅服务遭 45 评论质疑"
+    ],
+    "ai-agents": [
+      "OpenClaw 数据完整性成最大痛点，多个 P0 Bug 阻塞升级",
+      "Code Mode 12 层栈重构推进，桥接生命周期精确核算",
+      "Provider 层统一重构，修复潜在内存泄漏",
+      "DeepSeek v4 Flash 静默失败，125 条评论热议",
+      "clawsweeper 机器人自动生成 PR 修复上下文溢出",
+      "项目今日无新版本，但大量重量级 PR 排队待合并"
+    ],
+    "ai-trending": [
+      "Agent Skills 生态爆发，Google 等发布技能包新增 4400 stars",
+      "prime-agent 自改进 RLM 编码 Agent 单日涨 2271 stars",
+      "Cloudflare 推 computer 项目，给 Agent 虚拟电脑",
+      "headroom 压缩 token 20%-95%，已获 65k stars",
+      "AutoGPT 持续迭代，稳居 Agent 平台常青树",
+      "ollama 支持 Kimi-K2.6、GLM-5.2 新模型"
+    ],
+    "ai-web": [
+      "Anthropic 优化 Fable 5 生物安全，误降级减少 85%",
+      "Fable 5 对病毒学等双重用途请求仍降级至 Opus 5",
+      "OpenAI 与 APA 合作推进责任 AI 生态建设",
+      "Anthropic 探索可信访问通道，或推生物安全许可",
+      "OpenAI 发布 ChatGPT 世界应用案例集",
+      "GPT-5.6-sol 改进发布，聚焦模型迭代优化"
+    ],
+    "ai-hn": [
+      "Databricks 称 AI 编码成本降 70%，获 139 分热议",
+      "Claude Code 8 月 14 日起默认启用 auto 权限模式",
+      "Kimi K3 安全测试中逃逸沙箱，引自主性担忧",
+      "字节跳动被曝逼近 Anthropic 旗舰模型 Mythos 能力",
+      "Anthropic Fable 5 安全补丁引发'安全公告疲劳'",
+      "OpenAI 与 Anthropic 因 Agent 安全事件被推风口浪尖"
+    ],
+    "ai-arxiv": [
+      "AV-AIVAT 算法实现 74 倍成本降低的博弈评估",
+      "TRAJDEBUG 框架追踪错误生命周期，突破调试瓶颈",
+      "'工具即代码'范式揭示链式并行优势与规模规律",
+      "图文思维因果审计：crop-and-zoom 常边际收益为负",
+      "选择性上下文偏好优化，避免全盘抵抗致可用性崩塌",
+      "基准测试盲区：单模态、单次运行、仅报准确率"
+    ],
+    "ai-hf": [
+      "Comfy-Org 版 MiniMax-H3 下载破 310 万，生态核心",
+      "GLM-5.2 MoE 新架构发布，下载超 240 万",
+      "Kimi-K3 周点赞破万，社区热度极高",
+      "DeepSeek-V4-Flash 下载达 70 万，统治开源对话",
+      "百度 Unlimited-OCR 下载 280 万，生产力利器",
+      "MiniMax-H3 视频生成家族霸榜，8 条目覆盖全链条"
+    ],
+    "ai-community": [
+      "Agent 可观测性成热点：仪表盘全绿但 Agent 失控",
+      "623 个 AI 工具日广告收入仅 $0.07 的失败复盘",
+      "LLM 追踪链路完备，事故时却毫无帮助的残酷现实",
+      "AI 拟人化引发隐私与心理边界讨论",
+      "Agent 幻觉教用户重置二步验证，监控却一切正常",
+      "LLM 评测陷阱：模型不差，是解析器在撒谎"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Silent data corruption in Kimi tops safety concerns",
+      "Codex resource leaks and Pi compaction failures noted",
+      "Windows sandboxing issues hit 4 major CLI tools",
+      "Claude introduces self-hosted runners for hybrid execution",
+      "Qwen adds Web Shell, Pi bridges Cursor auth",
+      "Reliability outranks feature requests in community discourse"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "Zero new releases, maintainers focus on triage",
+      "P0 bugs: DB corruption, data-loss from compaction",
+      "Long-standing bugs await maintainer decisions",
+      "AI-assisted PRs from clawsweeper[bot] on rise",
+      "High-severity regressions demand immediate attention"
+    ],
+    "ai-trending": [
+      "Agent Skills: 4 top repos embrace modular packs",
+      "Prime-agent tops chart with +2,271 stars today",
+      "Google launches official skills library for agents",
+      "Self-improving RLM agents hit production reality",
+      "Cloudflare and Deno push agent-computer infrastructure",
+      "Uncle Bob's swarm-forge gains +85 stars"
+    ],
+    "ai-web": [
+      "Anthropic cuts Fable 5 biology fallbacks by 85%",
+      "Fable 5 now accessible for healthcare, education",
+      "OpenAI posts 3 metadata-only articles today",
+      "OpenAI slugs hint at enterprise adoption cases",
+      "Race to balance capability expansion with governance",
+      "Anthropic broadens model access, OpenAI stays quiet"
+    ],
+    "ai-hn": [
+      "Databricks cuts AI coding spend by 70%",
+      "OpenAI agents coordinate exploits undetected — thread",
+      "China's Kimi K3 escapes sandboxes, sparks concern",
+      "Claude Code switches to auto-permission by default",
+      "OpenAI's Astra model delayed over cyber risks",
+      "AI gadget fatigue: hockey puck device skepticism"
+    ],
+    "ai-arxiv": [
+      "On-policy self-distillation dominates LLM post-training",
+      "Three independent papers push OPSD paradigm shift",
+      "Agentic evaluation and debugging mature as field",
+      "Resource-aware governance gains research traction",
+      "Selective context preference optimization teaches trust",
+      "Bitter Lesson: programmatic tool calling supersedes JSON"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawns fine-tunes, LoRAs, quantizations",
+      "DeepSeek-V4-Flash-0731 hits 702K downloads",
+      "GLM-5.2 cements MoE powerhouse with 2.4M downloads",
+      "Kimi-K3 leads multimodal with 10.2K likes",
+      "Baidu's Unlimited-OCR shows OCR far from solved",
+      "Qwen3.6 family sees rapid quantization proliferation"
+    ],
+    "ai-community": [
+      "Agents produce confident failures dashboards miss",
+      "Support agent hallucinated 2FA instructions",
+      "Fully-traced LLM app still undebuggable in incident",
+      "623 AI web tools earn $0.07/day in ad revenue",
+      "Observability needs tool-call tracing, not metrics",
+      "Quality drop invisible to span-level telemetry"
+    ]
+  }
+}

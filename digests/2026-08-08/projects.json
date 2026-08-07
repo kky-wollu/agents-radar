@@ -1,0 +1,415 @@
+{
+  "generated": "2026-08-07T22:47:13.036Z",
+  "date": "2026-08-08",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "headroom",
+      "repo": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "stars": 65395,
+      "dailyGrowth": 2443,
+      "acceleration": 2273,
+      "ageDays": 212,
+      "language": "Python",
+      "homepage": "https://docs.headroomlabs.ai/docs",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "forks": 4984,
+      "openIssues": 626,
+      "commits30d": 543,
+      "contributors": 237,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 74,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 81,
+      "score": 87,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "headroomlabs-ai/headroom",
+        "purpose": "压缩 AI 代理读取的工具输出、日志、文件等，减少 60-95% 的 JSON 令牌和 15-20% 的编码代理令牌，同时保持答案质量，支持库、代理和 MCP 服务器。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Python 3.13 或 Node.js 环境",
+          "可通过 uv、pip 或 npm 安装",
+          "支持多种 AI 代理（Claude Code、Cursor 等）",
+          "本地运行，数据不离开机器"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望降低 LLM 调用成本、优化上下文窗口的 AI 应用开发者，或使用编码代理的团队。",
+        "deploymentSteps": [
+          "安装 headroom-ai（如 uv tool install）",
+          "运行 headroom deploy 进行本地部署",
+          "使用 headroom wrap 包装代理或启动代理服务器",
+          "运行 headroom doctor 验证配置"
+        ],
+        "risks": [
+          "压缩可能影响极端情况下的输出质量，需测试",
+          "代理包装可能修改用户级配置，需注意撤销"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 104008,
+      "dailyGrowth": 4286,
+      "acceleration": 2982,
+      "ageDays": 126,
+      "language": "Python",
+      "homepage": "https://www.graphify.com",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "forks": 10097,
+      "openIssues": 853,
+      "commits30d": 303,
+      "contributors": 185,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 94,
+        "contributorStrength": 70,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 88,
+        "externalHeat": 25
+      },
+      "healthScore": 93,
+      "potentialScore": 80,
+      "score": 85,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "Graphify-Labs/graphify",
+        "purpose": "将代码库、文档、SQL 模式等转换为可查询的知识图谱，支持本地 AST 解析，无需向量存储，为 AI 编码助手提供结构化代码理解。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Python 3.10+ 环境",
+          "需安装 uv 或 pipx 工具",
+          "需支持 Claude Code、Cursor 等 AI 助手平台"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "希望提升 AI 编码助手对代码库理解能力的开发者，或需要快速导航大型项目的团队。",
+        "deploymentSteps": [
+          "使用 uv tool install graphifyy 安装 CLI",
+          "运行 graphify install 注册技能",
+          "在 AI 助手中执行 /graphify . 生成知识图谱",
+          "查看 graph.html 或使用 graphify query 查询"
+        ],
+        "risks": [
+          "文档、PDF 等非代码内容需调用模型，可能产生费用",
+          "图谱生成可能耗时较长，取决于项目规模"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "prime-agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "stars": 6362,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 92,
+      "language": "TypeScript",
+      "homepage": null,
+      "topics": [],
+      "forks": 511,
+      "openIssues": 245,
+      "commits30d": 217,
+      "contributors": 218,
+      "closedIssues30d": 13,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 89,
+        "contributorStrength": 73,
+        "issueResponse": 58,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 73,
+        "externalHeat": 25
+      },
+      "healthScore": 84,
+      "potentialScore": 53,
+      "score": 66,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "PrimeIntellect-ai/prime-agent",
+        "purpose": "开源编码与研究代理，支持长时间自主任务，通过递归语言模型和持续化状态实现自我改进，具备后台运行、子代理通信和技能扩展能力。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "支持 macOS 或 Linux 系统",
+          "需通过 curl 脚本安装，需网络连接",
+          "首次使用需登录或配置 API 密钥",
+          "建议在隔离环境中运行以避免安全风险"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要自动化编码、研究或长时间运行任务的开发者，尤其是 AI 评估场景。",
+        "deploymentSteps": [
+          "运行 curl 安装脚本安装 prime-agent",
+          "进入项目目录启动 prime-agent",
+          "执行 /login 选择订阅或 API 密钥提供商",
+          "使用 /autonomous 等命令配置自主模式"
+        ],
+        "risks": [
+          "代理会执行模型生成的代码，存在安全风险",
+          "需仔细审查变更，避免在重要环境中运行"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "semantica",
+      "repo": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "stars": 2320,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 409,
+      "language": "Python",
+      "homepage": "https://getsemantica.ai",
+      "topics": [
+        "agent-memory",
+        "ai",
+        "ai-governance",
+        "ai-infrastructure",
+        "artificial-intelligence",
+        "context-engineering",
+        "context-graphs",
+        "data-engineering",
+        "decision-intelligence",
+        "developer-tools",
+        "explainable-ai",
+        "generative-ai",
+        "graph-rag",
+        "knowledge-graph",
+        "llm",
+        "ontology",
+        "provenance",
+        "python",
+        "reasoning",
+        "semantic-search"
+      ],
+      "forks": 304,
+      "openIssues": 16,
+      "commits30d": 256,
+      "contributors": 24,
+      "closedIssues30d": 44,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 92,
+        "contributorStrength": 43,
+        "issueResponse": 100,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 78,
+        "externalHeat": 25
+      },
+      "healthScore": 84,
+      "potentialScore": 51,
+      "score": 65,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "semantica-agi/semantica",
+        "purpose": "为 AI 系统提供图原生基础设施，构建上下文图谱和知识图谱，支持决策智能、因果推理和完整溯源，适用于高合规性行业。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Python 3.8+ 环境",
+          "需安装 semantica 包（pip install semantica）",
+          "可能需要配置图数据库（如 RDF 或 LPG）",
+          "企业场景需考虑数据治理和合规要求"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "需要可审计 AI 决策的金融、医疗等受监管行业，或构建企业级知识图谱的平台团队。",
+        "deploymentSteps": [
+          "安装 semantica 包",
+          "配置数据源连接（如 Databricks、Snowflake）",
+          "运行知识管道提取实体和关系",
+          "使用 Knowledge Explorer 或 CLI 查询图谱"
+        ],
+        "risks": [
+          "部署复杂度较高，需熟悉图数据库和知识图谱概念",
+          "部分功能可能依赖外部服务，需查阅 README 确认"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "skills",
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Agent Skills for Google products and technologies",
+      "stars": 16212,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 129,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "forks": 1289,
+      "openIssues": 31,
+      "commits30d": 104,
+      "contributors": 7,
+      "closedIssues30d": 4,
+      "releases90d": 0,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 77,
+        "contributorStrength": 28,
+        "issueResponse": 33,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 46,
+        "externalHeat": 25
+      },
+      "healthScore": 48,
+      "potentialScore": 48,
+      "score": 48,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "google/skills",
+        "purpose": "为 Google 产品和技术提供可安装的 Agent Skills 集合，涵盖 Google Cloud、AI/ML、基础设施、数据库等场景，帮助 AI 代理执行云端操作与架构设计。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Node.js 环境以运行 npx 命令",
+          "需安装 AI 代理框架（如 Claude Code 等）以使用 skills",
+          "部分技能需 Google Cloud 账号及相应权限"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望为 AI 代理扩展 Google Cloud 操作能力的开发者，或需要快速上手 Google 云服务的团队。",
+        "deploymentSteps": [
+          "确保已安装 Node.js 和 npx",
+          "在项目目录运行 npx skills add google/skills",
+          "按提示选择并安装所需技能",
+          "在 AI 代理中调用已安装的技能"
+        ],
+        "risks": [
+          "项目处于积极开发阶段，技能可能不稳定",
+          "部分技能依赖 Google Cloud 特定服务，需额外配置"
+        ],
+        "confidence": "medium"
+      }
+    }
+  ]
+}

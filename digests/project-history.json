@@ -562,6 +562,11 @@
       "date": "2026-07-29",
       "stars": 62952,
       "growth": 170
+    },
+    {
+      "date": "2026-08-08",
+      "stars": 65395,
+      "growth": 2443
     }
   ],
   "topoteretes/cognee": [
@@ -1014,6 +1019,11 @@
       "date": "2026-08-01",
       "stars": 99722,
       "growth": 1304
+    },
+    {
+      "date": "2026-08-08",
+      "stars": 104008,
+      "growth": 4286
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -1940,6 +1950,27 @@
     {
       "date": "2026-08-06",
       "stars": 1020,
+      "growth": 0
+    }
+  ],
+  "google/skills": [
+    {
+      "date": "2026-08-08",
+      "stars": 16212,
+      "growth": 0
+    }
+  ],
+  "semantica-agi/semantica": [
+    {
+      "date": "2026-08-08",
+      "stars": 2320,
+      "growth": 0
+    }
+  ],
+  "PrimeIntellect-ai/prime-agent": [
+    {
+      "date": "2026-08-08",
+      "stars": 6362,
       "growth": 0
     }
   ]
