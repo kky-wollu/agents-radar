@@ -1,0 +1,399 @@
+{
+  "generated": "2026-08-09T22:40:51.755Z",
+  "date": "2026-08-10",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "prime-agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "stars": 10910,
+      "dailyGrowth": 4548,
+      "acceleration": 4548,
+      "ageDays": 94,
+      "language": "TypeScript",
+      "homepage": null,
+      "topics": [],
+      "forks": 1132,
+      "openIssues": 447,
+      "commits30d": 194,
+      "contributors": 218,
+      "closedIssues30d": 16,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 87,
+        "contributorStrength": 73,
+        "issueResponse": 67,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 76,
+        "externalHeat": 25
+      },
+      "healthScore": 85,
+      "potentialScore": 78,
+      "score": 81,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "PrimeIntellect-ai/prime-agent",
+        "purpose": "开源的自改进RLM编码与研究代理，支持长时间自主任务，通过递归语言模型和持续化框架，实现持久上下文、子代理协作、后台运行及技能可执行，适合复杂工作流。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需macOS或Linux系统",
+          "需通过curl脚本安装，并验证SHA-256校验和",
+          "首次启动需登录选择订阅或API密钥提供商",
+          "需准备IPython运行时环境"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要长时间运行自主编码或研究任务的开发者，尤其是进行AI评估、复杂项目自动化，且能接受命令行操作和潜在安全风险的用户。",
+        "deploymentSteps": [
+          "运行curl -fsSL https://app.primeintellect.ai/prime-agent/install.sh | sh安装",
+          "在项目目录运行prime-agent启动",
+          "首次启动执行/login进行认证",
+          "使用prime-agent agents等命令管理会话"
+        ],
+        "risks": [
+          "代理会执行模型生成的代码，可能造成系统更改，需谨慎使用",
+          "非安全沙箱，运行不可信代码有风险",
+          "需查阅README了解具体配置细节"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "Agent-Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars": 69691,
+      "dailyGrowth": 9533,
+      "acceleration": 9533,
+      "ageDays": 167,
+      "language": "Python",
+      "homepage": null,
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "forks": 5872,
+      "openIssues": 60,
+      "commits30d": 58,
+      "contributors": 36,
+      "closedIssues30d": 43,
+      "releases90d": 3,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 67,
+        "contributorStrength": 49,
+        "issueResponse": 100,
+        "releaseCadence": 84,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 72,
+        "externalHeat": 25
+      },
+      "healthScore": 80,
+      "potentialScore": 77,
+      "score": 78,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Panniantong/Agent-Reach",
+        "purpose": "为AI代理提供互联网访问能力，通过CLI工具集成Twitter、Reddit、YouTube、B站、小红书等平台，支持搜索、阅读和内容提取，无需付费API，配置简单。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需Python 3.10或更高版本",
+          "需能执行shell命令的AI代理（如Claude Code、OpenClaw）",
+          "部分平台需配置Cookie或登录态",
+          "服务器部署可能需要代理（约$1/月）"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "希望让AI代理具备联网搜索和内容读取能力的开发者，尤其是需要访问社交媒体、视频平台信息的场景，且偏好免费开源方案。",
+        "deploymentSteps": [
+          "复制安装指令给AI代理，如'帮我安装Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md'",
+          "代理自动执行安装，包括CLI工具和依赖",
+          "运行agent-reach doctor检查配置状态",
+          "按需配置各平台，如告诉代理'帮我配Twitter'"
+        ],
+        "risks": [
+          "部分平台（如Reddit）无零配置路径，需手动配置Cookie",
+          "平台接口可能变化，需持续更新",
+          "Cookie仅本地存储，但需注意安全"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "t3code",
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "今日趋势项目，详细信息请查阅 README。",
+      "stars": 17624,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 182,
+      "language": "TypeScript",
+      "homepage": "https://t3.codes",
+      "topics": [],
+      "forks": 4006,
+      "openIssues": 1399,
+      "commits30d": 485,
+      "contributors": 223,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 73,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 91,
+        "externalHeat": 25
+      },
+      "healthScore": 95,
+      "potentialScore": 57,
+      "score": 73,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "pingdotgg/t3code",
+        "purpose": "提供代理控制面板，通过移动应用、网页或桌面应用远程控制本机的AI代理（如Claude Code、Codex等），支持多提供商，实现远程操作和监控。",
+        "productType": "网站/Web服务",
+        "deploymentConditions": [
+          "需Node.js 22.16+、23.11+或24.10+",
+          "需至少安装并认证一个支持的代理（如Codex、Claude）",
+          "桌面应用需从GitHub Releases或包管理器安装"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–15分钟",
+        "suitableFor": "希望从手机或远程控制本机AI代理的开发者，尤其是使用多个代理工具、需要灵活远程操作的用户，适合快速试用。",
+        "deploymentSteps": [
+          "运行npx t3@latest启动后端和本地Web应用",
+          "或安装桌面应用（如winget install T3Tools.T3Code）",
+          "确保至少一个代理已安装并认证",
+          "通过应用界面控制代理"
+        ],
+        "risks": [
+          "项目早期，可能存在bug",
+          "需查阅README了解详细配置",
+          "远程访问可能需要额外设置"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "code-graph-rag",
+      "repo": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "stars": 2950,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 419,
+      "language": "Python",
+      "homepage": "https://code-graph-rag.com",
+      "topics": [
+        "ai",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-understanding",
+        "codebase-search",
+        "developer-tools",
+        "graph-database",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "memgraph",
+        "monorepo",
+        "multi-language",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "tree-sitter"
+      ],
+      "forks": 519,
+      "openIssues": 28,
+      "commits30d": 2068,
+      "contributors": 52,
+      "closedIssues30d": 100,
+      "releases90d": 9,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 53,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 72,
+        "communityActivity": 84,
+        "externalHeat": 25
+      },
+      "healthScore": 91,
+      "potentialScore": 52,
+      "score": 68,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "vitali87/code-graph-rag",
+        "purpose": "为多语言代码库提供基于知识图谱的RAG系统，通过Tree-sitter解析代码结构存入Memgraph，支持自然语言查询、代码编辑和优化，适用于大型单体仓库。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需安装Docker以运行Memgraph数据库",
+          "需安装cmake和ripgrep",
+          "需Python环境，推荐使用uv或pipx安装",
+          "需配置AI模型用于生成Cypher查询"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "需要深度理解和管理大型多语言代码库的开发者或团队，尤其是希望用AI辅助代码查询、重构和优化的场景，能接受数据库和复杂配置。",
+        "deploymentSteps": [
+          "使用uv tool install \"code-graph-rag[treesitter-full,semantic]\"安装",
+          "启动Memgraph容器（Docker）",
+          "运行cgr命令指向目标代码库，构建知识图谱",
+          "通过CLI交互式查询或编辑代码"
+        ],
+        "risks": [
+          "需要Docker和数据库，资源占用较高",
+          "配置复杂，需查阅README",
+          "项目处于早期，可能不稳定"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "skills",
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 85085,
+      "dailyGrowth": 0,
+      "acceleration": 0,
+      "ageDays": 175,
+      "language": "JavaScript",
+      "homepage": "https://skills.addy.ie",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "forks": 9154,
+      "openIssues": 105,
+      "commits30d": 75,
+      "contributors": 65,
+      "closedIssues30d": 10,
+      "releases90d": 6,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 71,
+        "contributorStrength": 56,
+        "issueResponse": 51,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 30,
+        "acceleration": 50,
+        "projectAge": 88,
+        "communityActivity": 59,
+        "externalHeat": 25
+      },
+      "healthScore": 76,
+      "potentialScore": 50,
+      "score": 61,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "addyosmani/agent-skills",
+        "purpose": "为AI编程代理提供生产级工程技能包，涵盖规范、计划、构建、测试、审查、发布等开发全流程，通过斜杠命令自动激活，帮助代理遵循资深工程师的工作流和质量标准。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需安装Node.js以运行npx命令",
+          "需使用支持skills的AI代理（如Claude Code、Cursor等）",
+          "需具备GitHub访问权限以克隆或安装插件"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "希望提升AI编码代理输出质量、规范开发流程的开发者或团队，尤其适合使用Claude Code、Cursor等工具的日常开发场景。",
+        "deploymentSteps": [
+          "使用npx skills add addyosmani/agent-skills安装全部技能",
+          "或按需安装单个技能，如npx skills add addyosmani/agent-skills --skill code-review-and-quality",
+          "在支持的代理中配置插件或技能目录，如Claude Code使用/plugin marketplace add"
+        ],
+        "risks": [
+          "单个技能安装可能缺少共享检查清单，需手动补充",
+          "SSH克隆可能失败，需配置HTTPS替代",
+          "项目早期版本可能存在兼容性问题"
+        ],
+        "confidence": "high"
+      }
+    }
+  ]
+}

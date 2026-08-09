@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code安全过滤器误报频发，干扰合法工作流",
+      "Gemini CLI子代理挂起和误报成功，信任度受挫",
+      "OpenAI Codex Linux桌面版呼声高，存储膨胀引担忧",
+      "GitHub Copilot CLI MCP基础设施稳定性遭质疑",
+      "DeepSeek TUI v0.9.6准备PR已合入，版本将至",
+      "Qwen Code多会话协调成焦点，Windows安装问题待解"
+    ],
+    "ai-agents": [
+      "OpenClaw今日500 Issue+500 PR，活跃度达峰值",
+      "消息丢失bug关闭后复发，稳定性问题顽固",
+      "配对功能成主赛道，5个相互依赖PR推进",
+      "移除会话写租约架构重构，大幅简化会话层",
+      "安全加固议题主导，多路PR排队等待合并",
+      "恢复卡死问题3个P0/P1标记，风险高企"
+    ],
+    "ai-trending": [
+      "Agent Skills成最大风口，Google官方+社区双霸榜",
+      "PrimeIntellect-ai/prime-agent获2319星，自主智能体爆发",
+      "RAG向量数据库竞争白热化，20余项目密集迭代",
+      "ComfyUI与ppt-master推动AI内容生成工业化",
+      "法律、金融垂直领域AI原生应用密集涌现",
+      "ollama新增支持Kimi-K2.6、GLM-5.2等最新模型"
+    ],
+    "ai-hn": [
+      "用LLM学习复杂主题登顶，247分136评论",
+      "Claude Code Auto模式默认开启引两极讨论",
+      "OpenAI/Anthropic占AI行业70%收入引关注",
+      "社区热议AI自主权边界：制衡政府还是公地悲剧",
+      "基准分数无法预测实际费用，社区达成共识",
+      "ByteDance 10T参数模型受关注度反而不高"
+    ],
+    "ai-hf": [
+      "Kimi-K3以10395赞碾压同期，多模态新标杆",
+      "GLM-5.2与DeepSeek-V4-Flash三国鼎立",
+      "MiniMax-H3登顶视频生成，生态衍生超500万下载",
+      "FLUX.1-dev以14057赞稳坐图像生成榜首",
+      "Uncensored社区微调模型活跃，越狱生态旺盛",
+      "baidu/Unlimited-OCR成最亮眼专用模型"
+    ],
+    "ai-community": [
+      "RAG分块策略受关注，512-token默认值藏陷阱",
+      "长生命周期AI Agent工程实录，真实踩坑分享",
+      "Agent回归测试集成成噩梦，14分钟深度复盘",
+      "RAG成本优化逆向思维：更少更精的Chunk更省钱",
+      "自进化Agent测试自欺欺人，代码从未运行过",
+      "开发者从AI兴奋期过渡到冷静期，关注不翻车"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem rapidly consolidating into 9 tools",
+      "Claude Code is de-facto reference implementation",
+      "Claude Code grapples with safety false positives",
+      "Codex faces desktop storage leaks",
+      "Gemini CLI struggles with subagent reliability",
+      "Copilot CLI battles MCP fragility"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues updated in 24h",
+      "Silent reply failures persist despite fixes",
+      "Steipete authored half of top PRs",
+      "Push toward mobile/desktop client pairing",
+      "No new releases; last was 2026.7.2-beta.5",
+      "OpenClaw focuses on security hardening"
+    ],
+    "ai-trending": [
+      "MiniMax-H3 tails ecosystem with 5.6M downloads",
+      "DeepSeek-V4-Flash-0731 nears 870K downloads",
+      "Kimi-K3 is second most-liked model",
+      "GLM-5.2 gets 4.9K likes, 2.5M downloads",
+      "FLUX.1-dev remains all-time most-liked",
+      "Proliferation of uncensored fine-tunes noted"
+    ],
+    "ai-hn": [
+      "OpenAI and Anthropic hold 70% of AI revenue",
+      "Israeli startup linked to major lab hacks",
+      "OpenAI strategist argues labs rival governments",
+      "Meta agents send prompts to competitors",
+      "LLMs-as-learning-tools most upvoted thread",
+      "ByteDance trains 10T parameter model"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 sparks extensive community ecosystem",
+      "DeepSeek-V4-Flash-0731 strong with 868K downloads",
+      "Kimi-K3 draws 10.4K likes from Moonshot AI",
+      "GLM-5.2 from Z.ai hits 2.5M downloads",
+      "Voice/audio models surge this week",
+      "MoE architectures grow in production models"
+    ],
+    "ai-community": [
+      "Self-evolving agent passed tests on code that never ran",
+      "Spend caps fail 4.2x under parallel load",
+      "Golden datasets quietly rotting in production",
+      "AI Design Fingerprint makes all frontends identical",
+      "Hutter Prize says benchmarks measure wrong intelligence",
+      "OpenAI accidentally attacks Hugging Face"
+    ]
+  }
+}

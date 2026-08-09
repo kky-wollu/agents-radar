@@ -1486,6 +1486,11 @@
       "date": "2026-07-24",
       "stars": 60158,
       "growth": 0
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 69691,
+      "growth": 9533
     }
   ],
   "alibaba/open-code-review": [
@@ -1971,6 +1976,32 @@
     {
       "date": "2026-08-08",
       "stars": 6362,
+      "growth": 0
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 10910,
+      "growth": 4548
+    }
+  ],
+  "addyosmani/agent-skills": [
+    {
+      "date": "2026-08-10",
+      "stars": 85085,
+      "growth": 0
+    }
+  ],
+  "vitali87/code-graph-rag": [
+    {
+      "date": "2026-08-10",
+      "stars": 2950,
+      "growth": 0
+    }
+  ],
+  "pingdotgg/t3code": [
+    {
+      "date": "2026-08-10",
+      "stars": 17624,
       "growth": 0
     }
   ]
