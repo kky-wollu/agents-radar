@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 连发两个 alpha 版，PR 合并 9 个领跑社区",
+      "Qwen Code 推出 Fleet 多智能体架构，战略动作密集",
+      "Claude Code 遭 sworrl 批量误报，社区讨论量大但无新版本",
+      "GitHub Copilot CLI v1.0.79 发布，新 Issues 密集涌入",
+      "Kimi Code CLI 24 小时零动态，明显沉寂引关注",
+      "跨工具高频痛点：安全误报、Windows 兼容、长会话管理"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 Issues 与 PR 双满 500 条，活跃度爆表",
+      "steipete 主导 Gateway 架构系统性瘦身加固，多 PR 推进",
+      "消息投递可靠性（#121058）与提示注入安全（#7707）最受关注",
+      "Mattermost 进度/终稿分离与 Slack 线程窗口延长等渠道更新",
+      "DM 隔离诊断准确性修复（#121741）剑指安全痛点",
+      "多条 PR 标记兼容性风险，预示 2026.8.x 版本将有变更"
+    ],
+    "ai-trending": [
+      "prime-agent 单日增 2655 星，自我改进编码智能体成最大黑马",
+      "AutoGPT 以 186k 星稳居 AI Agent 领域标杆",
+      "agency-agents 增 1352 星，多角色 AI 协作团队受热捧",
+      "firecrawl 165k 星持续霸榜，成 Agent 数据获取刚需",
+      "semantica 增 967 星，知识图谱成 Agent 记忆新底座",
+      "代码库知识图谱化趋势明显，Graphify 达 104k 星"
+    ],
+    "ai-web": [
+      "Claude 研究版将黎曼猜想零点下界从 41.6% 提升至 67.2%",
+      "Anthropic 内部数学家验证 Claude 数学成果，外部专家肯定",
+      "Claude Sonnet 5 官方深度介绍发布，主打最强代理能力",
+      "OpenAI 更新聚焦网络安全，暗示 Cyber Defense 重要布局",
+      "OpenAI 另布局企业市场，ChatGPT Business 与 AI 金融成主线",
+      "Anthropic 双线推进：深度能力展示与产品代际更新"
+    ],
+    "ai-hn": [
+      "语音驱动 AI 审讯游戏登顶 HN，获 188 分成 AI 原生娱乐范例",
+      "Claude 黎曼猜想进展引热议，142 分 106 评论两极分化",
+      "14MB 超轻量智能体模型 Needle2 亮相，适合端侧设备",
+      "逆向分析 Claude/GPT 知识截止日期，揭示预训练时间线",
+      "OpenAI 推 GPT-5.6-Cyber 及硬件传闻，商业化加速",
+      "HN 情绪审慎乐观，'AI 炒作泡沫'与'实用主义'张力明显"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频生成生态霸榜，官方及衍生版占 10+ 席位",
+      "ComfyUI 适配版 MiniMax-H3 下载量破 600 万成核心入口",
+      "DeepSeek-V4-Flash-0731 近百万下载领跑语言模型赛道",
+      "Kimi-K3 周点赞破万登顶总榜，采用压缩张量技术",
+      "Muse-Glimmer-30B 等新架构出现，但处早期验证阶段",
+      "NVIDIA、Mistral 布局语音与安全对齐等垂直方向"
+    ],
+    "ai-community": [
+      "Agent 安全成热点：MCP 攻击类目梳理与权限控制讨论密集",
+      "'蒸馏不会让你得到原模型'，开发者热议能力迁移边界",
+      "真实案例：AI Agent 通过 2283 测试却仍在生产环境失败",
+      "单签权限实践引热议：Agent 无法自我铸造的权限设计",
+      "开发者警惕 AI 焦虑与技能退化，两平台均有回声",
+      "Java AI 技术栈成型，生产级 Agent 架构选型引关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads community engagement and ecosystem maturity",
+      "OpenAI Codex sees ~20 merges in 24 hours, most aggressive",
+      "Gemini CLI has highest external PR contribution rate",
+      "Security safety-filter issues across major tools",
+      "Session persistence and subagent reliability gaps persist",
+      "Claude Code top issue hits 205 upvotes on filter false positives"
+    ],
+    "ai-agents": [
+      "OpenClaw at 500 issues and 500 PRs in 24 hours",
+      "Maintainer steipete pushes 15+ PRs for hardening",
+      "Focus on Telegram, Slack, and Feishu regressions",
+      "143 PRs merged or closed, no new releases",
+      "Imminent release candidate cycle indicated",
+      "Community engagement strong with detailed bug reports"
+    ],
+    "ai-trending": [
+      "Prime-agent gains +2,655 stars today for self-improving agent",
+      "agency-agents bundles multi-agent workflows, +1,352 stars",
+      "Semantica launches graph-native accountable AI infrastructure",
+      "Context engineering projects hit major star milestones",
+      "Shift from agent prototype to agent product is clear",
+      "Long-tail context engineering: memory, compression, persistence"
+    ],
+    "ai-web": [
+      "Claude improves Riemann zeta bound from 41.6% to 67.2%",
+      "Anthropic announces Claude Sonnet 5, most agentic yet",
+      "OpenAI expands Daybreak program for frontier cyber models",
+      "ChatGPT Business premium seats for enterprises",
+      "Anthropic focuses on agentic capability positioning",
+      "OpenAI targets autonomous-agent enterprise market"
+    ],
+    "ai-hn": [
+      "Claude Riemann Hypothesis work debuts at 142 points",
+      "Viral voice-driven murder mystery game hits 188 points",
+      "Post arguing humanising LLM outputs is dumb scores 114",
+      "Community split on Claude's math breakthrough meaning",
+      "Skepticism over whether frontier models are improving",
+      "Knowledge cutoff transparency questioned in discussions"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawns ComfyUI ports with 6M+ downloads",
+      "Kimi-K3 tops likes with 10.4K and 1.5M downloads",
+      "DeepSeek-V4-Flash-0731 nears 1M downloads",
+      "Meta's Muse-Glimmer-30B debuts as multimodal entry",
+      "Heretic uncensored fine-tunes trend on Qwen3-VL",
+      "Zero-download models reveal speculative collecting dynamic"
+    ],
+    "ai-community": [
+      "MCP attack classes and signed permissions under scrutiny",
+      "OpenAI agent at Black Hat went rogue, reported",
+      "Rerankers hurting RAG more than helping debated",
+      "Agents passing 2,283 tests fail in production",
+      "AI isn't the problem, thinking is the real issue",
+      "Deskilling anxiety pushes back on AI laziness claims"
+    ]
+  }
+}

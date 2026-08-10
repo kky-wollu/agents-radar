@@ -1,0 +1,429 @@
+{
+  "generated": "2026-08-10T22:48:04.964Z",
+  "date": "2026-08-11",
+  "methodology": "health-v1/potential-v1",
+  "projects": [
+    {
+      "name": "nanobot",
+      "repo": "HKUDS/nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "stars": 46829,
+      "dailyGrowth": 212,
+      "acceleration": 76,
+      "ageDays": 191,
+      "language": "Python",
+      "homepage": "https://nanobot.wiki",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "ai-agents",
+        "chatbot",
+        "chatops",
+        "discord-bot",
+        "llm-agents",
+        "llms",
+        "local-llm",
+        "mcp",
+        "model-context-protocol",
+        "multi-agent",
+        "openai-compatible",
+        "openclaw",
+        "personal-ai-assistant",
+        "python",
+        "self-hosted",
+        "telegram-bot-ai-assistant",
+        "webui",
+        "workflow-automation"
+      ],
+      "forks": 8288,
+      "openIssues": 803,
+      "commits30d": 446,
+      "contributors": 416,
+      "closedIssues30d": 100,
+      "releases90d": 4,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 100,
+        "contributorStrength": 81,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 91,
+        "acceleration": 100,
+        "projectAge": 88,
+        "communityActivity": 94,
+        "externalHeat": 25
+      },
+      "healthScore": 96,
+      "potentialScore": 80,
+      "score": 87,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "HKUDS/nanobot",
+        "purpose": "一个超轻量级的开源个人 AI 智能体框架，基于 Python 实现，提供 WebUI、终端和聊天应用接口，支持工具调用、长期记忆、MCP 集成、多智能体工作流和自动化，可自托管。",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "Python 3.11 或更高版本",
+          "可通过一键脚本或 uv 工具安装",
+          "需要配置 LLM 提供商（如 OpenAI 兼容 API 或本地模型）",
+          "可选连接 Telegram、Discord 等聊天应用"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "适合希望自托管个人 AI 助手的用户，具备基本 Python 环境配置能力，需要 WebUI 或聊天集成。",
+        "deploymentSteps": [
+          "运行一键安装脚本或 uv tool install nanobot-ai",
+          "启动 WebUI：nanobot webui",
+          "在设置中配置模型提供商",
+          "根据需要连接聊天应用或配置自动化"
+        ],
+        "risks": [
+          "需要管理 API 密钥和模型费用",
+          "长期运行可能需要部署为服务，需查阅部署文档",
+          "功能较多，配置可能复杂"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "LangChain4j",
+      "repo": "langchain4j/langchain4j",
+      "url": "https://github.com/langchain4j/langchain4j",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
+      "stars": 12837,
+      "dailyGrowth": 240,
+      "acceleration": 240,
+      "ageDays": 1147,
+      "language": "Java",
+      "homepage": "https://docs.langchain4j.dev",
+      "topics": [
+        "anthropic",
+        "chatgpt",
+        "chroma",
+        "embeddings",
+        "gemini",
+        "gpt",
+        "huggingface",
+        "java",
+        "langchain",
+        "llama",
+        "llm",
+        "llms",
+        "milvus",
+        "ollama",
+        "onnx",
+        "openai",
+        "openai-api",
+        "pgvector",
+        "pinecone",
+        "vector-database"
+      ],
+      "forks": 2446,
+      "openIssues": 879,
+      "commits30d": 124,
+      "contributors": 454,
+      "closedIssues30d": 50,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 80,
+        "contributorStrength": 82,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 92,
+        "acceleration": 100,
+        "projectAge": 58,
+        "communityActivity": 87,
+        "externalHeat": 25
+      },
+      "healthScore": 92,
+      "potentialScore": 72,
+      "score": 80,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "langchain4j/langchain4j",
+        "purpose": "一个面向 Java 开发者的开源库，用于在 JVM 上构建 LLM 应用，提供统一 API 支持多种 LLM 提供商和向量存储，简化工具调用、智能体和 RAG 实现，与 Spring Boot、Quarkus 等框架集成。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Java 开发环境（JDK 8 或更高版本）",
+          "通过 Maven 或 Gradle 添加依赖",
+          "需要配置 LLM 提供商（如 OpenAI）的 API 密钥",
+          "可选配置向量存储（如 Pinecone、Milvus）"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "适合 Java 开发者，希望将 LLM 能力集成到现有企业应用或新项目中，熟悉 Maven/Gradle 和 Spring Boot。",
+        "deploymentSteps": [
+          "在项目中添加 langchain4j 依赖",
+          "配置 LLM 提供商 API 密钥",
+          "编写代码调用统一 API 实现聊天、RAG 等功能",
+          "参考示例项目进行集成测试"
+        ],
+        "risks": [
+          "库仍在积极开发，部分功能可能不稳定",
+          "需查阅文档了解最新 API 变化",
+          "集成多个提供商可能增加配置复杂度"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 104979,
+      "dailyGrowth": 971,
+      "acceleration": -3315,
+      "ageDays": 129,
+      "language": "Python",
+      "homepage": "https://www.graphify.com",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-search",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "gemini",
+        "graphrag",
+        "knowledge-graph",
+        "leiden",
+        "llm",
+        "mcp",
+        "openclaw",
+        "rag",
+        "skills",
+        "tree-sitter"
+      ],
+      "forks": 10209,
+      "openIssues": 874,
+      "commits30d": 286,
+      "contributors": 185,
+      "closedIssues30d": 100,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 93,
+        "contributorStrength": 70,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 88,
+        "externalHeat": 25
+      },
+      "healthScore": 93,
+      "potentialScore": 60,
+      "score": 74,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "Graphify-Labs/graphify",
+        "purpose": "将代码库、文档、PDF 等转换为可查询的知识图谱，通过树解析器（tree-sitter）本地解析代码，无需向量存储，支持在 AI 编程助手中使用 /graphify 命令，提供图谱可视化与查询功能。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Python 3.10 或更高版本",
+          "安装 CLI 工具：uv tool install graphifyy 或 pipx install graphifyy",
+          "需要注册到支持的 AI 助手（如 Claude Code、Cursor 等）",
+          "文档、PDF 等非代码内容可能需要配置 LLM API 密钥"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "适合使用 AI 编程助手进行代码库理解和搜索的开发者，希望快速建立项目知识图谱。",
+        "deploymentSteps": [
+          "安装 graphifyy 包",
+          "运行 graphify install 注册技能",
+          "在 AI 助手中执行 /graphify . 生成图谱",
+          "查看输出文件 graph.html、GRAPH_REPORT.md 和 graph.json"
+        ],
+        "risks": [
+          "非代码文件的语义分析依赖 LLM，可能产生额外费用",
+          "大型代码库解析可能耗时较长",
+          "需查阅 README 了解支持的平台和限制"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "prime-agent",
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "stars": 12986,
+      "dailyGrowth": 2076,
+      "acceleration": -2472,
+      "ageDays": 95,
+      "language": "TypeScript",
+      "homepage": null,
+      "topics": [],
+      "forks": 1318,
+      "openIssues": 474,
+      "commits30d": 195,
+      "contributors": 218,
+      "closedIssues30d": 18,
+      "releases90d": 10,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 87,
+        "contributorStrength": 73,
+        "issueResponse": 75,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 78,
+        "externalHeat": 25
+      },
+      "healthScore": 87,
+      "potentialScore": 58,
+      "score": 70,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "PrimeIntellect-ai/prime-agent",
+        "purpose": "一个开源的编码与研究智能体，基于递归语言模型（RLM）和持续运行框架，支持长时间自主任务、子智能体协作、后台会话与技能复用，适用于编程工作流和自动化研究。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "macOS 或 Linux 操作系统",
+          "需要安装 Python 环境（用于 IPython 运行时）",
+          "需要登录或配置 API 密钥（订阅或 API 提供商）",
+          "建议在可回滚的目录或克隆仓库中运行"
+        ],
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "适合需要自动化编码、长时运行任务或研究评估的开发者，熟悉命令行和 LLM API 配置。",
+        "deploymentSteps": [
+          "运行安装脚本：curl -fsSL https://app.primeintellect.ai/prime-agent/install.sh | sh",
+          "在项目目录中启动：prime-agent",
+          "首次启动执行 /login 配置认证",
+          "根据需要配置子智能体、技能或后台会话"
+        ],
+        "risks": [
+          "智能体执行模型生成的代码和命令，可能修改文件或系统，需谨慎使用",
+          "非安全沙箱，运行不受信任代码有风险",
+          "需查阅 README 了解详细配置和限制"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "TradingAgents",
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "category": "知识库",
+      "reportedStars": 0,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars": 97186,
+      "dailyGrowth": 3078,
+      "acceleration": 3078,
+      "ageDays": 591,
+      "language": "Python",
+      "homepage": "https://arxiv.org/pdf/2412.20138",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "forks": 18732,
+      "openIssues": 351,
+      "commits30d": 6,
+      "contributors": 20,
+      "closedIssues30d": 5,
+      "releases90d": 2,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 32,
+        "contributorStrength": 41,
+        "issueResponse": 24,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 100,
+        "acceleration": 100,
+        "projectAge": 72,
+        "communityActivity": 32,
+        "externalHeat": 25
+      },
+      "healthScore": 52,
+      "potentialScore": 66,
+      "score": 60,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "TauricResearch/TradingAgents",
+        "purpose": "一个多智能体 LLM 金融交易框架，模拟真实交易公司，由基本面分析师、情绪分析师、技术分析师等智能体协作，通过讨论和评估生成交易决策，支持回测和多种 LLM 提供商。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Python 环境",
+          "需要配置 LLM API 密钥（支持 OpenAI、Anthropic 等）",
+          "可能需要获取金融数据源（如 Alpha Vantage、FRED）的 API 密钥",
+          "建议使用 Docker 或虚拟环境隔离依赖"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "适合对金融交易和 LLM 多智能体系统感兴趣的研究人员或开发者，具备 Python 和 API 配置经验。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖",
+          "配置环境变量（如 LLM API 密钥、数据源密钥）",
+          "运行示例脚本或 CLI 进行回测",
+          "根据需求调整智能体配置和模型"
+        ],
+        "risks": [
+          "交易性能受模型、数据质量影响，不构成投资建议",
+          "需要多个外部 API 密钥，可能产生费用",
+          "框架复杂度高，需查阅 README 和文档",
+          "数据源可能有限制或需要付费"
+        ],
+        "confidence": "medium"
+      }
+    }
+  ]
+}
