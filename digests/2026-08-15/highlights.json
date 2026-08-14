@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.233发布，token浪费Bug引发73条评论热议",
+      "Gemini CLI修复MAX_TURNS误报成功问题，清理积压活跃",
+      "OpenCode 48-bit ID回绕严重Bug，Memory讨论131条评论",
+      "Qwen Code v0.21.12发布，serve资源治理成焦点",
+      "Copilot CLI v1.0.80，MCP OAuth回归持续发酵",
+      "Pi v0.84.2发布，Windows使用征集获27条评论"
+    ],
+    "ai-agents": [
+      "OpenClaw合并仅98 PR，维护者审查积压加剧",
+      "OpenClaw安全策略确认机制落地，高危插件安装需确认",
+      "两位核心贡献者提交6-8个PR，重构UI与Gateway",
+      "会话状态丢失成社区最强烈呼声，稳定性债务风险",
+      "OpenClaw今日无新版本发布，下一版本需关注合并",
+      "#123861修复CI边界检查失败，保障SDK声明正确性"
+    ],
+    "ai-trending": [
+      "github/spec-kit获1147星，Spec-Driven开发成新蓝海",
+      "RAG向无向量演进，PageIndex展示新方向",
+      "端侧14MB模型needle与Agent工作台semantica对比鲜明",
+      "claude-mem记忆层热度攀升，Agent记忆成焦点",
+      "unsloth获502星，支持Qwen3.8和DeepSeek-V4",
+      "ragflow日增474星，RAG与Agent深度融合领先"
+    ],
+    "ai-web": [
+      "Anthropic公开Claude文本水印技术，响应欧盟AI法案",
+      "Claude在黎曼猜想取得突破，零点占比下限升至67.2%",
+      "OpenAI新模型Ultrafast预览，暗示低延迟新动作",
+      "OpenAI任命Dali Rajic为新任首席营收官",
+      "Anthropic发布Frontier Red Team多智能体分析",
+      "Daybreak模型登陆AWS，OpenAI企业案例发布"
+    ],
+    "ai-hn": [
+      "Claude Code会话管理技巧成最热帖，获106分72评论",
+      "Graft工具削减42% grep token，直击上下文浪费",
+      "Claude水印技术解析引热议，隐私与可行性辩论",
+      "K8s CPU limits分析引共鸣，AI基础设施工程师关注",
+      "Anthropic发布8月风险报告，安全焦虑成暗线",
+      "OpenAI IPO前人才流失报道，商业化焦虑浮现"
+    ],
+    "ai-arxiv": [
+      "Mimir v1用1B参数+合规数据宣称前沿性能",
+      "Synthetic Persona Pretraining挑战对齐范式",
+      "LittleLearner发布88B token课程化预训练语料库",
+      "指令微调放大过度自信，实证研究引关注",
+      "AI科学家与长周期自主研究智能体集中涌现",
+      "1B小模型逆袭，开源社区数据伦理新信号"
+    ],
+    "ai-hf": [
+      "Kimi-K3周点赞10666登顶，压缩张量技术亮点",
+      "Qwen3.8-27B获8869点赞，多模态主力上线",
+      "MiniMax-H3系列霸榜近1/3，视频生成热度飙",
+      "NVIDIA Nemotron-3.5 Lightning主打高效推理",
+      "LiquidAI LFM2.5液体神经网络，2.6B小参数出色",
+      "DeepSeek-V4-Pro-0813发布，性能进一步优化"
+    ],
+    "ai-community": [
+      "AI记忆架构成热点，向量数据库局限性引讨论",
+      "OpenAI发票无人审计，LLM成本失控痛点直击",
+      "编码代理记忆SaaS遭质疑，一个文件即可解决",
+      "DeepSeek无视token限制，开发者遇执行难题",
+      "Gemma 4部署aarch64实操，共享内存成卡点",
+      "AI评估体系可靠性遭质疑，测模型还是测工具"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds subagents by default",
+      "Codex grapples with Windows performance issues",
+      "Gemini CLI pushes cross-platform parity",
+      "Kimi CLI struggles with shell instability",
+      "OpenCode merges 10 PRs in 24 hours",
+      "Claude Code adds GitLab MR support"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs daily",
+      "Session-state bugs plague OpenClaw channels",
+      "UI overhaul PRs from vyctorbrzezowski",
+      "No new OpenClaw releases in 24h",
+      "98 PRs merged in OpenClaw ecosystem",
+      "Gateway startup regression in v2026.7.1"
+    ],
+    "ai-trending": [
+      "GitHub's spec-kit gains 1,147 stars",
+      "Semantica graph infra adds 1,183 stars",
+      "Needle ships 14MB on-device foundation model",
+      "holaOS agent workspace surges 769 stars",
+      "Unsloth local UI adds 502 stars",
+      "LangChain remains top agent platform"
+    ],
+    "ai-web": [
+      "Anthropic to watermark text for EU AI Act",
+      "Claude model improves Riemann zeta bound to 67.2%",
+      "OpenAI hints at new Ultrafast model tier",
+      "OpenAI hires new Chief Revenue Officer",
+      "Anthropic publishes multiagent system safety research",
+      "Anthropic releases economic policy research piece"
+    ],
+    "ai-hn": [
+      "Claude Code session tips top HN at 106 pts",
+      "Anthropic publishes rare public risk report",
+      "Kubernetes CPU limits spark AI debate",
+      "OpenAI talent exodus ahead of IPO",
+      "Calls to nationalize OpenAI and Anthropic",
+      "WSJ piece on Dario's wife goes viral"
+    ],
+    "ai-arxiv": [
+      "DFM Mimir v1 delivers frontier 1B model",
+      "LittleLearner enables controlled knowledge exposure",
+      "Formal verification for LLM GPU kernels",
+      "Adversarial robustness for embodied policies",
+      "Algebraic theory for Transformer length generalization",
+      "Omni-modal AI scientist agents gain traction"
+    ],
+    "ai-hf": [
+      "Qwen3.8 MoE flagship hits 2.4T parameters",
+      "Kimi-K3 leads weekly likes with 10.6K",
+      "MiniMax-H3 video family dominates ecosystem",
+      "Meta's Muse-Glimmer-30B gains GGUF adoption",
+      "DeepSeek V4 Flash sees 1.6M downloads",
+      "NVIDIA Nemotron-3.5 Lightning ships NVFP4"
+    ],
+    "ai-community": [
+      "Dev.to debates vector DBs for memory",
+      "Gemma 4 on Graviton hits shared-memory limit",
+      "'Nobody audits their OpenAI invoice' sparks debate",
+      "Dev.to covers hidden LLM API costs",
+      "Watermark detection in Claude output discussed",
+      "OpenAI-Hugging Face incident discussed on Lobsters"
+    ]
+  }
+}

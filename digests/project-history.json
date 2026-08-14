@@ -636,6 +636,11 @@
       "date": "2026-08-05",
       "stars": 89560,
       "growth": 385
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 90763,
+      "growth": 1203
     }
   ],
   "samchon/nestia": [
@@ -1601,6 +1606,11 @@
       "date": "2026-07-27",
       "stars": 4428,
       "growth": 2841
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 10323,
+      "growth": 5895
     }
   ],
   "andrewyng/aisuite": [
@@ -1775,6 +1785,11 @@
       "date": "2026-08-01",
       "stars": 34939,
       "growth": 67
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 35183,
+      "growth": 244
     }
   ],
   "maderix/ANE": [
@@ -2027,6 +2042,20 @@
     {
       "date": "2026-08-10",
       "stars": 17624,
+      "growth": 0
+    }
+  ],
+  "holaboss-ai/holaOS": [
+    {
+      "date": "2026-08-15",
+      "stars": 7249,
+      "growth": 0
+    }
+  ],
+  "JuliusBrussee/caveman": [
+    {
+      "date": "2026-08-15",
+      "stars": 98235,
       "growth": 0
     }
   ]
