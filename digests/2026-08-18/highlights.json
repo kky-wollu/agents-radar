@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 遭 Bash 工具内存泄漏，最高 RSS 达 11.6GB",
+      "OpenAI Codex 的 60 秒自动确认无法禁用，获 195 票支持",
+      "Gemini CLI 子代理误报任务成功，Generalist Agent 无限挂起",
+      "Copilot CLI 遭遇 MCP OAuth 回归，且静默移除 --no-alt-screen",
+      "Pi 在 OpenRouter 下 Claude 成本暴增 2.5 倍，自动压缩失效",
+      "Qwen Code 修复 Windows Ctrl+V 回归，但 Autofix 59% 运行被取消"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 500 Issue 与 500 PR，活跃度极高但处理偏慢",
+      "插件安装安全模型升级：新增警告与人工确认的审核循环",
+      "macOS Bash 3.2 兼容性问题获修复，CI 跨平台稳定性提升",
+      "大量 PR 待合并，下一版本聚焦稳定性与 Web UI 优化",
+      "社区反馈热情高涨，但 Issue 积压较多，健康度四星",
+      "安全治理成核心，'人类审核循环'功能完整落地"
+    ],
+    "ai-trending": [
+      "hermes-agent 以 231k star 领跑 AI Agent 框架生态",
+      "llmfit 用一条命令测试数百模型在本地硬件的表现",
+      "strix 开源 AI 渗透测试工具，单日获 656 star",
+      "omlx 为 Apple Silicon 提供本地 LLM 推理，支持 SSD 缓存",
+      "ai-memory 用 Rust 为 AI 编程 CLI 提供长期记忆",
+      "vllm 以 89k star 稳居 LLM 服务端部署事实标准"
+    ],
+    "ai-web": [
+      "Anthropic 研究多智能体系统，预警系统性失灵风险",
+      "Claude 内置文本水印，响应欧盟 AI 法案合规要求",
+      "Anthropic 一天两连发，抢占 AI 安全理论制高点",
+      "OpenAI 加入 Ports Pike 项目，信号转向实体基础设施",
+      "Anthropic 水印技术不增 token 成本，消除企业顾虑",
+      "AI 安全与合规正成为定义下一代产品形态的核心"
+    ],
+    "ai-hn": [
+      "AI;DR 自动摘要工具成今日最热，获 429 分 259 评论",
+      "Anthropic 被指控对开源 AI 发动战争，引发社区激辩",
+      "GPT-5.6 Sol 被评最佳视觉模型，但社区存疑",
+      "llama.cpp 发布里程碑 v0.1.0，本地 AI 开发者关注",
+      "Speko 想做语音 AI 的 OpenRouter，获 YC 支持",
+      "AI 对年轻群体就业冲击的讨论在社区悄然升温"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 单周 1.07 万赞登顶，生态热度空前",
+      "Kimi-K3 以 1.08 万赞空降榜眼，成最强挑战者",
+      "MiniMax-H3 视频模型下载量达 240 万，成 LoRA 新宠",
+      "DeepSeek-V4-Flash 单周近 200 万下载，性价比出众",
+      "NVIDIA Nemotron 3.5 Lightning 推 NVFP4 量化版",
+      "Comfy-Org 上 H3 视频模型下载已突破 1400 万"
+    ],
+    "ai-community": [
+      "'AI 编程风险在于不理解其产出'成社区最热反思",
+      "揭秘 MCP Eval 为何全过测试却在真实任务失败",
+      "可靠性栈文章为 AI 生成代码提供显性化'假设'方案",
+      "Docker 作者提出 5 项即用的软件供应链控制措施",
+      "创新测试：用'说谎骰子'游戏对比 Codex 与 Claude Code",
+      "教你如何在 CI 中捕获被 Agent 忽略的失败工具调用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools enter stability-and-trust phase",
+      "Users building defensive hooks around tools",
+      "All major tools shipped only patch releases",
+      "Established tools battle memory/process issues",
+      "Newer entrants focus on automation-friendliness",
+      "Community themes: MCP lifecycle failures, regressions"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 409 open PRs, 489 issues",
+      "No new releases shipped in last 24 hours",
+      "Heavy focus on reliability and state bugs",
+      "clawsweeper bot assists issue triage",
+      "Next version expected after consolidation",
+      "Backlog bottleneck awaits maintainer review"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo tops trending AI repos",
+      "strix: AI penetration testing tool goes viral",
+      "Rust adoption rising in AI infrastructure",
+      "RAG and agent memory solutions gaining stars",
+      "llmfit: one-command hardware compatibility checker",
+      "omlx brings continuous batching to Apple Silicon"
+    ],
+    "ai-web": [
+      "Anthropic publishes multiagent systems research",
+      "Anthropic unveils text watermarking for EU AI Act",
+      "OpenAI joins Ports Pike Project",
+      "Watermarking denied to degrade quality or cost",
+      "Multiagent quirks can cause systemic failures",
+      "Claude models to watermark per EU requirements"
+    ],
+    "ai-hn": [
+      "AI;DR top post: users want trustworthy summaries",
+      "GPT-5.6 Sol's vision capabilities spark debate",
+      "Anthropic dominates revenue, trust discussions",
+      "Agent-safety report: AI agents 'killing rivals'",
+      "Rising skepticism about AI's societal impact",
+      "Practical tools celebrated, consolidation feared"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leaps to top with 10.8K likes",
+      "Qwen3.8-27B dominates with 415K downloads",
+      "MiniMax-H3 surges in video generation",
+      "DeepSeek-V4 Pro and Flash variants trending",
+      "GGUF and FP8 quantizations gain traction",
+      "Open-weight models span multiple modalities"
+    ],
+    "ai-community": [
+      "Community focuses on AI code trust, verification",
+      "Tests passing isn't proof of correctness",
+      "MCP servers lying, agents ignoring failures",
+      "Model lifecycle management a key concern",
+      "Lobste.rs skeptical of AI's opaque trajectory",
+      "Mood shifts from hype to hardening"
+    ]
+  }
+}
