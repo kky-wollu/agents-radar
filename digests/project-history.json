@@ -70,6 +70,11 @@
       "date": "2026-08-18",
       "stars": 89275,
       "growth": 2038
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 89654,
+      "growth": 379
     }
   ],
   "firecrawl/firecrawl": [
@@ -196,6 +201,11 @@
       "date": "2026-07-30",
       "stars": 235524,
       "growth": 764
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 241766,
+      "growth": 6242
     }
   ],
   "acon96/home-llm": [
@@ -257,6 +267,11 @@
       "date": "2026-08-18",
       "stars": 164195,
       "growth": 859
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 164316,
+      "growth": 121
     }
   ],
   "hugohe3/ppt-master": [
@@ -284,6 +299,11 @@
       "date": "2026-08-18",
       "stars": 47489,
       "growth": 4488
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 48470,
+      "growth": 981
     }
   ],
   "CherryHQ/cherry-studio": [
@@ -336,6 +356,11 @@
       "date": "2026-08-18",
       "stars": 50660,
       "growth": 1254
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 50885,
+      "growth": 225
     }
   ],
   "santifer/career-ops": [
@@ -363,6 +388,11 @@
       "date": "2026-08-18",
       "stars": 64573,
       "growth": 1785
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 67408,
+      "growth": 2835
     }
   ],
   "starpig1129/DATAGEN": [
@@ -501,6 +531,11 @@
       "date": "2026-08-18",
       "stars": 88678,
       "growth": 1860
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 88994,
+      "growth": 316
     }
   ],
   "open-compass/opencompass": [
@@ -686,6 +721,11 @@
       "date": "2026-08-15",
       "stars": 90763,
       "growth": 1203
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 91454,
+      "growth": 691
     }
   ],
   "samchon/nestia": [
@@ -745,6 +785,11 @@
       "date": "2026-08-18",
       "stars": 231994,
       "growth": 6522
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 233972,
+      "growth": 1978
     }
   ],
   "Significant-Gravitas/AutoGPT": [
@@ -802,6 +847,11 @@
       "date": "2026-08-18",
       "stars": 186655,
       "growth": 844
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 186725,
+      "growth": 70
     }
   ],
   "Shubhamsaboo/awesome-llm-apps": [
@@ -819,6 +869,11 @@
       "date": "2026-07-15",
       "stars": 120729,
       "growth": 1190
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 133503,
+      "growth": 12774
     }
   ],
   "zhayujie/CowAgent": [
@@ -920,6 +975,11 @@
       "date": "2026-08-18",
       "stars": 45666,
       "growth": 156
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 45728,
+      "growth": 62
     }
   ],
   "ollama/ollama": [
@@ -1045,6 +1105,11 @@
       "date": "2026-08-18",
       "stars": 63164,
       "growth": 3103
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 63580,
+      "growth": 416
     }
   ],
   "OpenCut-app/OpenCut": [
@@ -1114,6 +1179,11 @@
       "date": "2026-08-18",
       "stars": 107485,
       "growth": 2506
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 109230,
+      "growth": 1745
     }
   ],
   "NirDiamant/RAG_Techniques": [
@@ -1228,6 +1298,11 @@
       "date": "2026-08-18",
       "stars": 144415,
       "growth": 991
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 144734,
+      "growth": 319
     }
   ],
   "mattpocock/skills": [
@@ -1235,6 +1310,11 @@
       "date": "2026-07-16",
       "stars": 172200,
       "growth": 2160
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 229333,
+      "growth": 57133
     }
   ],
   "HKUDS/DeepTutor": [
@@ -1694,6 +1774,11 @@
       "date": "2026-07-30",
       "stars": 54034,
       "growth": 86
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 54913,
+      "growth": 879
     }
   ],
   "citrolabs/ego-lite": [
@@ -1771,6 +1856,11 @@
       "date": "2026-08-18",
       "stars": 105892,
       "growth": 4285
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 113846,
+      "growth": 7954
     }
   ],
   "HKUDS/LightRAG": [
@@ -1964,6 +2054,11 @@
       "date": "2026-08-06",
       "stars": 267270,
       "growth": 827
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 275622,
+      "growth": 8352
     }
   ],
   "deepfakes/faceswap": [
@@ -2210,6 +2305,48 @@
     {
       "date": "2026-08-18",
       "stars": 64236,
+      "growth": 0
+    }
+  ],
+  "cursor/plugins": [
+    {
+      "date": "2026-08-22",
+      "stars": 4376,
+      "growth": 0
+    }
+  ],
+  "modular/modular": [
+    {
+      "date": "2026-08-22",
+      "stars": 28670,
+      "growth": 0
+    }
+  ],
+  "microsoft/onnxruntime": [
+    {
+      "date": "2026-08-22",
+      "stars": 21422,
+      "growth": 0
+    }
+  ],
+  "ruvnet/ruflo": [
+    {
+      "date": "2026-08-22",
+      "stars": 68623,
+      "growth": 0
+    }
+  ],
+  "PostHog/posthog": [
+    {
+      "date": "2026-08-22",
+      "stars": 38273,
+      "growth": 0
+    }
+  ],
+  "microsoft/TypeScript": [
+    {
+      "date": "2026-08-22",
+      "stars": 110369,
       "growth": 0
     }
   ]

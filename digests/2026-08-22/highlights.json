@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.239，聚焦成本估算与全屏渲染扩展",
+      "OpenAI Codex 合并 10 个 PR，远程控制回归问题集中",
+      "Gemini CLI 子代理假成功与 Auto Memory 安全问题引关注",
+      "Copilot CLI 预发布 v1.0.81-7，BYOK 多模型呼声最高",
+      "Kimi Code CLI 曝严重资源泄漏问题 Issue #2615",
+      "OpenCode 发布 v1.18.20/21，响应中断问题集中修复"
+    ],
+    "ai-agents": [
+      "OpenClaw 高活跃零发布，80% PR 待审阅冲刺版本释放",
+      "PR #126424 修复跨 7 个渠道的消息投递边界问题",
+      "PR #125471 修复 Claude CLI OAuth 在 Gateway 重启后失效",
+      "多项 P1 级 PR 进入待审阅状态，质量加固型版本临近",
+      "过去 24 小时 500 条 Issue 与 PR 更新触达 GitHub 上限",
+      "今日合并/关闭 100 条 PR，聚焦稳定性修复与收敛"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 今日 star 增速第一，新增 3368",
+      "ECC 框架 star 达 241,763，为 Claude Code 等 Agent 提速",
+      "Modular 平台今日 +905 star，聚焦 AI 硬件编程",
+      "Cursor plugins 今日 +391 star，编辑器生态化加速",
+      "superpowers 今日 +789 star，Agent 技能框架受热捧",
+      "vllm 项目 star 达 89,654，成 LLM 服务端事实标准"
+    ],
+    "ai-web": [
+      "Claude 蛋白质设计成功率 93%，超行业基线 1.5-2.3 倍",
+      "Claude 解析化学数据仅需 23 分钟，专家需数周",
+      "Anthropic 发布 Mythos Preview 与 Opus 4.8 双轨模型",
+      "OpenAI 推出零数据保留企业级合规方案",
+      "OpenAI 广告业务扩张欧洲，加速商业化布局",
+      "OpenAI 发布 CodeAI 开发者生态合作计划"
+    ],
+    "ai-hn": [
+      "Claudette 工具教 Claude 停止 BuzzFeed 式废话，登顶榜首",
+      "OpenAI Codex AWS bedrock bug 致 10 倍费用引热议",
+      "Claude Opus 4.6 连续 900 次返回空结果质疑模型上限",
+      "AI 生成文本泛滥引发社区厌倦情绪",
+      "LFM2.5-DSpark 实现 H100 到 MacB 3.2 倍推理加速",
+      "开发者聚焦成本、稳定性与真实效率，情绪冷静务实"
+    ],
+    "ai-arxiv": [
+      "ConceptGuard 首提上下文敏感 LLM 遗忘基准框架",
+      "AI4AI-Bench 评测 LLM 递归自改进能力引关注",
+      "MemTrapBench 首个聚焦记忆认知陷阱评估基准",
+      "MidTool 通过数据合成增强智能体工具使用能力",
+      "研究揭示 LLM 面对文本与数值证据冲突时决策偏差",
+      "BERT-LER 为结构化电子病历提供可解释预测"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 以 11,943 周赞登顶，衍生超 10 个变体",
+      "MiniMax-H3 视频模型下载量超 360 万成赛道焦点",
+      "DeepSeek-V4-Flash 下载量达 283 万，轻量版受青睐",
+      "Kimi-K3 主打超高压缩率，支持 feature-extraction",
+      "去审查模型占据本周榜单近三分之一席位",
+      "Qwen3.8-2.4T-A95B MoE 变体面向高难度推理任务"
+    ],
+    "ai-community": [
+      "157 个 Agent 计划实测：瓶颈在规划而非执行",
+      "Pi Agent vs OpenCode 100 小时实战对比报告发布",
+      "15 美元树莓派实现 5.3% RTF 常开唤醒词",
+      "记忆 API 信息失真问题引发 Agent 记忆可靠性讨论",
+      "研究发现 Adam 优化器破坏梯度压缩误差反馈机制",
+      "实时 AI 搜索 Agent 教程解决 LLM 信息滞后问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits stable v2.1.239, AUP false positives plague users",
+      "OpenAI Codex ships 5 alpha releases, 20 PRs merged in 24h",
+      "Multi-agent orchestration top investment area across all CLI tools",
+      "Silent session failures and memory stability remain common pain points",
+      "Gemini CLI adds 10+ PRs focused on PR generation infrastructure",
+      "Shift from features to reliability and trust across CLI ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h, 100 merged",
+      "No new releases but strong PR activity, gateway fixes lead",
+      "Clawsweeper bot actively triaging 489 open issues",
+      "Discord, Feishu, Telegram delivery fixes in focus",
+      "P1 issues mount, awaiting maintainer review",
+      "Memory and identity system improvements underway"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo +1,187 stars for video generation automation",
+      "career-ops surges +918 stars, AI career tools trending",
+      "PostHog adds AI observability, hits 334 stars today",
+      "Modular platform with Mojo gains 905 stars, new tooling",
+      "Local-first and self-hosted solutions dominate categories",
+      "Apache Maka signals standardization for agent workspace logs"
+    ],
+    "ai-web": [
+      "Anthropic: Claude designs protein binders, 22-35% hit rate",
+      "OpenAI publishes 9 new items, all metadata-only",
+      "ChatGPT Ads expansion into Europe announced",
+      "Zero data retention policies for frontier models revealed",
+      "CodeAI partnership and ChatGPT for Teens in the works",
+      "OpenAI cyber capability pacing discussed in new posts"
+    ],
+    "ai-hn": [
+      "OpenAI Codex AWS Bedrock billing bug causes 10x charges",
+      "Claude Opus 4.6 returned nothing 900/900 times, retry debate",
+      "Claudette tool to stop Claude's BuzzFeed-style output tops HN",
+      "Backlash against vibecoding and AI-generated content grows",
+      "Self-hosted software factories gaining traction as alternatives",
+      "Debate: 'The Better You Are at Programming, the Worse AI Looks'"
+    ],
+    "ai-arxiv": [
+      "ConceptGuard benchmarks context-sensitive unlearning in LLMs",
+      "Staged post-training pipeline for retrieval-free knowledge internalization",
+      "CPU-first architectures and adaptive reasoning budgets gain focus",
+      "Agentic systems move from demos to real-world workflows",
+      "Phantom Gains, InsufficiencyBench target benchmark reliability",
+      "Domain apps expand into law, maritime, finance, healthcare"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B dominates: 11,943 likes, 1.7M downloads",
+      "Kimi-K3 debuts strong with 10,909 likes and 2.4M downloads",
+      "MiniMax-H3 viral: 4,300 likes, 3.6M downloads for video",
+      "DeepSeek V4 Pro and Flash signal two-tier model strategy",
+      "Uncensored Qwen3.8 variants outperform official in downloads",
+      "GGUF and abliterated fine-tunes flood the hub"
+    ],
+    "ai-community": [
+      "157 agent plans test: planning, not execution, is the bottleneck",
+      "Pi Agent vs OpenCode compared after 100+ hours of real use",
+      "'Felony Bench: Be AI, Do Crime' tests law-breaking compliance",
+      "Memory API unreliability exposed in critical developer post",
+      "Speculative decoding on consumer GPUs explored practically",
+      "1985 classic 'The Limits of AI' resurfaces in discussions"
+    ]
+  }
+}
